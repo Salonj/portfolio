@@ -11,7 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
       },
+      fontFamily: {
+        ok: "var(--font-press-start-2p)",
+      }
     },
   },
   plugins: [],

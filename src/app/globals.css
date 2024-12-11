@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0A1B3F;
+    --foreground: #FFFFFF;
+    --primary: #06000D;
+  }
+
+  .green {
+    --background: #0A3F1B;
+    --foreground: #FFFFFF;
+    --primary: #000D06;
+  }
+}
+
+body {
+  @apply bg-background text-foreground font-ok;
+}
