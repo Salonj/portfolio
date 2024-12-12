@@ -36,6 +36,8 @@ export default async function LocaleLayout({
  
   return (
     <html lang={locale}>
+      <head>
+      </head>
       <body className={`${pressStart2P.variable} text-3xl mx-auto flex min-h-screen max-w-3xl flex-col px-8 antialiased`}>
         <NextIntlClientProvider messages={messages}>
           {children}

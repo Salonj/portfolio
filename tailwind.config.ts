@@ -15,8 +15,7 @@ export default {
       },
       fontFamily: {
         ok: "var(--font-press-start-2p)",
-      }
+      },
     },
   },
-  plugins: [],
 } satisfies Config;
