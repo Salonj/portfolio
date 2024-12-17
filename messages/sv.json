@@ -1,6 +1,64 @@
 {
-    "HomePage": {
-      "title": "Hej världen!",
-      "about": "Gå till sidan Om"
+  "HomePage": {
+    "navigation": {
+      "home": "Hem",
+      "projects": "Projekt",
+      "blog": "Blogg",
+      "contact": "Kontakt"
+    },
+    "title": "hej onni här!",
+    "location": "Tammerfors, Finland",
+    "about": "-årig studerande inom programvaruteknik. Jag lär mig, designar och implementerar webbplatser och applikationer."
+  },
+  "work": {
+    "keskoF": {
+      "title": "Lastarbetare",
+      "startDate": "July 2024",
+      "endDate": "August 2024",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    },
+    "kuntokauppa": {
+      "title": "Lastarbetare",
+      "startDate": "July 2024",
+      "endDate": "August 2024",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    },
+    "kesko": {
+      "title": "Lastarbetare",
+      "startDate": "July 2024",
+      "endDate": "August 2024",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
     }
+  },
+  "education": {
+    "tuni": {
+      "school": "Tammerfors universitet",
+      "title": "Ingenjör (YH), Programvaruteknik",
+      "startDate": "August 2021",
+      "endDate": "fortfarande",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    },
+    "vaskivuori": {
+      "school": "Vaskivuori gymnasium",
+      "title": "Gymnasium",
+      "startDate": "August 2017",
+      "endDate": "June 2020",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    }
+  }
 }

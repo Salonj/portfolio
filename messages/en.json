@@ -1,6 +1,64 @@
 {
-    "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
+  "HomePage": {
+    "navigation": {
+      "home": "Home",
+      "projects": "Projects",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "title": "Hey Onni here! ",
+    "location": "Tampere, Finland",
+    "about": "-year-old software engineering major student. I learn, design and implement websites and applications."
+  },
+  "work": {
+    "keskoF": {
+      "title": "Warehouse worker",
+      "startDate": "July 2024",
+      "endDate": "August 2024",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    },
+    "kuntokauppa": {
+      "title": "Warehouse worker",
+      "startDate": "July 2024",
+      "endDate": "August 2024",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    },
+    "kesko": {
+      "title": "Warehouse worker",
+      "startDate": "July 2024",
+      "endDate": "August 2024",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
     }
+  },
+  "education": {
+    "tuni": {
+      "school": "Tampere University",
+      "title": "Bachelor of Engineering, Software Engineering",
+      "startDate": "August 2021",
+      "endDate": "present",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    },
+    "vaskivuori": {
+      "school": "Vaskivuori High School",
+      "title": "High School",
+      "startDate": "August 2017",
+      "endDate": "June 2020",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    }
+  }
 }

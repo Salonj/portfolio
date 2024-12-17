@@ -1,0 +1,128 @@
+{
+  "projectsData": [
+    {
+      "name": "portfolio",
+      "description": "My personal portfolio",
+      "image": "mrBean.png",
+      "techStack": [
+        {
+          "name": "react",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "typescript",
+          "color": "#3178C6"
+        },
+        {
+          "name": "scss",
+          "color": "#CD6799"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com",
+          "icon": "github"
+        },
+        {
+          "name": "Live",
+          "href": "https://youtube.com",
+          "icon": "Globe"
+        }
+      ]
+    },
+    {
+      "name": "portfolio",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
+      "image": "mrBean.png",
+      "techStack": [
+        {
+          "name": "react",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "typescript",
+          "color": "#3178C6"
+        },
+        {
+          "name": "scss",
+          "color": "#CD6799"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com",
+          "icon": "github"
+        },
+        {
+          "name": "Live",
+          "href": "https://youtube.com",
+          "icon": "Globe"
+        }
+      ]
+    },
+    {
+      "name": "portfolio",
+      "description": "My personal portfolio",
+      "image": "mrBean.png",
+      "techStack": [
+        {
+          "name": "react",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "typescript",
+          "color": "#3178C6"
+        },
+        {
+          "name": "scss",
+          "color": "#CD6799"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com",
+          "icon": "github"
+        },
+        {
+          "name": "Live",
+          "href": "https://youtube.com",
+          "icon": "Globe"
+        }
+      ]
+    },
+    {
+      "name": "portfolio",
+      "description": "My personal portfolio",
+      "image": "mrBean.png",
+      "techStack": [
+        {
+          "name": "react",
+          "color": "#61DAFB"
+        },
+        {
+          "name": "typescript",
+          "color": "#3178C6"
+        },
+        {
+          "name": "scss",
+          "color": "#CD6799"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com",
+          "icon": "github"
+        },
+        {
+          "name": "Live",
+          "href": "https://youtube.com",
+          "icon": "Globe"
+        }
+      ]
+    }
+  ]
+}

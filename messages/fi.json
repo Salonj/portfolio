@@ -1,6 +1,64 @@
 {
-    "HomePage": {
-      "title": "Hei maailma!",
-      "about": "Mene sivulle Tietoja"
+  "HomePage": {
+    "navigation": {
+      "home": "Etusivu",
+      "projects": "Projektit",
+      "blog": "Blogi",
+      "contact": "Ota yhteyttä"
+    },
+    "title": "hei onni täällä!",
+    "location": "Tampere, Suomi",
+    "about": "-vuotias ohjelmistotekniikan opiskelija. Opiskelen, suunnittelen ja toteutan verkkosivuja ja sovelluksia."
+  },
+  "work": {
+    "keskoF": {
+      "title": "Varastotyöntekijä",
+      "startDate": "July 2024",
+      "endDate": "August 2024",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    },
+    "kuntokauppa": {
+      "title": "Varastotyöntekijä",
+      "startDate": "July 2024",
+      "endDate": "August 2024",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    },
+    "kesko": {
+      "title": "Varastotyöntekijä",
+      "startDate": "July 2024",
+      "endDate": "August 2024",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
     }
+  },
+  "education": {
+    "tuni": {
+      "school": "Tampereen korkeakoulu",
+      "title": "Insinööri (AMK), Ohjelmistotekniikka",
+      "startDate": "August 2021",
+      "endDate": "edelleen",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    },
+    "vaskivuori": {
+      "school": "Vaskivuoren lukio",
+      "title": "Lukio",
+      "startDate": "August 2017",
+      "endDate": "June 2020",
+      "description": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ]
+    }
+  }
 }

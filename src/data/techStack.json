@@ -1,0 +1,64 @@
+{
+  "techStack": {
+    "javascript": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    },
+    "typescript": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    },
+    "shitscript": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    },
+    "idkscript": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    },
+    "goofy": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    },
+    "bomboclat": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    },
+    "react": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    },
+    "vue": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    },
+    "angular": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    },
+    "svelte": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    },
+    "node": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    },
+    "express": {
+      "name": "JavaScript",
+      "icon": "javascript.png",
+      "color": "#f0db4f"
+    }
+  }
+}

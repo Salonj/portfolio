@@ -1,0 +1,34 @@
+{
+  "workExperience": [
+    {
+      "nameKey": "Kesko",
+      "href": "https://www.kesko.fi/",
+      "titleKey": "keskoF.title",
+      "logo": "kesko.png",
+      "startKey": "keskoF.startDate",
+      "endKey": "keskoF.endDate",
+      "descriptionKey": ["keskoF.description.0", "keskoF.description.1"]
+    },
+    {
+      "nameKey": "Kuntokauppa",
+      "href": "https://www.kuntokauppa.fi/",
+      "titleKey": "kuntokauppa.title",
+      "logo": "nsb.png",
+      "startKey": "kuntokauppa.startDate",
+      "endKey": "kuntokauppa.endDate",
+      "descriptionKey": [
+        "kuntokauppa.description.0",
+        "kuntokauppa.description.1"
+      ]
+    },
+    {
+      "nameKey": "Kesko",
+      "href": "https://www.kesko.fi/",
+      "titleKey": "kesko.title",
+      "logo": "kesko.png",
+      "startKey": "kesko.startDate",
+      "endKey": "kesko.endDate",
+      "descriptionKey": ["kesko.description.0", "kesko.description.1"]
+    }
+  ]
+}
