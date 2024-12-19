@@ -70,14 +70,14 @@ export default function ThemeDropdown() {
               <li
                 key={theme.name}
                 onClick={() => handleThemeChange(theme.name, theme.className)}
-                className={`text-base flex items-center px-4 py-2 hover:bg-background rounded-md hover:text-foreground cursor-pointer ${
+                className={`text-sm flex items-center px-4 py-2 hover:bg-background rounded-md hover:text-foreground cursor-pointer ${
                   currentTheme === theme.name
                     ? 'bg-background text-foreground'
                     : ''
                 }`}
               >
                 <div
-                  className="w-8 h-8 md:h-10 md:w-10 rounded-full border border-gray-300 mr-2"
+                  className="w-8 h-8 md:h-10 md:w-10 rounded-md border border-gray-300 mr-2"
                   style={{
                     background: theme.background,
                     borderColor: theme.foreground,

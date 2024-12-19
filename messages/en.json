@@ -27,6 +27,9 @@
     "blog": {
       "title": "Blog",
       "link": "Read more"
+    },
+    "footer": {
+      "privacy": "privacy"
     }
   },
   "ProjectsPage": {
@@ -34,6 +37,49 @@
   },
   "BlogPage": {
     "title": "My blog"
+  },
+  "NotFoundPage": {
+    "message": "The page you are looking for does not exist.",
+    "back": "Back"
+  },
+  "PrivacyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "section1": {
+      "title": "Hey, Welcome!",
+      "content": "Thanks for stopping by! This Privacy Policy is just here to let you know how things work around here. I'm Onni, and I'm the only one in charge of this website."
+    },
+    "section2": {
+      "title": "What Information I Collect",
+      "content": "This is just a personal website, so I don’t collect much info. There’s no account creation, no tracking cookies, and definitely no sneaky data gathering. Here’s what I might collect:",
+      "contactInfo": "Contact Info",
+      "desc": "If you reach out via email or the contact form, the info you provide is entirely up to you. I'll use it to reply and have a conversation."
+    },
+    "section3": {
+      "title": "How I Use the Info",
+      "content": "Here's what I might do with any information I collect:",
+      "listItem1": "Make sure that the site experience is smooth",
+      "listItem2": "Improve the website based on feedback",
+      "listItem3": "Respond to your messages and emails"
+    },
+    "section4": {
+      "title": "Sharing Your Info",
+      "content": "I don't sell, trade or rent your personal info. If you shared something sensitive by accident, feel free to reach out, and I'll help you remove it."
+    },
+    "section5": {
+      "title": "Security",
+      "content": "I take security seriously, but remember that no method of transmission over the internet is 100% secure."
+    },
+    "section6": {
+      "title": "Policy Updates",
+      "content": "This policy is current as of Dec 2024. If I make any changes, I'll update this page. Don't worry though, I won't make any sneaky or major changes."
+    },
+    "section7": {
+      "title": "Got Questions?",
+      "content": "If you have any questions send me an email at",
+      "contactForm": "or use the",
+      "contactFormLink": "contact form"
+    }
   },
   "work": {
     "keskoF": {

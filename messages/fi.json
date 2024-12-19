@@ -27,6 +27,9 @@
     "blog": {
       "title": "Blogi",
       "link": "Lue lisää"
+    },
+    "footer": {
+      "privacy": "tietosuoja"
     }
   },
   "ProjectsPage": {
@@ -34,6 +37,49 @@
   },
   "BlogPage": {
     "title": "Minun blogi"
+  },
+  "NotFoundPage": {
+    "message": "Etsimääsi sivua ei ole olemassa.",
+    "back": "Takaisin"
+  },
+  "PrivacyPage": {
+    "title": "Tietosuojakäytäntö",
+    "lastUpdated": "Viimeksi päivitetty",
+    "section1": {
+      "title": "Hei, tervetuloa!",
+      "content": "Kiitos, että piipahdit! Tämä tietosuojakäytäntö on täällä kertoakseen, miten asiat toimivat täällä. Olen Onni, ja vastaan yksin tästä verkkosivustosta."
+    },
+    "section2": {
+      "title": "Mitä tietoja kerään",
+      "content": "Tämä on vain henkilökohtainen verkkosivusto, joten en kerää paljon tietoja. Ei tilien luontia, ei seurantakokkeja eikä mitään salamyhkäistä tiedonkeruuta. Tässä mitä saatan kerätä:",
+      "contactInfo": "Yhteystiedot",
+      "desc": "Jos otat yhteyttä sähköpostitse tai yhteydenottolomakkeen kautta, antamasi tiedot ovat täysin sinun päätettävissäsi. Käytän niitä vastatakseni ja keskustellakseni kanssasi."
+    },
+    "section3": {
+      "title": "Miten käytän tietoja",
+      "content": "Tässä mitä saatan tehdä keräämilläni tiedoilla:",
+      "listItem1": "Varmistan, että sivuston käyttö on sujuvaa",
+      "listItem2": "Parannan verkkosivustoa saadun palautteen perusteella",
+      "listItem3": "Vastaan viesteihisi ja sähköposteihisi"
+    },
+    "section4": {
+      "title": "Tietojesi jakaminen",
+      "content": "En myy, vaihda tai vuokraa henkilökohtaisia tietojasi. Jos jaoit jotain arkaluonteista vahingossa, ota yhteyttä, niin autan sinua poistamaan sen."
+    },
+    "section5": {
+      "title": "Tietoturva",
+      "content": "Otan tietoturvan vakavasti, mutta muista, ettei mikään internetin välityksellä tapahtuva tiedonsiirtomenetelmä ole 100% turvallinen."
+    },
+    "section6": {
+      "title": "Käytännön päivitykset",
+      "content": "Tämä käytäntö on voimassa joulukuusta 2024 alkaen. Jos teen muutoksia, päivitän tämän sivun. Älä huoli, en tee salamyhkäisiä tai suuria muutoksia."
+    },
+    "section7": {
+      "title": "Kysymyksiä?",
+      "content": "Jos sinulla on kysyttävää, lähetä sähköpostia osoitteeseen",
+      "contactForm": "tai käytä",
+      "contactFormLink": "yhteydenottolomaketta"
+    }
   },
   "work": {
     "keskoF": {

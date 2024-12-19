@@ -41,7 +41,7 @@ export default function Header() {
 
         <div className="md:hidden flex w-full justify-between items-center">
           <div className="text-lg font-bold">
-            <Link href="/">onnisalomaa.dev</Link>
+            <Link href="/">&lt;logo&gt;</Link>
           </div>
           <div className="flex flex-row gap-4">
             <ThemeDropdown />

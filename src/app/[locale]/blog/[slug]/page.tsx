@@ -1,6 +1,8 @@
+import { ArrowRightIcon } from '@/components/svgs';
 import { getPostBySlug, getAllPosts } from '@/utils/blog';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 
 type BlogPostProps = {
   params: { slug: string; locale: string };
@@ -18,14 +20,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
 
   if (!post) {
     // Handle post not found
-    return (
-      <div className="flex flex-col items-center justify-center min-h-screen">
-        <h1 className="text-2xl font-bold mb-4">Post not found</h1>
-        <Link href="/blog" className="text-blue-500 underline">
-          Back to blog
-        </Link>
-      </div>
-    );
+    return notFound();
   }
 
   const { metadata, content } = post;
@@ -33,7 +28,11 @@ export default async function BlogPost({ params }: BlogPostProps) {
   return (
     <div className="flex flex-col gap-8 mt-10 px-8">
       <div className="flex flex-col gap-2">
-        <Link href="/blog" className="text-blue-500 underline">
+        <Link
+          href="/blog"
+          className="text-sm flex items-center gap-2 hover:text-highlight"
+        >
+          <ArrowRightIcon className="w-6 h-6 md:h-8 md:w-8 transform rotate-180" />
           Back to blog
         </Link>
         <div className="w-full h-80 overflow-hidden rounded-md flex items-center justify-center">

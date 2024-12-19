@@ -22,7 +22,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   const liveLink = links.find((link) => link.name === 'Live');
 
   return (
-    <div className="snes-container p-4 bg-foreground flex flex-col justify-between rounded-lg shadow-md">
+    <div className="snes-container bg-foreground p-0 flex flex-col justify-between">
       {/* Project Image */}
       <div className="flex flex-col">
         <img
@@ -39,7 +39,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         {techStack.map((tech, index) => (
           <span
             key={index}
-            className="text-xs bg-muted text-background px-2 py-1 rounded-md"
+            className="text-xs text-background px-2 py-1 rounded-md"
             style={{ backgroundColor: tech.color }}
           >
             {tech.name}
@@ -47,9 +47,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         ))}
       </div>
 
-      {/* Links */}
-      <div className="flex gap-4">
-        {/* GitHub Link */}
+      <div className="flex gap-2">
         {githubLink && (
           <a
             href={githubLink.href}
@@ -58,7 +56,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             className="flex items-center gap-2 px-4 py-2 bg-primary text-white text-xs rounded-md hover:bg-purple-800 transition"
             aria-label="GitHub"
           >
-            <GithubIcon className="w-5 h-5" />
+            <GithubIcon className="w-6 h-6 md:w-8 md:h-8" />
             GitHub
           </a>
         )}
@@ -72,7 +70,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white text-xs rounded-md hover:bg-green-500 transition"
             aria-label="Live Website"
           >
-            <GlobeIcon className="w-5 h-5" />
+            <GlobeIcon className="w-6 h-6 md:w-8 md:h-8" />
             Live
           </a>
         )}

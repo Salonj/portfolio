@@ -36,48 +36,6 @@
   }
 }
 
-@layer components {
-  .eightbit-div,
-  .eightbit-button {
-    @apply relative inline-block bg-transparent box-content border-none;
-  }
-
-  .eightbit-div::before,
-  .eightbit-div::after,
-  .eightbit-button::before,
-  .eightbit-button::after {
-    content: '';
-    position: absolute;
-    pointer-events: none;
-    box-sizing: border-box; /* Ensure borders are calculated properly */
-  }
-
-  .eightbit-div::before,
-  .eightbit-button::before {
-    top: -6px;
-    left: -6px;
-    width: calc(100% + 12px); /* Ensure alignment with offsets */
-    height: 100%;
-    border-top: 6px solid var(--foreground);
-    border-bottom: 6px solid var(--foreground);
-  }
-
-  .eightbit-div::after,
-  .eightbit-button::after {
-    top: -6px;
-    left: -6px;
-    height: calc(100% + 12px); /* Ensure alignment with offsets */
-    width: 100%;
-    border-left: 6px solid var(--foreground);
-    border-right: 6px solid var(--foreground);
-  }
-
-  .eightbit-button:hover::before,
-  .eightbit-button:hover::after {
-    border-color: var(--foreground); /* Applies hover color */
-  }
-}
-
 @layer base {
   body {
     @apply bg-background text-foreground font-ok;

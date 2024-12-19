@@ -27,6 +27,9 @@
     "blog": {
       "title": "Blogg",
       "link": "Läs mer"
+    },
+    "footer": {
+      "privacy": "integritet"
     }
   },
   "ProjectsPage": {
@@ -34,6 +37,49 @@
   },
   "BlogPage": {
     "title": "Min blogg"
+  },
+  "NotFoundPage": {
+    "message": "Sidan du letar efter finns inte.",
+    "back": "Tillbaka"
+  },
+  "PrivacyPage": {
+    "title": "Integritetspolicy",
+    "lastUpdated": "Senast uppdaterad",
+    "section1": {
+      "title": "Hej, välkommen!",
+      "content": "Tack för att du tittade in! Den här integritetspolicyn är här för att förklara hur saker fungerar här. Jag heter Onni, och jag är den enda som ansvarar för den här webbplatsen."
+    },
+    "section2": {
+      "title": "Vilken information jag samlar in",
+      "content": "Detta är bara en personlig webbplats, så jag samlar inte in mycket information. Inga kontoskapanden, inga spårningscookies och definitivt ingen smygande datainsamling. Här är vad jag kanske samlar in:",
+      "contactInfo": "Kontaktinformation",
+      "desc": "Om du kontaktar mig via e-post eller kontaktformuläret är det upp till dig vilken information du lämnar. Jag använder den för att svara och ha en konversation."
+    },
+    "section3": {
+      "title": "Hur jag använder informationen",
+      "content": "Här är vad jag kan göra med informationen jag samlar in:",
+      "listItem1": "Säkerställa att webbplatsen fungerar smidigt",
+      "listItem2": "Förbättra webbplatsen baserat på feedback",
+      "listItem3": "Svara på dina meddelanden och e-post"
+    },
+    "section4": {
+      "title": "Dela din information",
+      "content": "Jag säljer, byter eller hyr inte ut din personliga information. Om du delade något känsligt av misstag, kontakta mig så hjälper jag dig att ta bort det."
+    },
+    "section5": {
+      "title": "Säkerhet",
+      "content": "Jag tar säkerheten på allvar, men kom ihåg att ingen metod för överföring via internet är 100% säker."
+    },
+    "section6": {
+      "title": "Policyuppdateringar",
+      "content": "Denna policy gäller från och med december 2024. Om jag gör några ändringar kommer jag att uppdatera den här sidan. Oroa dig inte, jag kommer inte att göra några smygande eller stora förändringar."
+    },
+    "section7": {
+      "title": "Frågor?",
+      "content": "Om du har några frågor, skicka ett e-postmeddelande till",
+      "contactForm": "eller använd",
+      "contactFormLink": "kontaktformuläret"
+    }
   },
   "work": {
     "keskoF": {
