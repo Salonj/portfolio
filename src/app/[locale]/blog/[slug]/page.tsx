@@ -3,20 +3,18 @@ import { getPostBySlug, getAllPosts } from '@/utils/blog';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 
 type BlogPostProps = {
-  params: { slug: string; locale: string };
+  params: Promise<{ slug: string; locale?: string }>;
 };
 
 export default async function BlogPost({ params }: BlogPostProps) {
-  // Access params directly without `await`
-  const { slug, locale } = await params;
-
-  // Ensure locale has a default value
-  const activeLocale = locale || 'en';
+  // Await params if it's a promise
+  const { slug, locale = 'en' } = await params;
 
   // Fetch the post by slug and locale
-  const post = await getPostBySlug(slug, activeLocale);
+  const post = await getPostBySlug(slug, locale);
 
   if (!post) {
     // Handle post not found
@@ -33,13 +31,15 @@ export default async function BlogPost({ params }: BlogPostProps) {
           className="text-sm flex items-center gap-2 hover:text-highlight"
         >
           <ArrowRightIcon className="w-6 h-6 md:h-8 md:w-8 transform rotate-180" />
-          Back to blog
         </Link>
         <div className="w-full h-80 overflow-hidden rounded-md flex items-center justify-center">
-          <img
+          <Image
             src={metadata.image || '/default-image.png'}
             alt={metadata.title || 'Post image'}
             className="w-full h-auto object-cover"
+            width={400}
+            height={200}
+            priority
           />
         </div>
       </div>

@@ -1,5 +1,5 @@
-import { useTranslations } from 'next-intl';
-import React, { use } from 'react';
+import React from 'react';
+import Image from 'next/image';
 
 interface CardProps {
   logo: string;
@@ -25,7 +25,13 @@ const Card: React.FC<CardProps> = ({
       {/* Timeline Marker */}
       <div className="absolute w-14 h-14 md:w-16 md:h-16 snes-image bg-foreground p-0 top-0 -left-7 md:-left-8">
         <a href={link} className="">
-          <img className="object-fill" src={logo} alt={`${name} logo`} />
+          <Image
+            className="object-fill"
+            src={logo}
+            alt={`${name} logo`}
+            width={50}
+            height={50}
+          />
         </a>
       </div>
 

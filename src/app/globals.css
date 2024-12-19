@@ -36,9 +36,13 @@
   }
 }
 
+body {
+  @apply font-ok;
+}
+
 @layer base {
   body {
-    @apply bg-background text-foreground font-ok;
+    @apply bg-background text-foreground;
   }
 
   .prose {

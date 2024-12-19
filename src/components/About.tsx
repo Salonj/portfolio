@@ -1,6 +1,7 @@
 import { DownloadIcon, ThumbtackIcon } from '@/components/svgs';
 import { useTranslations } from 'next-intl';
 import Socials from '@/components/Socials';
+import Image from 'next/image';
 
 const ONNI_BIRTH_YEAR = 2003;
 
@@ -30,10 +31,13 @@ export default function About() {
       </div>
       <div className="w-1/2 md:w-2/7 flex justify-start md:justify-center items-center">
         <div className="snes-container bg-foreground p-0">
-          <img
+          <Image
             src="/mrBean.png"
-            className="w-full rounded-md max-w-[150px] md:max-w-full"
-          ></img>
+            className="w-full rounded-md md:max-w-full"
+            alt="mrBean"
+            width={150}
+            height={150}
+          />
         </div>
       </div>
     </div>

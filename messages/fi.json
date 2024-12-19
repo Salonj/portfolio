@@ -36,7 +36,8 @@
     "title": "Minun projektit"
   },
   "BlogPage": {
-    "title": "Minun blogi"
+    "title": "Minun blogi",
+    "back": "Takaisin blogisivulle"
   },
   "NotFoundPage": {
     "message": "Etsimääsi sivua ei ole olemassa.",

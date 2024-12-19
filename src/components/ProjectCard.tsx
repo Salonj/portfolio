@@ -1,6 +1,7 @@
 import React from 'react';
 import { GithubIcon } from './svgs';
 import { GlobeIcon } from './svgs';
+import Image from 'next/image';
 
 interface ProjectCardProps {
   name: string;
@@ -25,10 +26,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     <div className="snes-container bg-foreground p-0 flex flex-col justify-between">
       {/* Project Image */}
       <div className="flex flex-col">
-        <img
+        <Image
           src={image}
           alt={`${name} project screenshot`}
           className="w-full h-40 object-cover rounded-md mb-4"
+          width={400}
+          height={200}
         />
         <h3 className="text-lg font-semibold text-primary mb-2">{name}</h3>
         <p className="text-xs text-background mb-4">{description}</p>

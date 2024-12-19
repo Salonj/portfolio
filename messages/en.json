@@ -36,7 +36,8 @@
     "title": "My projects"
   },
   "BlogPage": {
-    "title": "My blog"
+    "title": "My blog",
+    "back": "Back to blog"
   },
   "NotFoundPage": {
     "message": "The page you are looking for does not exist.",

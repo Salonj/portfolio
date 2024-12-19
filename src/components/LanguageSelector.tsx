@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { usePathname } from 'next/navigation';
-import { routing } from '@/i18n/routing';
 import { GlobeIcon } from './svgs';
 
 export default function LanguageSelector() {

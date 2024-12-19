@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function NotFoundPage() {
   const t = useTranslations('NotFoundPage');
@@ -7,10 +8,13 @@ export function NotFoundPage() {
     <div className="flex flex-col items-center gap-4">
       <h1 className="text-6xl font-bold">404</h1>
       <div className="snes-container p-4 bg-foreground">
-        <img
+        <Image
           className="w-full rounded-md"
           src="https://i.giphy.com/4KLv24CPUoZ0I.webp"
-        ></img>
+          alt="Mr. Bean"
+          width={400}
+          height={400}
+        />
       </div>
 
       <p className="text-lg text-center">{t('message')}</p>

@@ -36,7 +36,8 @@
     "title": "Mina projekt"
   },
   "BlogPage": {
-    "title": "Min blogg"
+    "title": "Min blogg",
+    "back": "Tillbaka till bloggen"
   },
   "NotFoundPage": {
     "message": "Sidan du letar efter finns inte.",

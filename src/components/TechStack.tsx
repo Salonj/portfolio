@@ -1,6 +1,7 @@
 import React from 'react';
 import techData from '@/data/techStack.json';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 export default function TechStackGrid() {
   const t = useTranslations('HomePage.techStack');
@@ -19,10 +20,12 @@ export default function TechStackGrid() {
               className="snes-container flex flex-col w-14 h-14 md:w-16 md:h-16 items-center justify-center p-0"
               style={{ backgroundColor: color }}
             >
-              <img
+              <Image
                 src={icon}
                 alt={`${name} icon`}
                 className="w-full object-contain"
+                width={32}
+                height={32}
               />
             </div>
             <div className="text-primary text-xs">{name}</div>
