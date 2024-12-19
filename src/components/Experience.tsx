@@ -8,6 +8,7 @@ import Card from './ExperienceCard';
 
 export default function Experience() {
   const [isCareerTab, setIsCareerTab] = useState(true);
+  const t = useTranslations('HomePage.experience');
   const tWork = useTranslations('work');
   const tEdu = useTranslations('education');
 
@@ -18,7 +19,7 @@ export default function Experience() {
   return (
     <div className="flex flex-col mt-10">
       {/* Tab Navigation */}
-      <div className="snes-container flex bg-foreground p-0">
+      <div className="snes-container text-sm flex bg-foreground p-0">
         <button
           className={`w-1/2 p-2 !m-0 ${
             isCareerTab
@@ -27,7 +28,7 @@ export default function Experience() {
           }`}
           onClick={switchTab}
         >
-          Work
+          {t('work')}
         </button>
         <button
           className={`w-1/2 p-2 ${
@@ -37,12 +38,12 @@ export default function Experience() {
           }`}
           onClick={switchTab}
         >
-          Education
+          {t('education')}
         </button>
       </div>
 
       {/* Timeline */}
-      <div className="snes-container bg-foreground mt-6">
+      <div className="snes-container p-4 md:p-6 bg-foreground mt-6">
         {isCareerTab ? (
           <div>
             {workExperience.workExperience.map((job, id) => (

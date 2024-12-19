@@ -4,11 +4,36 @@
       "home": "Etusivu",
       "projects": "Projektit",
       "blog": "Blogi",
-      "contact": "Ota yhteyttä"
+      "contact": "Ota yhteyttä",
+      "theme": "Valitse teema"
     },
-    "title": "hei onni täällä!",
-    "location": "Tampere, Suomi",
-    "about": "-vuotias ohjelmistotekniikan opiskelija. Opiskelen, suunnittelen ja toteutan verkkosivuja ja sovelluksia."
+    "about": {
+      "title": "hei onni täällä!",
+      "location": "Tampere, Suomi",
+      "about": "-vuotias ohjelmistotekniikan opiskelija. Opiskelen, suunnittelen ja toteutan verkkosivuja ja sovelluksia.",
+      "cvLink": "Ansioluettelo"
+    },
+    "experience": {
+      "work": "Työkokemus",
+      "education": "Koulutus"
+    },
+    "techStack": {
+      "title": "Teknologiapino"
+    },
+    "projects": {
+      "title": "Projektit",
+      "link": "Katso lisää"
+    },
+    "blog": {
+      "title": "Blogi",
+      "link": "Lue lisää"
+    }
+  },
+  "ProjectsPage": {
+    "title": "Minun projektit"
+  },
+  "BlogPage": {
+    "title": "Minun blogi"
   },
   "work": {
     "keskoF": {

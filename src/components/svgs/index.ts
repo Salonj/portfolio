@@ -8,3 +8,4 @@ export { default as LogoIcon } from './Logo.svg';
 export { default as ThumbtackIcon } from './Thumbtack.svg';
 export { default as BarsIcon } from './Bars.svg';
 export { default as CloseIcon } from './Close.svg';
+export { default as ArrowRightIcon } from './ArrowRight.svg';

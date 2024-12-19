@@ -4,11 +4,36 @@
       "home": "Hem",
       "projects": "Projekt",
       "blog": "Blogg",
-      "contact": "Kontakt"
+      "contact": "Kontakt",
+      "theme": "Välj tema"
     },
-    "title": "hej onni här!",
-    "location": "Tammerfors, Finland",
-    "about": "-årig studerande inom programvaruteknik. Jag lär mig, designar och implementerar webbplatser och applikationer."
+    "about": {
+      "title": "hej onni här!",
+      "location": "Tammerfors, Finland",
+      "about": "-årig studerande inom programvaruteknik. Jag lär mig, designar och implementerar webbplatser och applikationer.",
+      "cvLink": "Meritförteckning"
+    },
+    "experience": {
+      "work": "Arbetslivserfarenhet",
+      "education": "Utbildning"
+    },
+    "techStack": {
+      "title": "Teknisk stack"
+    },
+    "projects": {
+      "title": "Projekt",
+      "link": "Visa mer"
+    },
+    "blog": {
+      "title": "Blogg",
+      "link": "Läs mer"
+    }
+  },
+  "ProjectsPage": {
+    "title": "Mina projekt"
+  },
+  "BlogPage": {
+    "title": "Min blogg"
   },
   "work": {
     "keskoF": {

@@ -5,31 +5,36 @@ import Socials from '@/components/Socials';
 const ONNI_BIRTH_YEAR = 2003;
 
 export default function About() {
-  const t = useTranslations('HomePage');
+  const t = useTranslations('HomePage.about');
   return (
-    <div className="w-full flex flex-col md:flex-row">
-      <div className="flex flex-col w-full md:w-3/5 gap-8">
+    <div className="w-full flex flex-col-reverse md:flex-row gap-8 md:gap-4">
+      <div className="flex flex-col w-full md:w-5/7 gap-8">
         <div className="flex flex-col gap-2">
           <h1 className="text-2xl">{t('title')} </h1>
           <div className="flex items-center">
-            <ThumbtackIcon className="w-8 h-8" />
-            <p className="text-sm">{t('location')}</p>
+            <ThumbtackIcon className="w-6 h-6 md:h-8 md:w-8" />
+            <p className="text-xs">{t('location')}</p>
           </div>
         </div>
-        <p className="text-xs">
+        <p className="text-xs md:text-sm">
           {new Date().getFullYear() - ONNI_BIRTH_YEAR}
           {t('about')}
         </p>
         <div className="flex items-center gap-8 mt-4">
-          <button className="flex items-center snes-button text-background bg-foreground py-2 hover:border-highlight px-4 hover:text-highlight">
-            <span className="text-md">Resume</span>
-            <DownloadIcon className="w-10 h-10" />
+          <button className="snes-button flex items-center bg-foreground text-background p-0 gap-2 ">
+            <span className="text-sm">{t('cvLink')}</span>
+            <DownloadIcon className="w-8 h-8 md:h-10 md:w-10" />
           </button>
           <Socials />
         </div>
       </div>
-      <div className="w-full md:w-2/5 items-center justify-center snes-container bg-foreground p-0">
-        <img src="/mrBean.png" className="w-full rounded-md"></img>
+      <div className="w-1/2 md:w-2/7 flex justify-start md:justify-center items-center">
+        <div className="snes-container bg-foreground p-0">
+          <img
+            src="/mrBean.png"
+            className="w-full rounded-md max-w-[150px] md:max-w-full"
+          ></img>
+        </div>
       </div>
     </div>
   );

@@ -9,10 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^15.1.1",
     "@svgr/webpack": "^8.1.0",
+    "@tailwindcss/typography": "^0.5.15",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
     "next": "15.1.0",
     "next-intl": "^3.26.1",
+    "next-mdx-remote": "^5.0.0",
     "next-themes": "^0.4.4",
+    "path": "^0.12.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sass": "^1.82.0",

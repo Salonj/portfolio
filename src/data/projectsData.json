@@ -3,7 +3,7 @@
     {
       "name": "portfolio",
       "description": "My personal portfolio",
-      "image": "mrBean.png",
+      "image": "/mrBean.png",
       "techStack": [
         {
           "name": "react",
@@ -23,18 +23,13 @@
           "name": "GitHub",
           "href": "https://github.com",
           "icon": "github"
-        },
-        {
-          "name": "Live",
-          "href": "https://youtube.com",
-          "icon": "Globe"
         }
       ]
     },
     {
       "name": "portfolio",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
-      "image": "mrBean.png",
+      "image": "/mrBean.png",
       "techStack": [
         {
           "name": "react",
@@ -65,7 +60,7 @@
     {
       "name": "portfolio",
       "description": "My personal portfolio",
-      "image": "mrBean.png",
+      "image": "/mrBean.png",
       "techStack": [
         {
           "name": "react",
@@ -96,7 +91,7 @@
     {
       "name": "portfolio",
       "description": "My personal portfolio",
-      "image": "mrBean.png",
+      "image": "/mrBean.png",
       "techStack": [
         {
           "name": "react",

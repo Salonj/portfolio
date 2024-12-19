@@ -4,11 +4,36 @@
       "home": "Home",
       "projects": "Projects",
       "blog": "Blog",
-      "contact": "Contact"
+      "contact": "Contact",
+      "theme": "Choose theme"
     },
-    "title": "Hey Onni here! ",
-    "location": "Tampere, Finland",
-    "about": "-year-old software engineering major student. I learn, design and implement websites and applications."
+    "about": {
+      "title": "Hey Onni here! ",
+      "location": "Tampere, Finland",
+      "about": "-year-old software engineering major student. I learn, design and implement websites and applications.",
+      "cvLink": "Résumé"
+    },
+    "experience": {
+      "work": "Work",
+      "education": "Education"
+    },
+    "techStack": {
+      "title": "Tech stack"
+    },
+    "projects": {
+      "title": "Projects",
+      "link": "View more"
+    },
+    "blog": {
+      "title": "Blog",
+      "link": "Read more"
+    }
+  },
+  "ProjectsPage": {
+    "title": "My projects"
+  },
+  "BlogPage": {
+    "title": "My blog"
   },
   "work": {
     "keskoF": {

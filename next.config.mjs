@@ -10,6 +10,10 @@ const nextConfig = {
           loaders: ['@svgr/webpack'],
           as: '*.js',
         },
+        '*.mdx': {
+          loaders: ['@mdx-js/loader'],
+          as: '*.js',
+        },
       },
     },
   },

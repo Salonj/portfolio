@@ -40,7 +40,7 @@ export default async function LocaleLayout({
   return (
     <html className="bg-background" lang={locale}>
       <body
-        className={`${pressStart2P.variable} mx-auto flex flex-col min-h-screen max-w-3xl px-8`}
+        className={`${pressStart2P.variable} mx-auto flex flex-col min-h-screen max-w-3xl`}
       >
         <NextIntlClientProvider messages={messages}>
           <Header />

@@ -23,7 +23,7 @@ export default function LanguageSelector() {
   };
 
   return (
-    <div className="relative">
+    <div className="relative inline-block">
       <button
         className="flex items-center"
         onClick={() => setIsOpen((prev) => !prev)}

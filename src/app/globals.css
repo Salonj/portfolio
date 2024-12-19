@@ -8,7 +8,7 @@
     --foreground: #ffffff;
     --primary: #06000d;
     --highlight: #f9e082;
-    --muted: #bcbcbc;
+    --muted: #6c6c6c;
   }
 
   .green {
@@ -17,6 +17,22 @@
     --primary: #000d06;
     --highlight: #82f9e0;
     --muted: #bcbcbc;
+  }
+
+  .dark {
+    --background: #000000;
+    --foreground: #e4e4e4;
+    --primary: #1a1a1a;
+    --highlight: #ff5722;
+    --muted: #757575;
+  }
+
+  .pastel {
+    --background: #f5f7fa;
+    --foreground: #333333;
+    --primary: #e8eaf6;
+    --highlight: #ffb3ba;
+    --muted: #d6d6d6;
   }
 }
 
@@ -62,6 +78,43 @@
   }
 }
 
-body {
-  @apply bg-background text-foreground font-ok;
+@layer base {
+  body {
+    @apply bg-background text-foreground font-ok;
+  }
+
+  .prose {
+    @apply text-foreground;
+  }
+
+  .prose h1 {
+    @apply text-foreground;
+  }
+  .prose h2 {
+    @apply text-foreground;
+  }
+
+  .prose h3 {
+    @apply text-foreground;
+  }
+
+  .prose a {
+    @apply text-foreground;
+  }
+
+  .prose p strong {
+    @apply text-foreground text-xl;
+  }
+
+  .prose img {
+    @apply h-60 w-auto;
+  }
+
+  .prose ul {
+    @apply list-disc list-inside;
+  }
+
+  .prose pre {
+    @apply px-5 py-4 text-lg rounded-md;
+  }
 }
