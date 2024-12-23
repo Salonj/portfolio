@@ -1,9 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { usePathname } from 'next/navigation';
-import { GlobeIcon } from './svgs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 export default function LanguageSelector() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,6 +16,11 @@ export default function LanguageSelector() {
     { code: 'sv', name: 'Svenska' },
   ];
 
+  const currentLocale = pathname.split('/')[1];
+  const sortedLocales = availableLocales.sort((a, b) =>
+    a.code === currentLocale ? -1 : b.code === currentLocale ? 1 : 0
+  );
+
   const changeLocale = (locale: string) => {
     setIsOpen(false);
     const newPathName = pathname.replace(/^\/[a-z]{2}/, `/${locale}`);
@@ -24,19 +30,23 @@ export default function LanguageSelector() {
   return (
     <div className="relative inline-block">
       <button
-        className="flex items-center"
+        className={`flex items-center ${
+          isOpen ? 'text-accent' : 'hover:text-accent'
+        }`}
         onClick={() => setIsOpen((prev) => !prev)}
       >
-        <GlobeIcon className="w-10 h-10 text-white hover:text-highlight" />
+        <FontAwesomeIcon icon={faGlobe} className="text-3xl" />
       </button>
 
       {isOpen && (
-        <div className="absolute snes-container bg-foreground right-0 top-12 text-background p-0">
+        <div className="absolute right-0 top-8 border-4 bg-background2 border-foreground rounded-lg">
           <ul className="flex flex-col">
-            {availableLocales.map((locale) => (
+            {sortedLocales.map((locale) => (
               <li key={locale.code}>
                 <button
-                  className={`block w-full px-4 py-2 rounded-md text-left hover:bg-background hover:text-foreground`}
+                  className={`block w-full px-4 py-2 text-center hover:bg-foreground hover:text-background2 text-lg ${
+                    locale.code === currentLocale ? 'font-bold' : ''
+                  }`}
                   onClick={() => changeLocale(locale.code)}
                 >
                   {locale.name}

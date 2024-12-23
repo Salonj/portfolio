@@ -4,40 +4,28 @@
 
 @layer base {
   :root {
-    --background: #0a1b3f;
-    --foreground: #ffffff;
-    --primary: #06000d;
-    --highlight: #f9e082;
-    --muted: #6c6c6c;
-  }
-
-  .green {
-    --background: #0a3f1b;
-    --foreground: #ffffff;
-    --primary: #000d06;
-    --highlight: #82f9e0;
-    --muted: #bcbcbc;
+    --font-system-ui: ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+      'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+      'Segoe UI Symbol', 'Noto Color Emoji';
+    --background: #f2f2f2;
+    --background-2: #ffffff;
+    --background-3: #d9d9d9;
+    --foreground: #111827;
+    --accent: #3b9cd4;
   }
 
   .dark {
-    --background: #000000;
-    --foreground: #e4e4e4;
-    --primary: #1a1a1a;
-    --highlight: #ff5722;
-    --muted: #757575;
-  }
-
-  .pastel {
-    --background: #f5f7fa;
-    --foreground: #333333;
-    --primary: #e8eaf6;
-    --highlight: #ffb3ba;
-    --muted: #d6d6d6;
+    --background: #111827;
+    --background-2: #1f2937;
+    --background-3: #374151;
+    --foreground: #f2f2f2;
+    --accent: #d97706;
   }
 }
 
 body {
-  @apply font-ok;
+  font-family: var(--font-system-ui);
 }
 
 @layer base {

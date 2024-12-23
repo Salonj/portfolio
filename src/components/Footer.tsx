@@ -5,17 +5,16 @@ import { useTranslations } from 'next-intl';
 export default function Footer() {
   const t = useTranslations('HomePage.footer');
   return (
-    <footer className="flex flex-col mt-10 mb-6 md:mb-10 px-8 md:px-0">
-      <hr className="w-full border-t border-white mb-10" />
-      <div className="flex items-center justify-between">
-        <div className="flex">
-          <p className="text-center text-xs">
+    <footer className="bg-background2 border-t-4 border-foreground w-full flex flex-col">
+      <div className="max-w-3xl w-full flex justify-between py-4 px-2 items-center mx-auto gap-2">
+        <div className="flex ">
+          <p className="text-sm">
             <span>&copy; {new Date().getFullYear()}</span>{' '}
-            <Link className="hover:text-highlight" href="/">
+            <Link className="" href="/">
               onnisalomaa.dev
             </Link>
             {' | '}
-            <Link className="font-bold hover:text-highlight" href="/privacy">
+            <Link className="font-bold hover:text-accent" href="/privacy">
               {t('privacy')}?
             </Link>
           </p>

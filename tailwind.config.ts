@@ -11,9 +11,10 @@ export default {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
-        primary: 'var(--primary)',
-        highlight: 'var(--highlight)',
-        muted: 'var(--muted)',
+        background2: 'var(--background-2)',
+        background3: 'var(--background-3)',
+        accent: 'var(--accent)',
+        accent2: 'var(--accent-2)',
       },
       fontFamily: {
         ok: 'var(--font-press-start-2p)',

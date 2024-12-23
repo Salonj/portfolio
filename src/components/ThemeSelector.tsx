@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { CogIcon } from './svgs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons';
 import { useTranslations } from 'next-intl';
 
 const themes = [
@@ -12,32 +13,21 @@ const themes = [
     foreground: '#ffffff',
   },
   {
-    name: 'Green',
-    className: 'green',
-    background: '#0a3f1b',
-    foreground: '#ffffff',
-  },
-  {
     name: 'Dark',
     className: 'dark',
     background: '#000000',
     foreground: '#e4e4e4',
-  },
-  {
-    name: 'Pastel',
-    className: 'pastel',
-    background: '#f5f7fa',
-    foreground: '#333333',
   },
 ];
 
 export default function ThemeDropdown() {
   const t = useTranslations('HomePage.navigation');
   const [currentTheme, setCurrentTheme] = useState('Default');
-  const [isOpen, setIsOpen] = useState(false);
 
   // Handle theme change
-  const handleThemeChange = (themeName: string, className: string) => {
+  const handleThemeChange = () => {
+    const newTheme = currentTheme === 'Default' ? 'Dark' : 'Default';
+    const theme = themes.find((theme) => theme.name === newTheme);
     const rootElement = document.documentElement;
 
     // Remove all theme classes
@@ -46,49 +36,21 @@ export default function ThemeDropdown() {
     });
 
     // Apply selected theme class
-    if (className) {
-      rootElement.classList.add(className);
+    if (theme?.className) {
+      rootElement.classList.add(theme.className);
     }
 
-    setCurrentTheme(themeName);
+    setCurrentTheme(newTheme);
   };
 
   return (
     <div className="relative inline-block">
       <button
-        className="flex items-center"
-        onClick={() => setIsOpen((prev) => !prev)}
+        className="flex items-center hover:text-accent"
+        onClick={handleThemeChange}
       >
-        <CogIcon className="w-10 h-10 text-white hover:text-highlight" />
+        <FontAwesomeIcon icon={faCircleHalfStroke} className="text-3xl" />
       </button>
-
-      {isOpen && (
-        <div className="absolute snes-container bg-foreground right-0 top-12 text-background p-4 w-64">
-          <div className="text-sm !mb-2">{t('theme')}</div>
-          <ul className="flex flex-col">
-            {themes.map((theme) => (
-              <li
-                key={theme.name}
-                onClick={() => handleThemeChange(theme.name, theme.className)}
-                className={`text-sm flex items-center px-4 py-2 hover:bg-background rounded-md hover:text-foreground cursor-pointer ${
-                  currentTheme === theme.name
-                    ? 'bg-background text-foreground'
-                    : ''
-                }`}
-              >
-                <div
-                  className="w-8 h-8 md:h-10 md:w-10 rounded-md border border-gray-300 mr-2"
-                  style={{
-                    background: theme.background,
-                    borderColor: theme.foreground,
-                  }}
-                />
-                {theme.name}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
     </div>
   );
 }

@@ -4,7 +4,7 @@
       "nameKey": "tuni.school",
       "href": "https://www.tuni.fi/",
       "titleKey": "tuni.title",
-      "logo": "tuni.png",
+      "logo": "/tuni.png",
       "startKey": "tuni.startDate",
       "endKey": "tuni.endDate",
       "descriptionKey": ["tuni.description.0", "tuni.description.1"]
@@ -13,7 +13,7 @@
       "nameKey": "vaskivuori.school",
       "href": "https://www.vaskivuori.fi/",
       "titleKey": "vaskivuori.title",
-      "logo": "vaskivuori.png",
+      "logo": "/vaskivuori.png",
       "startKey": "vaskivuori.startDate",
       "endKey": "vaskivuori.endDate",
       "descriptionKey": ["vaskivuori.description.0", "vaskivuori.description.1"]
