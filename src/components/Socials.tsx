@@ -2,25 +2,45 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-export default function Socials() {
+type SocialsProps = {
+  textColor?: string;
+  textSize?: string;
+};
+
+export default function Socials({
+  textColor = 'text-foreground',
+  textSize = 'text-2xl md:text-3xl',
+}: SocialsProps) {
   return (
     <div className="flex gap-4 md:gap-6">
-      <a className="hover:cursor-pointer ">
+      <a
+        href="https://github.com"
+        className="hover:cursor-pointer"
+        aria-label="GitHub"
+      >
         <FontAwesomeIcon
           icon={faGithub}
-          className="text-2xl md:text-3xl text-foreground hover:text-accent"
+          className={`${textSize} hover:text-accent ${textColor}`}
         />
       </a>
-      <a className="hover:cursor-pointer">
+      <a
+        href="https://linkedin.com"
+        className="hover:cursor-pointer"
+        aria-label="LinkedIn"
+      >
         <FontAwesomeIcon
           icon={faLinkedin}
-          className="text-2xl md:text-3xl text-foreground hover:text-accent"
+          className={`${textSize} hover:text-accent ${textColor}`}
         />
       </a>
-      <a className="hover:cursor-pointer">
+      <a
+        href="mailto:hello@example.com"
+        className="hover:cursor-pointer"
+        aria-label="Email"
+      >
         <FontAwesomeIcon
           icon={faEnvelope}
-          className="text-2xl md:text-3xl text-foreground hover:text-accent"
+          className={`${textSize} hover:text-accent ${textColor}`}
         />
       </a>
     </div>

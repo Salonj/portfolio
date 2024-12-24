@@ -1,7 +1,13 @@
-import React from 'react';
-import { GithubIcon } from './svgs';
-import { GlobeIcon } from './svgs';
+'use client';
+import React, { useState } from 'react';
 import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import {
+  faArrowUpRightFromSquare,
+  faXmark,
+} from '@fortawesome/free-solid-svg-icons';
+import TechStackGrid from './TechStackGrid';
 
 interface ProjectCardProps {
   name: string;
@@ -18,67 +24,99 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   techStack,
   links,
 }) => {
-  // Find specific links
-  const githubLink = links.find((link) => link.name === 'GitHub');
-  const liveLink = links.find((link) => link.name === 'Live');
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => setIsModalOpen(!isModalOpen);
 
   return (
-    <div className="snes-container bg-foreground p-0 flex flex-col justify-between">
-      {/* Project Image */}
-      <div className="flex flex-col">
-        <Image
-          src={image}
-          alt={`${name} project screenshot`}
-          className="w-full h-40 object-cover rounded-md mb-4"
-          width={400}
-          height={200}
-        />
-        <h3 className="text-lg font-semibold text-primary mb-2">{name}</h3>
-        <p className="text-xs text-background mb-4">{description}</p>
+    <>
+      {/* Project Card */}
+      <div className="flex flex-col justify-between border-4 border-foreground p-4 rounded-md">
+        {/* Project Image */}
+        <div className="flex flex-col mb-10">
+          <Image
+            src={image}
+            alt={`${name} project screenshot`}
+            className="w-full h-40 object-cover rounded-md mb-4"
+            width={400}
+            height={200}
+          />
+          <h3 className="text-3xl font-bold">{name}</h3>
+          <p className="text-lg">{description}</p>
+        </div>
+
+        {/* Read More Button */}
+        <button
+          onClick={toggleModal}
+          className="w-full bg-foreground text-background rounded-md py-2"
+          aria-label="Read More"
+        >
+          Read More
+        </button>
       </div>
 
-      {/* Tech Stack */}
-      <div className="flex flex-wrap gap-2 mb-4">
-        {techStack.map((tech, index) => (
-          <span
-            key={index}
-            className="text-xs text-background px-2 py-1 rounded-md"
-            style={{ backgroundColor: tech.color }}
-          >
-            {tech.name}
-          </span>
-        ))}
-      </div>
+      {/* Modal */}
+      {isModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+          <div className="bg-background max-h-full p-4 rounded-lg shadow-lg max-w-3xl w-full">
+            {/* Modal Header */}
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-5xl font-bold">{name}</h2>
+              <button
+                onClick={toggleModal}
+                className="hover:text-accent"
+                aria-label="Close Modal"
+              >
+                <FontAwesomeIcon icon={faXmark} className="text-3xl" />
+              </button>
+            </div>
 
-      <div className="flex gap-2">
-        {githubLink && (
-          <a
-            href={githubLink.href}
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center gap-2 px-4 py-2 bg-primary text-white text-xs rounded-md hover:bg-purple-800 transition"
-            aria-label="GitHub"
-          >
-            <GithubIcon className="w-6 h-6 md:w-8 md:h-8" />
-            GitHub
-          </a>
-        )}
-
-        {/* Live Link */}
-        {liveLink && (
-          <a
-            href={liveLink.href}
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center gap-2 px-4 py-2 bg-green-600 text-white text-xs rounded-md hover:bg-green-500 transition"
-            aria-label="Live Website"
-          >
-            <GlobeIcon className="w-6 h-6 md:w-8 md:h-8" />
-            Live
-          </a>
-        )}
-      </div>
-    </div>
+            {/* Modal Content */}
+            <div className="flex flex-row gap-2">
+              <div className="w-1/2">
+                {/* Image */}
+                <Image
+                  src={image}
+                  alt={`${name} project screenshot`}
+                  className="w-full h-40 rounded-md"
+                  width={500}
+                  height={250}
+                />
+                {/* Description */}
+                <h3 className="text-3xl font-bold">About the project</h3>
+                <p className="text-base">
+                  A word game designed for aphasia patients to improve
+                  vocabulary and cognitive skills. Developed as part of the
+                  COMP.SWE.100 course, this project focuses on creating a
+                  user-friendly experience for a specialized audience.
+                </p>
+              </div>
+              <div className="w-1/2">
+                <h3 className="text-3xl font-bold">What did I Learn</h3>
+                <p>
+                  Developing larger applications with a team, integrating
+                  IndexedDB for efficient data management, and collaborating
+                  effectively with multiple developers on GitHub.
+                </p>
+                <h3 className="text-3xl font-bold">Challenges faced</h3>
+                <ul>
+                  <li>
+                    Ensuring accessibility for users with cognitive impairments.
+                  </li>
+                  <li>
+                    Designing a responsive UI that works across multiple
+                    devices.
+                  </li>
+                  <li>Debugging database interactions in IndexedDB.</li>
+                </ul>
+                <h3 className="text-3xl font-bold">Tech Stack</h3>
+                <div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 

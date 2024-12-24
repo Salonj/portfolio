@@ -14,14 +14,20 @@ export default function BlogCard({
   excerpt,
 }: BlogCardProps) {
   return (
-    <Link href={`/blog/${slug}`} className="">
-      <div className="flex flex-col hover:text-3xl md:flex-row md:justify-between md:items-center py-4 gap-4 ">
-        <div className="flex flex-col items-start mb-4">
-          <h2 className="text-base md:text-lg">{title}</h2>
-          <p className="text-sm">{excerpt}</p>
+    <Link
+      href={`/blog/${slug}`}
+      className="bg-background p-4 rounded-md hover:bg-background2 hover:text-accent"
+    >
+      <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-6 py-4">
+        {/* Blog Info */}
+        <div className="flex flex-col items-start">
+          <h2 className="text-2xl font-bold mb-2">{title}</h2>
+          <p className="text-base">{excerpt}</p>
         </div>
-        <div className="flex justify-end">
-          <p className="text-xs">{date}</p>
+
+        {/* Blog Date */}
+        <div className="flex justify-end md:justify-start">
+          <p className="text-sm italic">{date}</p>
         </div>
       </div>
     </Link>

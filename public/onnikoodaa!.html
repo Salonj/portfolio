@@ -1,0 +1,1703 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://localhost:3000/en/blog -->
+<html lang="en" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Pro";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Pro";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-regular: normal 400 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-light: normal 300 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-thin: normal 100 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-duotone-solid: normal 900 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-regular: normal 400 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-light: normal 300 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-thin: normal 100 1em/1 "Font Awesome 6 Sharp Duotone";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  transform: scale(var(--fa-counter-scale, 0.25));
+  transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(-1 * var(--fa-li-width, 2em));
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  animation-name: fa-beat;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  animation-name: fa-bounce;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  animation-name: fa-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  animation-name: fa-beat-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  animation-name: fa-flip;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  animation-name: fa-shake;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  animation-name: fa-spin;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 2s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  animation-name: fa-spin;
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    animation-delay: -1ms;
+    animation-duration: 1ms;
+    animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-shake {
+  0% {
+    transform: rotate(-15deg);
+  }
+  4% {
+    transform: rotate(15deg);
+  }
+  8%, 24% {
+    transform: rotate(-18deg);
+  }
+  12%, 28% {
+    transform: rotate(18deg);
+  }
+  16% {
+    transform: rotate(-22deg);
+  }
+  20% {
+    transform: rotate(22deg);
+  }
+  32% {
+    transform: rotate(-12deg);
+  }
+  36% {
+    transform: rotate(12deg);
+  }
+  40%, 100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  transform: rotate(var(--fa-rotate-angle, 0));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}</style><link rel="stylesheet" href="./onnikoodaa!_files/src_app_globals_b80590.css"><link rel="preload" as="script" fetchpriority="low" href="./onnikoodaa!_files/node_modules_next_dist_compiled_react-dom_1f56dc._.js"><script src="./onnikoodaa!_files/node_modules_next_dist_compiled_107ce8._.js" async=""></script><script src="./onnikoodaa!_files/node_modules_next_dist_client_523921._.js" async=""></script><script src="./onnikoodaa!_files/node_modules_next_dist_4bb10e._.js" async=""></script><script src="./onnikoodaa!_files/node_modules_@swc_helpers_cjs_00636a._.js" async=""></script><script src="./onnikoodaa!_files/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d0a96d._.js" async=""></script><script src="./onnikoodaa!_files/_e69f0d._.js" async=""></script><script src="./onnikoodaa!_files/_d95469._.js" async=""></script><script src="./onnikoodaa!_files/_a91c21._.js" async=""></script><script src="./onnikoodaa!_files/src_app_favicon_ico_mjs_ddfdf0._.js" async=""></script><script src="./onnikoodaa!_files/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_6d4e8d._.js" async=""></script><script src="./onnikoodaa!_files/node_modules_051fc9._.js" async=""></script><script src="./onnikoodaa!_files/src_f6137e._.js" async=""></script><script src="./onnikoodaa!_files/src_app_[locale]_layout_tsx_61af54._.js" async=""></script><script src="./onnikoodaa!_files/node_modules_next_15251b._.js" async=""></script><script src="./onnikoodaa!_files/src_6c72b7._.js" async=""></script><script src="./onnikoodaa!_files/src_app_[locale]_page_tsx_abc921._.js" async=""></script><script src="./onnikoodaa!_files/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_6d4e8d(1)._.js" async=""></script><script src="./onnikoodaa!_files/src_app_[locale]_layout_tsx_61af54(1)._.js" async=""></script><script src="./onnikoodaa!_files/src_app_[locale]_page_tsx_abc921(1)._.js" async=""></script><script src="./onnikoodaa!_files/node_modules_next_dist_build_polyfills_polyfill-nomodule.js" nomodule=""></script><script src="./onnikoodaa!_files/src_947a87._.js" async=""></script><script src="./onnikoodaa!_files/src_app_[locale]_projects_page_tsx_abc921._.js" async=""></script><script src="./onnikoodaa!_files/src_app_[locale]_blog_page_tsx_0dba7c._.js" async=""></script><script src="./onnikoodaa!_files/src_app_[locale]_blog_page_tsx_abc921._.js" async=""></script><title>onnikoodaa!</title><meta name="description" content="A website by me"><link rel="icon" href="http://localhost:3000/favicon.ico?favicon.74cb8db6.ico" sizes="240x240" type="image/x-icon"><meta name="viewport" content="width=device-width, initial-scale=1"></head><body class="flex flex-col min-h-screen" style=""><header class="sticky top-0 bg-background2 border-b-4 border-foreground w-full flex flex-col z-50"><div class="max-w-3xl w-full flex justify-between py-4 px-2 items-center mx-auto"><div class="text-4xl flex items-center justify-center aspect-square font-bold border-foreground border-4 rounded-lg p-2">OS</div><nav class="hidden md:flex"><ul class="flex gap-2 md:gap-4"><li class="text-3xl font-bold"><a href="http://localhost:3000/">Home</a></li><li class="text-3xl font-bold"><a href="http://localhost:3000/projects">Projects</a></li><li class="text-3xl font-bold"><a href="http://localhost:3000/blog">Blog</a></li><li class="text-3xl font-bold"><a href="http://localhost:3000/contact">Contact</a></li></ul></nav><div class="hidden md:flex gap-4 md:gap-6"><div class="relative inline-block"><button class="flex items-center hover:text-accent"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-half-stroke" class="svg-inline--fa fa-circle-half-stroke text-3xl" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M448 256c0-106-86-192-192-192l0 384c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"></path></svg></button></div><div class="relative inline-block"><button class="flex items-center hover:text-accent"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe" class="svg-inline--fa fa-globe text-3xl" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M352 256c0 22.2-1.2 43.6-3.3 64l-185.3 0c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64l185.3 0c2.2 20.4 3.3 41.8 3.3 64zm28.8-64l123.1 0c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64l-123.1 0c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32l-116.7 0c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0l-176.6 0c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0L18.6 160C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192l123.1 0c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64L8.1 320C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6l176.6 0c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352l116.7 0zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6l116.7 0z"></path></svg></button></div></div><div class="md:hidden flex items-center"><button class="p-2 text-foreground focus:outline-none" aria-label="Toggle menu"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars text-3xl" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path></svg></button></div></div><div class="md:hidden bg-background2 border-foreground overflow-hidden transition-all duration-500 ease-in-out max-h-0"><nav><ul class="flex flex-col py-4 px-2"><li class="text-2xl font-bold hover:bg-foreground hover:text-background2 py-2 rounded-md"><a class="px-1" href="http://localhost:3000/">Home</a></li><li class="text-2xl font-bold hover:bg-foreground hover:text-background2 py-2 rounded-md"><a class="px-1" href="http://localhost:3000/projects">Projects</a></li><li class="text-2xl font-bold hover:bg-foreground hover:text-background2 py-2 rounded-md"><a class="px-1" href="http://localhost:3000/blog">Blog</a></li><li class="text-2xl font-bold hover:bg-foreground hover:text-background2 py-2 rounded-md"><a class="px-1" href="http://localhost:3000/contact">Contact</a></li><div class="flex gap-4 md:gap-6 px-1 mt-2"><div class="relative inline-block"><button class="flex items-center hover:text-accent"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="circle-half-stroke" class="svg-inline--fa fa-circle-half-stroke text-3xl" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M448 256c0-106-86-192-192-192l0 384c106 0 192-86 192-192zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"></path></svg></button></div><div class="relative inline-block"><button class="flex items-center hover:text-accent"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="globe" class="svg-inline--fa fa-globe text-3xl" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M352 256c0 22.2-1.2 43.6-3.3 64l-185.3 0c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64l185.3 0c2.2 20.4 3.3 41.8 3.3 64zm28.8-64l123.1 0c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64l-123.1 0c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32l-116.7 0c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0l-176.6 0c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0L18.6 160C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192l123.1 0c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64L8.1 320C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6l176.6 0c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352l116.7 0zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6l116.7 0z"></path></svg></button></div></div></ul></nav></div></header><main class="grow"><div class="flex flex-col gap-4 mt-10 px-8"><h1 class="text-2xl">My blog</h1><div class="flex flex-col border-4 border-foreground rounded-md"><a class="bg-background p-4 rounded-md hover:bg-background2" href="http://localhost:3000/blog/test-post"><div class="flex flex-col md:flex-row md:justify-between md:items-center gap-6 py-4"><div class="flex flex-col items-start"><h2 class="text-2xl font-bold text-foreground mb-2">Test post</h2><p class="text-base">Test post for my blog</p></div><div class="flex justify-end md:justify-start"><p class="text-sm italic">December 20, 2024</p></div></div></a></div></div></main><footer class="bg-background2 border-t-4 border-foreground w-full flex flex-col"><div class="max-w-3xl w-full flex justify-between py-4 px-2 items-center mx-auto gap-2"><div class="flex "><p class="text-sm"><span>© <!-- -->2024</span> <a class="" href="http://localhost:3000/">onnisalomaa.dev</a> | <a class="font-bold hover:text-accent" href="http://localhost:3000/privacy">privacy<!-- -->?</a></p></div><div class="flex gap-4 md:gap-6"><a href="https://github.com/" class="hover:cursor-pointer" aria-label="GitHub"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github text-2xl md:text-3xl hover:text-accent text-foreground" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a><a href="https://linkedin.com/" class="hover:cursor-pointer" aria-label="LinkedIn"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin text-2xl md:text-3xl hover:text-accent text-foreground" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a><a href="mailto:hello@example.com" class="hover:cursor-pointer" aria-label="Email"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" class="svg-inline--fa fa-envelope text-2xl md:text-3xl hover:text-accent text-foreground" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg></a></div></div></footer><script src="./onnikoodaa!_files/node_modules_next_dist_compiled_react-dom_1f56dc._.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"3:\"$Sreact.fragment\"\n4:I[\"[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)\",[\"static/chunks/_a91c21._.js\",\"static/chunks/src_app_favicon_ico_mjs_ddfdf0._.js\"],\"default\"]\n5:I[\"[project]/node_modules/next/dist/client/components/render-from-template-context.js [app-client] (ecmascript)\",[\"static/chunks/_a91c21._.js\",\"static/chunks/src_app_favicon_ico_mjs_ddfdf0._.js\"],\"default\"]\n13:I[\"[project]/src/components/Experience.tsx [app-client] (ecmascript)\",[\"static/chunks/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_6d4e8d._.js\",\"static/chunks/node_modules_051fc9._.js\",\"static/chunks/src_f6137e._.js\",\"static/chunks/src_app_[locale]_layout_tsx_61af54._.js\",\"static/chunks/node_modules_next_15251b._.js\",\"static/chunks/src_6c72b7._.js\",\"static/chunks/src_app_[locale]_page_tsx_abc921._.js\"],\"default\"]\n18:I[\"[project]/node_modules/next/dist/lib/metadata/metadata-boundary.js [app-client] (ecmascript)\",[\"static/chunks/_a91c21._.js\",\"static/chunks/src_app_favicon_ico_mjs_ddfdf0._.js\"],\"OutletBoundary\"]\n1c:I[\"[project]/node_modules/next/dist/client/components/client-page.js [app-client] (ecmascript)\",[\"static/chunks/_a91c21._.js\",\"static/chunks/src_app_favicon_ico_mjs_ddfdf0._.js\"],\"ClientPageRoot\"]\n1d:I[\"[project]/node_modules/next/dist/client/components/client-segment.js [app-client] (ecmascript)\",[\"static/chunks/_a91c21._.js\",\"static/chunks/src_app_favicon_ico_mjs_ddfdf0._.js\"],\"ClientSegmentRoot\"]\n1e:I[\"[project]/node_modules/next/dist/client/components/error-boundary.js [app-client] (ecmascript)\",[\"static/chunks/_a91c21._.js\",\"static/chunks/src_app_favicon_ico_mjs_ddfdf0._.js\"],\"default\"]\n1f:I[\"[project]/node_modules/next/dist/client/components/http-access-fallback/error-boundary.js [app-client] (ecmascript)\",[\"static/chunks/_a91c21._.js\",\"static/chunks/src_app_favicon_ico_mjs_ddfdf0._.js\"],\"HTTPAccessFallbackBoundary\"]\n20:I[\"[project]/node_modules/next/dist/lib/metadata/metadata-boundary.js [app-client] (ecmascript)\",[\"static/chunks/_a91c21._.js\",\"static/chunks/src_app_"])</script><script>self.__next_f.push([1,"favicon_ico_mjs_ddfdf0._.js\"],\"MetadataBoundary\"]\n21:I[\"[project]/node_modules/next/dist/lib/metadata/metadata-boundary.js [app-client] (ecmascript)\",[\"static/chunks/_a91c21._.js\",\"static/chunks/src_app_favicon_ico_mjs_ddfdf0._.js\"],\"ViewportBoundary\"]\n22:\"$SkResourceStore\"\n:HL[\"/_next/static/chunks/src_app_globals_b80590.css\",\"style\"]\n2:{\"name\":\"Preloads\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"props\":{\"preloadCallbacks\":[\"$E(()=\u003e{ctx.componentMod.preloadStyle(fullHref,ctx.renderOpts.crossOrigin,ctx.nonce)})\"]}}\n1:D\"$2\"\n1:null\n7:{\"name\":\"NotFound\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"props\":{}}\n6:D\"$7\"\n8:{\"name\":\"HTTPAccessErrorFallback\",\"env\":\"Server\",\"key\":null,\"owner\":\"$7\",\"props\":{\"status\":404,\"message\":\"This page could not be found.\"}}\n6:D\"$8\"\n6:[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"},\"$8\"],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}},\"$8\"],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404},\"$8\"],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"},\"$8\"]},\"$8\"]]},\"$8\"]},\"$8\"]]\na:{\"name\":\"LocaleLayout\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"props\":{\"children\":[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"$0:f:0:1:2:"])</script><script>self.__next_f.push([1,"children:0\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$3\",null,{\"children\":[\"$\",\"$L5\",null,{},null]},null],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[\"$\",\"$3\",null,{\"children\":\"$Y\"},null],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"},null],\"params\":\"$Y\"}}\n9:D\"$a\"\nc:{\"name\":\"HomePage\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"props\":{\"params\":\"$@\",\"searchParams\":\"$@\"}}\nb:D\"$c\"\ne:{\"name\":\"Hero\",\"env\":\"Server\",\"key\":null,\"owner\":\"$c\",\"props\":{}}\nd:D\"$e\"\n10:{\"name\":\"About\",\"env\":\"Server\",\"key\":null,\"owner\":\"$c\",\"props\":{}}\nf:D\"$10\"\n12:{\"name\":\"TechStackGrid\",\"env\":\"Server\",\"key\":null,\"owner\":\"$c\",\"props\":{}}\n11:D\"$12\"\n15:{\"name\":\"Projects\",\"env\":\"Server\",\"key\":null,\"owner\":\"$c\",\"props\":{}}\n14:D\"$15\"\n17:{\"name\":\"Blog\",\"env\":\"Server\",\"key\":null,\"owner\":\"$c\",\"props\":{}}\n16:D\"$17\"\nb:[\"$\",\"div\",null,{\"className\":\"mt-8 flex flex-col gap-8\",\"children\":[\"$Ld\",\"$Lf\",\"$L11\",[\"$\",\"$L13\",null,{},\"$c\"],\"$L14\",\"$L16\"]},\"$c\"]\n1a:{\"name\":\"__next_outlet_boundary__\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"props\":{\"ready\":\"$E(async function getMetadataAndViewportReady() {\\n        await viewport();\\n        await metadata();\\n        return undefined;\\n    })\"}}\n19:D\"$1a\"\n"])</script><script>self.__next_f.push([1,"23:{\"name\":\"NonIndex\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"props\":{\"ctx\":{\"componentMod\":{\"ClientPageRoot\":\"$1c\",\"ClientSegmentRoot\":\"$1d\",\"GlobalError\":\"$1e\",\"HTTPAccessFallbackBoundary\":\"$1f\",\"LayoutRouter\":\"$4\",\"MetadataBoundary\":\"$20\",\"OutletBoundary\":\"$18\",\"Postpone\":\"$E(function Postpone({ reason, route }) {\\n    const prerenderStore = __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js__$5b$external$5d$__$28$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js$2c$__cjs$29$__[\\\"workUnitAsyncStorage\\\"].getStore();\\n    const dynamicTracking = prerenderStore \u0026\u0026 prerenderStore.type === 'prerender-ppr' ? prerenderStore.dynamicTracking : null;\\n    postponeWithTracking(route, reason, dynamicTracking);\\n})\",\"RenderFromTemplateContext\":\"$5\",\"ViewportBoundary\":\"$21\",\"__next_app__\":{\"require\":\"$E(function () { [native code] })\",\"loadChunk\":\"$E(function () { [native code] })\"},\"actionAsyncStorage\":{\"kResourceStore\":\"$22\",\"enabled\":true},\"collectSegmentData\":\"$E(async function collectSegmentData(fullPageDataBuffer, staleTime, clientModules, serverConsumerManifest) {\\n    // Traverse the router tree and generate a prefetch response for each segment.\\n    // A mutable map to collect the results as we traverse the route tree.\\n    const resultMap = new Map();\\n    // Before we start, warm up the module cache by decoding the page data once.\\n    // Then we can assume that any remaining async tasks that occur the next time\\n    // are due to hanging promises caused by dynamic data access. Note we only\\n    // have to do this once per page, not per individual segment.\\n    //\\n    try {\\n        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$server$2d$dom$2d$turbopack$2f$client$2e$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"createFromReadableStream\\\"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$stream$2d$utils$2f$node$2d$web$2d$streams$2d$helper$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"streamFromBuffer\\\"])(fullPageDataBuffer), {\\n            serverConsumerManifest\\n        });\\n        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$lib$2f$scheduler$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"waitAtLeastOneReactRenderTask\\\"])();\\n    } catch  {}\\n    // Create an abort controller that we'll use to stop the stream.\\n    const abortController = new AbortController();\\n    const onCompletedProcessingRouteTree = async ()=\u003e{\\n        // Since all we're doing is decoding and re-encoding a cached prerender, if\\n        // serializing the stream takes longer than a microtask, it must because of\\n        // hanging promises caused by dynamic data.\\n        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$lib$2f$scheduler$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"waitAtLeastOneReactRenderTask\\\"])();\\n        abortController.abort();\\n    };\\n    // Generate a stream for the route tree prefetch. While we're walking the\\n    // tree, we'll also spawn additional tasks to generate the segment prefetches.\\n    // The promises for these tasks are pushed to a mutable array that we will\\n    // await once the route tree is fully rendered.\\n    const segmentTasks = [];\\n    const { prelude: treeStream } = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$server$2d$dom$2d$turbopack$2d$static$2d$edge$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"prerender\\\"])(// we need to use a component so that when we decode the original stream\\n    // inside of it, the side effects are transferred to the new stream.\\n    // @ts-expect-error\\n    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"jsx\\\"])(PrefetchTreeData, {\\n        fullPageDataBuffer: fullPageDataBuffer,\\n        serverConsumerManifest: serverConsumerManifest,\\n        clientModules: clientModules,\\n        staleTime: staleTime,\\n        segmentTasks: segmentTasks,\\n        onCompletedProcessingRouteTree: onCompletedProcessingRouteTree\\n    }), clientModules, {\\n        signal: abortController.signal,\\n        onError () {\\n        // Ignore any errors. These would have already been reported when\\n        // we created the full page data.\\n        }\\n    });\\n    // Write the route tree to a special `/_tree` segment.\\n    const treeBuffer = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$stream$2d$utils$2f$node$2d$web$2d$streams$2d$helper$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"streamToBuffer\\\"])(treeStream);\\n    resultMap.set('/_tree', treeBuffer);\\n    // Now that we've finished rendering the route tree, all the segment tasks\\n    // should have been spawned. Await them in parallel and write the segment\\n    // prefetches to the result map.\\n    for (const [segmentPath, buffer] of (await Promise.all(segmentTasks))){\\n        resultMap.set(segmentPath, buffer);\\n    }\\n    return resultMap;\\n})\",\"createMetadataComponents\":\"$E(function createMetadataComponents({ tree, searchParams, metadataContext, getDynamicParamFromSegment, appUsingSizeAdjustment, errorType, createServerParamsForMetadata, workStore, MetadataBoundary, ViewportBoundary }) {\\n    function MetadataRoot() {\\n        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"jsxs\\\"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"Fragment\\\"], {\\n            children: [\\n                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"jsx\\\"])(MetadataBoundary, {\\n                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"jsx\\\"])(Metadata, {})\\n                }),\\n                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"jsx\\\"])(ViewportBoundary, {\\n                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"jsx\\\"])(Viewport, {})\\n                }),\\n                appUsingSizeAdjustment ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"jsx\\\"])(\\\"meta\\\", {\\n                    name: \\\"next-size-adjust\\\",\\n                    content: \\\"\\\"\\n                }) : null\\n            ]\\n        });\\n    }\\n    async function viewport() {\\n        return getResolvedViewport(tree, searchParams, getDynamicParamFromSegment, createServerParamsForMetadata, workStore, errorType);\\n    }\\n    async function Viewport() {\\n        try {\\n            return await viewport();\\n        } catch (error) {\\n            if (!errorType \u0026\u0026 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$client$2f$components$2f$http$2d$access$2d$fallback$2f$http$2d$access$2d$fallback$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"isHTTPAccessFallbackError\\\"])(error)) {\\n                try {\\n                    return await getNotFoundViewport(tree, searchParams, getDynamicParamFromSegment, createServerParamsForMetadata, workStore);\\n                } catch  {}\\n            }\\n            // We don't actually want to error in this component. We will\\n            // also error in the MetadataOutlet which causes the error to\\n            // bubble from the right position in the page to be caught by the\\n            // appropriate boundaries\\n            return null;\\n        }\\n    }\\n    Viewport.displayName = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$lib$2f$metadata$2f$metadata$2d$constants$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"VIEWPORT_BOUNDARY_NAME\\\"];\\n    async function metadata() {\\n        return getResolvedMetadata(tree, searchParams, getDynamicParamFromSegment, metadataContext, createServerParamsForMetadata, workStore, errorType);\\n    }\\n    async function Metadata() {\\n        try {\\n            return await metadata();\\n        } catch (error) {\\n            if (!errorType \u0026\u0026 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$client$2f$components$2f$http$2d$access$2d$fallback$2f$http$2d$access$2d$fallback$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"isHTTPAccessFallbackError\\\"])(error)) {\\n                try {\\n                    return await getNotFoundMetadata(tree, searchParams, getDynamicParamFromSegment, metadataContext, createServerParamsForMetadata, workStore);\\n                } catch  {}\\n            }\\n            // We don't actually want to error in this component. We will\\n            // also error in the MetadataOutlet which causes the error to\\n            // bubble from the right position in the page to be caught by the\\n            // appropriate boundaries\\n            return null;\\n        }\\n    }\\n    Metadata.displayName = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$lib$2f$metadata$2f$metadata$2d$constants$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"METADATA_BOUNDARY_NAME\\\"];\\n    async function getMetadataAndViewportReady() {\\n        await viewport();\\n        await metadata();\\n        return undefined;\\n    }\\n    return [\\n        MetadataRoot,\\n        getMetadataAndViewportReady\\n    ];\\n})\",\"createPrerenderParamsForClientSegment\":\"$E(function createPrerenderParamsForClientSegment(underlyingParams, workStore) {\\n    const prerenderStore = __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js__$5b$external$5d$__$28$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js$2c$__cjs$29$__[\\\"workUnitAsyncStorage\\\"].getStore();\\n    if (prerenderStore \u0026\u0026 prerenderStore.type === 'prerender') {\\n        const fallbackParams = workStore.fallbackRouteParams;\\n        if (fallbackParams) {\\n            for(let key in underlyingParams){\\n                if (fallbackParams.has(key)) {\\n                    // This params object has one of more fallback params so we need to consider\\n                    // the awaiting of this params object \\\"dynamic\\\". Since we are in dynamicIO mode\\n                    // we encode this as a promise that never resolves\\n                    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$dynamic$2d$rendering$2d$utils$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"makeHangingPromise\\\"])(prerenderStore.renderSignal, '`params`');\\n                }\\n            }\\n        }\\n    }\\n    // We're prerendering in a mode that does not abort. We resolve the promise without\\n    // any tracking because we're just transporting a value from server to client where the tracking\\n    // will be applied.\\n    return Promise.resolve(underlyingParams);\\n})\",\"createPrerenderSearchParamsForClientPage\":\"$E(function createPrerenderSearchParamsForClientPage(workStore) {\\n    if (workStore.forceStatic) {\\n        // When using forceStatic we override all other logic and always just return an empty\\n        // dictionary object.\\n        return Promise.resolve({});\\n    }\\n    const prerenderStore = __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js__$5b$external$5d$__$28$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js$2c$__cjs$29$__[\\\"workUnitAsyncStorage\\\"].getStore();\\n    if (prerenderStore \u0026\u0026 prerenderStore.type === 'prerender') {\\n        // dynamicIO Prerender\\n        // We're prerendering in a mode that aborts (dynamicIO) and should stall\\n        // the promise to ensure the RSC side is considered dynamic\\n        return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$dynamic$2d$rendering$2d$utils$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"makeHangingPromise\\\"])(prerenderStore.renderSignal, '`searchParams`');\\n    }\\n    // We're prerendering in a mode that does not aborts. We resolve the promise without\\n    // any tracking because we're just transporting a value from server to client where the tracking\\n    // will be applied.\\n    return Promise.resolve({});\\n})\",\"createServerParamsForMetadata\":\"$E(function createServerParamsForServerSegment(underlyingParams, workStore) {\\n    const workUnitStore = __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js__$5b$external$5d$__$28$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js$2c$__cjs$29$__[\\\"workUnitAsyncStorage\\\"].getStore();\\n    if (workUnitStore) {\\n        switch(workUnitStore.type){\\n            case 'prerender':\\n            case 'prerender-ppr':\\n            case 'prerender-legacy':\\n                return createPrerenderParams(underlyingParams, workStore, workUnitStore);\\n            default:\\n        }\\n    }\\n    return createRenderParams(underlyingParams, workStore);\\n})\",\"createServerParamsForServerSegment\":\"$E(function createServerParamsForServerSegment(underlyingParams, workStore) {\\n    const workUnitStore = __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js__$5b$external$5d$__$28$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js$2c$__cjs$29$__[\\\"workUnitAsyncStorage\\\"].getStore();\\n    if (workUnitStore) {\\n        switch(workUnitStore.type){\\n            case 'prerender':\\n            case 'prerender-ppr':\\n            case 'prerender-legacy':\\n                return createPrerenderParams(underlyingParams, workStore, workUnitStore);\\n            default:\\n        }\\n    }\\n    return createRenderParams(underlyingParams, workStore);\\n})\",\"createServerSearchParamsForMetadata\":\"$E(function createServerSearchParamsForServerPage(underlyingSearchParams, workStore) {\\n    const workUnitStore = __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js__$5b$external$5d$__$28$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js$2c$__cjs$29$__[\\\"workUnitAsyncStorage\\\"].getStore();\\n    if (workUnitStore) {\\n        switch(workUnitStore.type){\\n            case 'prerender':\\n            case 'prerender-ppr':\\n            case 'prerender-legacy':\\n                return createPrerenderSearchParams(workStore, workUnitStore);\\n            default:\\n        }\\n    }\\n    return createRenderSearchParams(underlyingSearchParams, workStore);\\n})\",\"createServerSearchParamsForServerPage\":\"$E(function createServerSearchParamsForServerPage(underlyingSearchParams, workStore) {\\n    const workUnitStore = __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js__$5b$external$5d$__$28$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js$2c$__cjs$29$__[\\\"workUnitAsyncStorage\\\"].getStore();\\n    if (workUnitStore) {\\n        switch(workUnitStore.type){\\n            case 'prerender':\\n            case 'prerender-ppr':\\n            case 'prerender-legacy':\\n                return createPrerenderSearchParams(workStore, workUnitStore);\\n            default:\\n        }\\n    }\\n    return createRenderSearchParams(underlyingSearchParams, workStore);\\n})\",\"createTemporaryReferenceSet\":\"$E(function(){return new WeakMap})\",\"decodeAction\":\"$E(function(body,serverManifest){var formData=new FormData,action=null;return body.forEach(function(value1,key){key.startsWith(\\\"$ACTION_\\\")?key.startsWith(\\\"$ACTION_REF_\\\")?(value1=decodeBoundActionMetaData(body,serverManifest,value1=\\\"$ACTION_\\\"+key.slice(12)+\\\":\\\"),action=loadServerReference(serverManifest,value1.id,value1.bound)):key.startsWith(\\\"$ACTION_ID_\\\")\u0026\u0026(action=loadServerReference(serverManifest,value1=key.slice(11),null)):formData.append(key,value1)}),null===action?null:action.then(function(fn){return fn.bind(null,formData)})})\",\"decodeFormState\":\"$E(function(actionResult,body,serverManifest){var keyPath=body.get(\\\"$ACTION_KEY\\\");if(\\\"string\\\"!=typeof keyPath)return Promise.resolve(null);var metaData=null;if(body.forEach(function(value1,key){key.startsWith(\\\"$ACTION_REF_\\\")\u0026\u0026(metaData=decodeBoundActionMetaData(body,serverManifest,\\\"$ACTION_\\\"+key.slice(12)+\\\":\\\"))}),null===metaData)return Promise.resolve(null);var referenceId=metaData.id;return Promise.resolve(metaData.bound).then(function(bound){return null===bound?null:[actionResult,keyPath,referenceId,bound.length-1]})})\",\"decodeReply\":\"$E(function(body,turbopackMap,options){if(\\\"string\\\"==typeof body){var form=new FormData;form.append(\\\"0\\\",body),body=form}return turbopackMap=getChunk(body=createResponse(turbopackMap,\\\"\\\",options?options.temporaryReferences:void 0,body),0),close(body),turbopackMap})\",\"pages\":[\"[project]/src/app/[locale]/page.tsx\"],\"patchFetch\":\"$E(function patchFetch() {\\n    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$esm$2f$server$2f$lib$2f$patch$2d$fetch$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"patchFetch\\\"])({\\n        workAsyncStorage: __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$async$2d$storage$2e$external$2e$js__$5b$external$5d$__$28$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$async$2d$storage$2e$external$2e$js$2c$__cjs$29$__[\\\"workAsyncStorage\\\"],\\n        workUnitAsyncStorage: __TURBOPACK__imported__module__$5b$externals$5d2f$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js__$5b$external$5d$__$28$next$2f$dist$2f$server$2f$app$2d$render$2f$work$2d$unit$2d$async$2d$storage$2e$external$2e$js$2c$__cjs$29$__[\\\"workUnitAsyncStorage\\\"]\\n    });\\n})\",\"preconnect\":\"$E(function preconnect(href, crossOrigin, nonce) {\\n    const opts = {};\\n    if (typeof crossOrigin === 'string') {\\n        opts.crossOrigin = crossOrigin;\\n    }\\n    if (typeof nonce === 'string') {\\n        opts.nonce = nonce;\\n    }\\n    ;\\n    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$dom$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"default\\\"].preconnect(href, opts);\\n})\",\"preloadFont\":\"$E(function preloadFont(href, type, crossOrigin, nonce) {\\n    const opts = {\\n        as: 'font',\\n        type\\n    };\\n    if (typeof crossOrigin === 'string') {\\n        opts.crossOrigin = crossOrigin;\\n    }\\n    if (typeof nonce === 'string') {\\n        opts.nonce = nonce;\\n    }\\n    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$dom$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"default\\\"].preload(href, opts);\\n})\",\"preloadStyle\":\"$E(function preloadStyle(href, crossOrigin, nonce) {\\n    const opts = {\\n        as: 'style'\\n    };\\n    if (typeof crossOrigin === 'string') {\\n        opts.crossOrigin = crossOrigin;\\n    }\\n    if (typeof nonce === 'string') {\\n        opts.nonce = nonce;\\n    }\\n    __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$dom$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__[\\\"default\\\"].preload(href, opts);\\n})\",\"prerender\":\"$undefined\",\"renderToReadableStream\":\"$E(function(model,turbopackMap,options){var request=new RequestInstance(20,model,turbopackMap,options?options.onError:void 0,options?options.identifierPrefix:void 0,options?options.onPostpone:void 0,options?options.temporaryReferences:void 0,options?options.environmentName:void 0,options?options.filterStackFrame:void 0,noop,noop);if(options\u0026\u0026options.signal){var signal=options.signal;if(signal.aborted)abort(request,signal.reason);else{var listener=function(){abort(request,signal.reason),signal.removeEventListener(\\\"abort\\\",listener)};signal.addEventListener(\\\"abort\\\",listener)}}return new ReadableStream({type:\\\"bytes\\\",start:function(){request.flushScheduled=null!==request.destination,supportsRequestStorage?scheduleMicrotask(function(){requestStorage.run(request,performWork,request)}):scheduleMicrotask(function(){return performWork(request)}),setTimeoutOrImmediate(function(){request.status===OPENING\u0026\u0026(request.status=11)},0)},pull:function(controller){if(request.status===CLOSING)request.status=CLOSED,closeWithError(controller,request.fatalError);else if(request.status!==CLOSED\u0026\u0026null===request.destination){request.destination=controller;try{flushCompletedChunks(request,controller)}catch(error){logRecoverableError(request,error,null),fatalError(request,error)}}},cancel:function(reason){request.destination=null,abort(request,reason)}},{highWaterMark:0})})\",\"routeModule\":{\"userland\":{\"loaderTree\":[\"\",\"$Y\",\"$Y\"]},\"definition\":\"$Y\"},\"serverHooks\":\"$Y\",\"taintObjectReference\":\"$E(function notImplemented() {\\n    throw new Error('Taint can only be used with the taint flag.');\\n})\",\"tree\":\"$Y\",\"workAsyncStorage\":\"$Y\",\"workUnitAsyncStorage\":\"$Y\"},\"url\":\"$Y\",\"renderOpts\":\"$Y\",\"workStore\":\"$Y\",\"parsedRequestHeaders\":\"$Y\",\"getDynamicParamFromSegment\":\"$E(function(segment){let segmentParam=getSegmentParam(segment);if(!segmentParam)return null;let key=segmentParam.param,value1=params[key];if(fallbackRouteParams\u0026\u0026fallbackRouteParams.has(segmentParam.param)?value1=fallbackRouteParams.get(segmentParam.param):Array.isArray(value1)?value1=value1.map(i=\u003eencodeURIComponent(i)):\\\"string\\\"==typeof value1\u0026\u0026(value1=encodeURIComponent(value1)),!value1){let isCatchall=\\\"catchall\\\"===segmentParam.type,isOptionalCatchall=\\\"optional-catchall\\\"===segmentParam.type;if(isCatchall||isOptionalCatchall){let dynamicParamType=dynamicParamTypes[segmentParam.type];return isOptionalCatchall?{param:key,value:null,type:dynamicParamType,treeSegment:[key,\\\"\\\",dynamicParamType]}:{param:key,value:value1=pagePath.split(\\\"/\\\").slice(1).flatMap(pathSegment=\u003e{let param=function(param){let match=param.match(PARAMETER_PATTERN);return match?parseMatchedParameter(match[1]):parseMatchedParameter(param)}(pathSegment);return params[param.key]??param.key}),type:dynamicParamType,treeSegment:[key,value1.join(\\\"/\\\"),dynamicParamType]}}}let type=function(type){let short=dynamicParamTypes[type];if(!short)throw Error(\\\"Unknown dynamic param type\\\");return short}(segmentParam.type);return{param:key,value:value1,treeSegment:[key,Array.isArray(value1)?value1.join(\\\"/\\\"):value1,type],type:type}})\",\"query\":\"$Y\",\"isPrefetch\":false,\"isAction\":false,\"requestTimestamp\":1734998094472,\"appUsingSizeAdjustment\":false,\"flightRouterState\":\"$undefined\",\"requestId\":\"4xqzQ9shgWynIi8IWvlZX\",\"pagePath\":\"/[locale]\",\"clientReferenceManifest\":\"$Y\",\"assetPrefix\":\"\",\"isNotFoundPath\":false,\"nonce\":\"$undefined\",\"res\":\"$Y\"}}}\n"])</script><script>self.__next_f.push([1,"1b:D\"$23\"\n1b:null\n25:{\"name\":\"MetadataRoot\",\"env\":\"Server\",\"key\":\"4xqzQ9shgWynIi8IWvlZX\",\"owner\":null,\"props\":{}}\n24:D\"$25\"\n27:{\"name\":\"__next_metadata_boundary__\",\"env\":\"Server\",\"key\":null,\"owner\":\"$25\",\"props\":{}}\n26:D\"$27\"\n29:{\"name\":\"__next_viewport_boundary__\",\"env\":\"Server\",\"key\":null,\"owner\":\"$25\",\"props\":{}}\n28:D\"$29\"\n24:[\"$\",\"$3\",\"4xqzQ9shgWynIi8IWvlZX\",{\"children\":[[\"$\",\"$L20\",null,{\"children\":\"$L26\"},\"$25\"],[\"$\",\"$L21\",null,{\"children\":\"$L28\"},\"$25\"],null]},null]\n2a:[]\n0:{\"P\":\"$1\",\"b\":\"development\",\"p\":\"\",\"c\":[\"\",\"en\"],\"i\":false,\"f\":[[[\"\",{\"children\":[[\"locale\",\"en\",\"d\"],{\"children\":[\"__PAGE__\",{}]},\"$undefined\",\"$undefined\",true]}],[\"\",[\"$\",\"$3\",\"c\",{\"children\":[null,[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{},null],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],\"$6\"],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"},null]]},null],{\"children\":[[\"locale\",\"en\",\"d\"],[\"$\",\"$3\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/src_app_globals_b80590.css\",\"precedence\":\"next_static/chunks/src_app_globals_b80590.css\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"},null],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/node_modules_%40fortawesome_free-solid-svg-icons_index_mjs_6d4e8d._.js\",\"async\":true,\"nonce\":\"$undefined\"},null],[\"$\",\"script\",\"script-1\",{\"src\":\"/_next/static/chunks/node_modules_051fc9._.js\",\"async\":true,\"nonce\":\"$undefined\"},null],[\"$\",\"script\",\"script-2\",{\"src\":\"/_next/static/chunks/src_f6137e._.js\",\"async\":true,\"nonce\":\"$undefined\"},null],[\"$\",\"script\",\"script-3\",{\"src\":\"/_next/static/chunks/src_app_%5Blocale%5D_layout_tsx_61af54._.js\",\"async\":true,\"nonce\":\"$undefined\"},null]],\"$L9\"]},null],{\"children\":[\"__PAGE__\",[\"$\",\"$3\",\"c\",{\"children\":[\"$b\",[[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/node_modules_next_15251b._.js\",\"async\":true,\"nonce\":\"$undefined\"},null],[\"$\",\"script\",\""])</script><script>self.__next_f.push([1,"script-1\",{\"src\":\"/_next/static/chunks/src_6c72b7._.js\",\"async\":true,\"nonce\":\"$undefined\"},null],[\"$\",\"script\",\"script-2\",{\"src\":\"/_next/static/chunks/src_app_%5Blocale%5D_page_tsx_abc921._.js\",\"async\":true,\"nonce\":\"$undefined\"},null]],[\"$\",\"$L18\",null,{\"children\":\"$L19\"},null]]},null],{},null,false]},null,false]},null,false],[\"$\",\"$3\",\"h\",{\"children\":[\"$1b\",\"$24\"]},null],false]],\"m\":\"$W2a\",\"G\":[\"$1e\",\"$undefined\"],\"s\":false,\"S\":false}\n28:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"},\"$1a\"]]\n26:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"},\"$27\"],[\"$\",\"title\",\"1\",{\"children\":\"onnikoodaa!\"},\"$27\"],[\"$\",\"meta\",\"2\",{\"name\":\"description\",\"content\":\"A website by me\"},\"$27\"],[\"$\",\"link\",\"3\",{\"rel\":\"icon\",\"href\":\"/favicon.ico?favicon.74cb8db6.ico\",\"sizes\":\"240x240\",\"type\":\"image/x-icon\"},\"$27\"]]\n19:null\n"])</script><script>self.__next_f.push([1,"2c:I[\"[project]/node_modules/next/dist/client/image-component.js [app-client] (ecmascript)\",[\"static/chunks/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_6d4e8d._.js\",\"static/chunks/node_modules_051fc9._.js\",\"static/chunks/src_f6137e._.js\",\"static/chunks/src_app_[locale]_layout_tsx_61af54._.js\",\"static/chunks/node_modules_next_15251b._.js\",\"static/chunks/src_6c72b7._.js\",\"static/chunks/src_app_[locale]_page_tsx_abc921._.js\"],\"Image\"]\n3f:I[\"[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)\",[\"static/chunks/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_6d4e8d._.js\",\"static/chunks/node_modules_051fc9._.js\",\"static/chunks/src_f6137e._.js\",\"static/chunks/src_app_[locale]_layout_tsx_61af54._.js\",\"static/chunks/node_modules_next_15251b._.js\",\"static/chunks/src_6c72b7._.js\",\"static/chunks/src_app_[locale]_page_tsx_abc921._.js\"],\"default\"]\n45:I[\"[project]/src/components/ProjectCard.tsx [app-client] (ecmascript)\",[\"static/chunks/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_6d4e8d._.js\",\"static/chunks/node_modules_051fc9._.js\",\"static/chunks/src_f6137e._.js\",\"static/chunks/src_app_[locale]_layout_tsx_61af54._.js\",\"static/chunks/node_modules_next_15251b._.js\",\"static/chunks/src_6c72b7._.js\",\"static/chunks/src_app_[locale]_page_tsx_abc921._.js\"],\"default\"]\n2d:{\"name\":\"Container\",\"env\":\"Server\",\"key\":null,\"owner\":\"$e\",\"props\":{\"className\":\"flex flex-col items-center\",\"children\":[[\"$\",\"$L2c\",null,{\"src\":\"/mrBean.png\",\"alt\":\"Onni Salomaa\",\"width\":400,\"height\":400,\"className\":\"rounded-full border-8 border-foreground\"},\"$e\"],[\"$\",\"div\",null,{\"className\":\"mt-10\",\"children\":[\"$\",\"p\",null,{\"className\":\"text-center text-3xl md:text-4xl font-bold\",\"children\":[\"Hey, I’m \",\"$Y\",\" Here you can check out what I’m working on. I try and learn to become better on what I do.\"]},\"$e\"]},\"$e\"]]}}\n2b:D\"$2d\"\n2b:[\"$\",\"div\",null,{\"className\":\"max-w-3xl mx-auto px-8 md:px-0 flex flex-col items-center\",\"children\":[[\"$\",\"$L2c\",null,{\"src\":\"/mrBean.png\",\"alt\":\"Onni Salomaa\",\"width\":400"])</script><script>self.__next_f.push([1,",\"height\":400,\"className\":\"rounded-full border-8 border-foreground\"},\"$e\"],[\"$\",\"div\",null,{\"className\":\"mt-10\",\"children\":[\"$\",\"p\",null,{\"className\":\"text-center text-3xl md:text-4xl font-bold\",\"children\":[\"Hey, I’m \",[\"$\",\"b\",null,{\"className\":\"text-accent\",\"children\":\"Onni Salomaa.\"},\"$e\"],\" Here you can check out what I’m working on. I try and learn to become better on what I do.\"]},\"$e\"]},\"$e\"]]},\"$2d\"]\nd:[\"$\",\"div\",null,{\"className\":\"mt-12 md:mt-24\",\"children\":\"$2b\"},\"$e\"]\n2f:{\"name\":\"Container\",\"env\":\"Server\",\"key\":null,\"owner\":\"$10\",\"props\":{\"className\":\"flex items-stretch justify-between gap-2 my-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"w-1/2 flex items-center justify-center\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/mrBean.png\",\"alt\":\"Onni Salomaa\",\"width\":400,\"height\":400,\"className\":\"rounded-md\"},\"$10\"]},\"$10\"],[\"$\",\"div\",null,{\"className\":\"w-1/2 flex flex-col justify-between text-background2\",\"children\":[\"$Y\",\"$Y\",\"$Y\"]},\"$10\"]]}}\n2e:D\"$2f\"\n31:{\"name\":\"Socials\",\"env\":\"Server\",\"key\":null,\"owner\":\"$10\",\"props\":{\"textColor\":\"text-background2\",\"textSize\":\"text-3xl md:text-4xl\"}}\n30:D\"$31\"\n33:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM"])</script><script>self.__next_f.push([1,"97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z34:{\"name\":\"FontAwesomeIcon\",\"env\":\"Server\",\"key\":null,\"owner\":\"$31\",\"props\":{\"icon\":{\"prefix\":\"fab\",\"iconName\":\"github\",\"icon\":[496,512,[],\"f09b\",\"$33\"]},\"className\":\"text-3xl md:text-4xl hover:text-accent text-background2\"}}\n32:D\"$34\"\n35:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z32:[\"$\",\"svg\",null,{\"aria-hidden\":\"true\",\"focusable\":\"false\",\"data-prefix\":\"fab\",\"data-icon\":\"github\",\"className\":\"s"])</script><script>self.__next_f.push([1,"vg-inline--fa fa-github text-3xl md:text-4xl hover:text-accent text-background2\",\"role\":\"img\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBox\":\"0 0 496 512\",\"style\":{},\"ref\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"fill\":\"currentColor\",\"d\":\"$35\",\"style\":{}},\"$34\"]},\"$34\"]\n37:{\"name\":\"FontAwesomeIcon\",\"env\":\"Server\",\"key\":null,\"owner\":\"$31\",\"props\":{\"icon\":{\"prefix\":\"fab\",\"iconName\":\"linkedin\",\"icon\":[448,512,[],\"f08c\",\"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z\"]},\"className\":\"text-3xl md:text-4xl hover:text-accent text-background2\"}}\n36:D\"$37\"\n36:[\"$\",\"svg\",null,{\"aria-hidden\":\"true\",\"focusable\":\"false\",\"data-prefix\":\"fab\",\"data-icon\":\"linkedin\",\"className\":\"svg-inline--fa fa-linkedin text-3xl md:text-4xl hover:text-accent text-background2\",\"role\":\"img\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBox\":\"0 0 448 512\",\"style\":{},\"ref\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"fill\":\"currentColor\",\"d\":\"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z\",\"style\":{}},\"$37\"]},\"$37\"]\n39:{\"name\":\"FontAwesomeIcon\",\"env\":\"Server\",\"key\":null,\"owner\":\"$31\",\"props\":{\"icon\":{\"prefix\":\"fas\",\"iconName\":\"envelope\",\"icon\":[512,512,[128386,9993,61443],\"f0e0\",\"M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26"])</script><script>self.__next_f.push([1,".5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z\"]},\"className\":\"text-3xl md:text-4xl hover:text-accent text-background2\"}}\n38:D\"$39\"\n38:[\"$\",\"svg\",null,{\"aria-hidden\":\"true\",\"focusable\":\"false\",\"data-prefix\":\"fas\",\"data-icon\":\"envelope\",\"className\":\"svg-inline--fa fa-envelope text-3xl md:text-4xl hover:text-accent text-background2\",\"role\":\"img\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBox\":\"0 0 512 512\",\"style\":{},\"ref\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"fill\":\"currentColor\",\"d\":\"M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z\",\"style\":{}},\"$39\"]},\"$39\"]\n30:[\"$\",\"div\",null,{\"className\":\"flex gap-4 md:gap-6\",\"children\":[[\"$\",\"a\",null,{\"href\":\"https://github.com\",\"className\":\"hover:cursor-pointer\",\"aria-label\":\"GitHub\",\"children\":\"$32\"},\"$31\"],[\"$\",\"a\",null,{\"href\":\"https://linkedin.com\",\"className\":\"hover:cursor-pointer\",\"aria-label\":\"LinkedIn\",\"children\":\"$36\"},\"$31\"],[\"$\",\"a\",null,{\"href\":\"mailto:hello@example.com\",\"className\":\"hover:cursor-pointer\",\"aria-label\":\"Email\",\"children\":\"$38\"},\"$31\"]]},\"$31\"]\n3b:{\"name\":\"FontAwesomeIcon\",\"env\":\"Server\",\"key\":null,\"owner\":\"$10\",\"props\":{\"icon\":{\"prefix\":\"fas\",\"iconName\":\"file-arrow-down\",\"icon\":[384,512,[\"file-download\"],\"f56d\",\"M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM216 232l0 102.1 31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0l-72-72c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l31 31L168 232c0-13.3 10.7-24 24-24s24 10.7 24 24z\"]},\"className\":\"text-3xl\"}}\n3a:D\"$3b\"\n3a:[\"$\",\"svg\",null,{\"aria-hidden\":\"true\",\"focusable\":\"false\",\"data-prefix\":\"fas\",\"data-icon\":\"file-arrow-down\",\"className\":\"svg-inline--fa fa-file-arrow-down t"])</script><script>self.__next_f.push([1,"ext-3xl\",\"role\":\"img\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBox\":\"0 0 384 512\",\"style\":{},\"ref\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"fill\":\"currentColor\",\"d\":\"M64 0C28.7 0 0 28.7 0 64L0 448c0 35.3 28.7 64 64 64l256 0c35.3 0 64-28.7 64-64l0-288-128 0c-17.7 0-32-14.3-32-32L224 0 64 0zM256 0l0 128 128 0L256 0zM216 232l0 102.1 31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0l-72-72c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l31 31L168 232c0-13.3 10.7-24 24-24s24 10.7 24 24z\",\"style\":{}},\"$3b\"]},\"$3b\"]\n2e:[\"$\",\"div\",null,{\"className\":\"max-w-3xl mx-auto px-8 md:px-0 flex items-stretch justify-between gap-2 my-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"w-1/2 flex items-center justify-center\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/mrBean.png\",\"alt\":\"Onni Salomaa\",\"width\":400,\"height\":400,\"className\":\"rounded-md\"},\"$10\"]},\"$10\"],[\"$\",\"div\",null,{\"className\":\"w-1/2 flex flex-col justify-between text-background2\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-5xl font-bold\",\"children\":\"About me\"},\"$10\"],[\"$\",\"p\",null,{\"className\":\"text-2xl\",\"children\":[21,\"-year-old software engineering major student. I learn, design and implement websites and applications.\"]},\"$10\"]]},\"$10\"],\"$30\",[\"$\",\"button\",null,{\"className\":\"w-full border-4 rounded-md p-4 flex gap-2 items-center justify-center text-3xl font-bold\",\"children\":[\"Resume\",\"$3a\"]},\"$10\"]]},\"$10\"]]},\"$2f\"]\nf:[\"$\",\"div\",null,{\"className\":\"mt-10 md:mt-20 bg-foreground\",\"children\":\"$2e\"},\"$10\"]\n3d:{\"name\":\"Container\",\"env\":\"Server\",\"key\":null,\"owner\":\"$12\",\"props\":{\"className\":\"flex flex-col justify-between gap-4\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-5xl font-bold text-center\",\"children\":\"Tech stack\"},\"$12\"],[\"$\",\"div\",null,{\"className\":\"grid grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] gap-6\",\"children\":[[\"$\",\"div\",\"javascript\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":\"$Y\"},\"$12\"],\"$Y\",\"$Y\",\"$Y\",\"$Y\",\"$Y\",\"$Y\",\"$Y\",\"$Y\",\"$Y\",\"$Y\",\"$Y\"]},\"$12\"]]}}\n3c:D\"$3d\"\n"])</script><script>self.__next_f.push([1,"3c:[\"$\",\"div\",null,{\"className\":\"max-w-3xl mx-auto px-8 md:px-0 flex flex-col justify-between gap-4\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-5xl font-bold text-center\",\"children\":\"Tech stack\"},\"$12\"],[\"$\",\"div\",null,{\"className\":\"grid grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] gap-6\",\"children\":[[\"$\",\"div\",\"javascript\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"],[\"$\",\"div\",\"typescript\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"],[\"$\",\"div\",\"shitscript\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"],[\"$\",\"div\",\"idkscript\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"],[\"$\",\"div\",\"goofy\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"],[\"$\",\"div\",\"bomboclat\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"],[\"$\",\"div\",\"react\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"],[\"$\",\"div\",\"vue\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"],[\"$\",\"div\",\"angular\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"],[\"$\",\"div\",\"svelte\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"],[\"$\",\"div\",\"node\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"],[\"$\",\"div\",\"express\",{\"className\":\"p-4 bg-background2 rounded-md shadow-md aspect-square\",\"children\":[\"$\",\"$L2c\",null,{\"src\":\"/javascript.png\",\"alt\":\"JavaScript icon\",\"className\":\"w-full object-contain rounded-md\",\"width\":32,\"height\":32},\"$12\"]},\"$12\"]]},\"$12\"]]},\"$3d\"]\n"])</script><script>self.__next_f.push([1,"11:[\"$\",\"div\",null,{\"className\":\"mt-10 md:mt-20 mb-20\",\"children\":\"$3c\"},\"$12\"]\n40:{\"name\":\"Container\",\"env\":\"Server\",\"key\":null,\"owner\":\"$15\",\"props\":{\"className\":\"flex flex-col justify-between gap-2 my-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-baseline justify-between\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-5xl font-bold\",\"children\":\"Projects\"},\"$15\"],[\"$\",\"$L3f\",null,{\"href\":\"/projects\",\"className\":\"flex items-center justify-center gap-2 hover:text-accent\",\"children\":\"$Y\"},\"$15\"]]},\"$15\"],\"$Y\"]}}\n3e:D\"$40\"\n42:{\"name\":\"FontAwesomeIcon\",\"env\":\"Server\",\"key\":null,\"owner\":\"$15\",\"props\":{\"icon\":{\"prefix\":\"fas\",\"iconName\":\"arrow-right\",\"icon\":[448,512,[8594],\"f061\",\"M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z\"]},\"className\":\"text-2xl\"}}\n41:D\"$42\"\n41:[\"$\",\"svg\",null,{\"aria-hidden\":\"true\",\"focusable\":\"false\",\"data-prefix\":\"fas\",\"data-icon\":\"arrow-right\",\"className\":\"svg-inline--fa fa-arrow-right text-2xl\",\"role\":\"img\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBox\":\"0 0 448 512\",\"style\":{},\"ref\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"fill\":\"currentColor\",\"d\":\"M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z\",\"style\":{}},\"$42\"]},\"$42\"]\n44:{\"name\":\"ProjectGrid\",\"env\":\"Server\",\"key\":null,\"owner\":\"$15\",\"props\":{\"LIMIT_PROJECTS\":2}}\n43:D\"$44\"\n43:[\"$\",\"div\",null,{\"className\":\"grid grid-cols-1 md:grid-cols-2 gap-6\",\"children\":[[\"$\",\"$L45\",\"0\",{\"name\":\"portfolio\",\"description\":\"My personal portfolio\",\"image\":\"/mrBean.png\",\"techStack\":[{\"name\":\"react\",\"color\":\"#61DAFB\"},{\"name\":\"typescript\",\"color\":\"#3178C6\"},{\"name\":\"scss\",\"color\":\"#CD6799\"}],\"links\":[{\"name\":\"GitHub\",\"href\":\"https://github.com\",\"icon\":\"github\"}]},\"$44\"],[\"$\",\"$L45\",\"1\",{\"name\":\"portfolio\","])</script><script>self.__next_f.push([1,"\"description\":\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur\",\"image\":\"/mrBean.png\",\"techStack\":[{\"name\":\"react\",\"color\":\"#61DAFB\"},{\"name\":\"typescript\",\"color\":\"#3178C6\"},{\"name\":\"scss\",\"color\":\"#CD6799\"}],\"links\":[{\"name\":\"GitHub\",\"href\":\"https://github.com\",\"icon\":\"github\"},{\"name\":\"Live\",\"href\":\"https://youtube.com\",\"icon\":\"Globe\"}]},\"$44\"]]},\"$44\"]\n3e:[\"$\",\"div\",null,{\"className\":\"max-w-3xl mx-auto px-8 md:px-0 flex flex-col justify-between gap-2 my-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-baseline justify-between\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-5xl font-bold\",\"children\":\"Projects\"},\"$15\"],[\"$\",\"$L3f\",null,{\"href\":\"/projects\",\"className\":\"flex items-center justify-center gap-2 hover:text-accent\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-2xl\",\"children\":\"View more\"},\"$15\"],\"$41\"]},\"$15\"]]},\"$15\"],\"$43\"]},\"$40\"]\n14:[\"$\",\"div\",null,{\"className\":\"mt-10 md:mt-20\",\"children\":\"$3e\"},\"$15\"]\n47:{\"name\":\"Container\",\"env\":\"Server\",\"key\":null,\"owner\":\"$17\",\"props\":{\"className\":\"flex flex-col justify-between gap-2 my-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-baseline justify-between\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-5xl font-bold\",\"children\":\"Blog\"},\"$17\"],[\"$\",\"$L3f\",null,{\"href\":\"/projects\",\"className\":\"flex items-center justify-center gap-2 hover:text-accent\",\"children\":\"$Y\"},\"$17\"]]},\"$17\"],\"$Y\"]}}\n46:D\"$47\"\n49:{\"name\":\"FontAwesomeIcon\",\"env\":\"Server\",\"key\":null,\"owner\":\"$17\",\"props\":{\"icon\":{\"prefix\":\"fas\",\"iconName\":\"arrow-right\",\"icon\":[448,512,[8594],\"f061\",\"M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z\"]},\"className\":\"text-2xl\"}}\n48:D\"$49\"\n48:[\"$\",\"svg\",null,{\"aria-hidden\":\"true\",\"focusable\":\"false\",\"data-prefix\":\"fas\",\"data-icon\":\"arrow-right\",\"className\":\"svg-inline--fa fa-arrow-right text-2xl\",\"role\":\"img\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBo"])</script><script>self.__next_f.push([1,"x\":\"0 0 448 512\",\"style\":{},\"ref\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"fill\":\"currentColor\",\"d\":\"M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z\",\"style\":{}},\"$49\"]},\"$49\"]\n4b:{\"name\":\"BlogGrid\",\"env\":\"Server\",\"key\":null,\"owner\":\"$17\",\"props\":{\"limit\":2}}\n4a:D\"$4b\"\n4d:{\"name\":\"BlogCard\",\"env\":\"Server\",\"key\":null,\"owner\":\"$4b\",\"props\":{\"slug\":\"test-post\",\"title\":\"Test post\",\"date\":\"December 20, 2024\",\"excerpt\":\"Test post for my blog\"}}\n4c:D\"$4d\"\n4c:[\"$\",\"$L3f\",null,{\"href\":\"/blog/test-post\",\"className\":\"\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col hover:text-3xl md:flex-row md:justify-between md:items-center py-4 gap-4 \",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex flex-col items-start mb-4\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-base md:text-lg\",\"children\":\"Test post\"},\"$4d\"],[\"$\",\"p\",null,{\"className\":\"text-sm\",\"children\":\"Test post for my blog\"},\"$4d\"]]},\"$4d\"],[\"$\",\"div\",null,{\"className\":\"flex justify-end\",\"children\":[\"$\",\"p\",null,{\"className\":\"text-xs\",\"children\":\"December 20, 2024\"},\"$4d\"]},\"$4d\"]]},\"$4d\"]},\"$4d\"]\n4a:[\"$\",\"div\",null,{\"className\":\"flex flex-col\",\"children\":[\"$\",\"div\",null,{\"className\":\"snes-container p-0 bg-foreground text-background\",\"children\":[[\"$\",\"$3\",\"test-post\",{\"children\":[\"$4c\",false]},\"$4b\"]]},\"$4b\"]},\"$4b\"]\n46:[\"$\",\"div\",null,{\"className\":\"max-w-3xl mx-auto px-8 md:px-0 flex flex-col justify-between gap-2 my-20\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-baseline justify-between\",\"children\":[[\"$\",\"h2\",null,{\"className\":\"text-5xl font-bold\",\"children\":\"Blog\"},\"$17\"],[\"$\",\"$L3f\",null,{\"href\":\"/projects\",\"className\":\"flex items-center justify-center gap-2 hover:text-accent\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-2xl\",\"children\":\"Read more\"},\"$17\"],\"$48\"]},\"$17\"]]},\"$17\"],\"$4a\"]},\"$47\"]\n16:[\"$\",\"div\",null,{\"className\":\"mt-10 md:mt-20 bg-foreground\",\"children\":\"$46\"},\"$17\""])</script><script>self.__next_f.push([1,"]\n4f:{\"name\":\"i\",\"env\":\"Server\",\"key\":null,\"owner\":\"$a\",\"props\":{\"messages\":{\"HomePage\":{\"navigation\":{\"home\":\"Home\",\"projects\":\"Projects\",\"blog\":\"Blog\",\"contact\":\"Contact\",\"theme\":\"Choose theme\"},\"about\":{\"title\":\"Hey Onni here! \",\"location\":\"Tampere, Finland\",\"about\":\"-year-old software engineering major student. I learn, design and implement websites and applications.\",\"cvLink\":\"Résumé\"},\"experience\":{\"work\":\"Work\",\"education\":\"Education\"},\"techStack\":{\"title\":\"Tech stack\"},\"projects\":{\"title\":\"Projects\",\"link\":\"View more\"},\"blog\":{\"title\":\"Blog\",\"link\":\"Read more\"},\"footer\":\"$Y\"},\"ProjectsPage\":\"$Y\",\"BlogPage\":\"$Y\",\"NotFoundPage\":\"$Y\",\"PrivacyPage\":\"$Y\",\"work\":\"$Y\",\"education\":\"$Y\"},\"children\":\"$Y\"}}\n4e:D\"$4f\"\n9:[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"className\":\"flex flex-col min-h-screen\",\"children\":\"$L4e\"},\"$a\"]},\"$a\"]\n"])</script><script>self.__next_f.push([1,"50:I[\"[project]/node_modules/next-intl/dist/esm/shared/NextIntlClientProvider.js [app-client] (ecmascript)\",[\"static/chunks/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_6d4e8d._.js\",\"static/chunks/node_modules_051fc9._.js\",\"static/chunks/src_f6137e._.js\",\"static/chunks/src_app_[locale]_layout_tsx_61af54._.js\"],\"default\"]\n51:I[\"[project]/src/components/Header.tsx [app-client] (ecmascript)\",[\"static/chunks/node_modules_@fortawesome_free-solid-svg-icons_index_mjs_6d4e8d._.js\",\"static/chunks/node_modules_051fc9._.js\",\"static/chunks/src_f6137e._.js\",\"static/chunks/src_app_[locale]_layout_tsx_61af54._.js\"],\"default\"]\n53:{\"name\":\"Page\",\"env\":\"Server\",\"key\":null,\"owner\":null,\"props\":{}}\n52:D\"$53\"\n55:{\"name\":\"NotFoundPage\",\"env\":\"Server\",\"key\":null,\"owner\":\"$53\",\"props\":{}}\n54:D\"$55\"\n54:[\"$\",\"div\",null,{\"className\":\"flex flex-col items-center gap-4\",\"children\":[[\"$\",\"h1\",null,{\"className\":\"text-6xl font-bold\",\"children\":\"404\"},\"$55\"],[\"$\",\"div\",null,{\"className\":\"snes-container p-4 bg-foreground\",\"children\":[\"$\",\"$L2c\",null,{\"className\":\"w-full rounded-md\",\"src\":\"https://i.giphy.com/4KLv24CPUoZ0I.webp\",\"alt\":\"Mr. Bean\",\"width\":400,\"height\":400},\"$55\"]},\"$55\"],[\"$\",\"p\",null,{\"className\":\"text-lg text-center\",\"children\":\"The page you are looking for does not exist.\"},\"$55\"],[\"$\",\"$L3f\",null,{\"href\":\"/\",\"className\":\"snes-button bg-foreground text-background w-1/2 md:w-1/3 text-center\",\"children\":[\"$\",\"p\",null,{\"className\":\"text-lg\",\"children\":\"Back\"},\"$55\"]},\"$55\"]]},\"$55\"]\n52:[\"$\",\"div\",null,{\"className\":\"mt-10 px-8\",\"children\":\"$54\"},\"$53\"]\n57:{\"name\":\"Footer\",\"env\":\"Server\",\"key\":null,\"owner\":\"$a\",\"props\":{}}\n56:D\"$57\"\n59:{\"name\":\"Socials\",\"env\":\"Server\",\"key\":null,\"owner\":\"$57\",\"props\":{}}\n58:D\"$59\"\n5b:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3"])</script><script>self.__next_f.push([1," 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z5c:{\"name\":\"FontAwesomeIcon\",\"env\":\"Server\",\"key\":null,\"owner\":\"$59\",\"props\":{\"icon\":{\"prefix\":\"fab\",\"iconName\":\"github\",\"icon\":[496,512,[],\"f09b\",\"$5b\"]},\"className\":\"text-2xl md:text-3xl hover:text-accent text-foreground\"}}\n5a:D\"$5c\"\n5d:T518,M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9"])</script><script>self.__next_f.push([1," 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z5a:[\"$\",\"svg\",null,{\"aria-hidden\":\"true\",\"focusable\":\"false\",\"data-prefix\":\"fab\",\"data-icon\":\"github\",\"className\":\"svg-inline--fa fa-github text-2xl md:text-3xl hover:text-accent text-foreground\",\"role\":\"img\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBox\":\"0 0 496 512\",\"style\":{},\"ref\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"fill\":\"currentColor\",\"d\":\"$5d\",\"style\":{}},\"$5c\"]},\"$5c\"]\n5f:{\"name\":\"FontAwesomeIcon\",\"env\":\"Server\",\"key\":null,\"owner\":\"$59\",\"props\":{\"icon\":{\"prefix\":\"fab\",\"iconName\":\"linkedin\",\"icon\":[448,512,[],\"f08c\",\"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z\"]},\"className\":\"text-2xl md:text-3xl hover:text-accent text-foreground\"}}\n5e:D\"$5f\"\n5e:[\"$\",\"svg\",null,{\"aria-hidden\":\"true\",\"focusable\":\"false\",\"data-prefix\":\"fab\",\"data-icon\":\"linkedin\",\"className\":\"svg-inline--fa fa-linkedin text-2xl md:text-3xl hover:text-accent text-foreground\",\"role\":\"img\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBox\":\"0 0 448 512\",\"style\":{},\"ref\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"fill\":\"currentColor\",\"d\":\"M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h"])</script><script>self.__next_f.push([1,"66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z\",\"style\":{}},\"$5f\"]},\"$5f\"]\n61:{\"name\":\"FontAwesomeIcon\",\"env\":\"Server\",\"key\":null,\"owner\":\"$59\",\"props\":{\"icon\":{\"prefix\":\"fas\",\"iconName\":\"envelope\",\"icon\":[512,512,[128386,9993,61443],\"f0e0\",\"M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z\"]},\"className\":\"text-2xl md:text-3xl hover:text-accent text-foreground\"}}\n60:D\"$61\"\n60:[\"$\",\"svg\",null,{\"aria-hidden\":\"true\",\"focusable\":\"false\",\"data-prefix\":\"fas\",\"data-icon\":\"envelope\",\"className\":\"svg-inline--fa fa-envelope text-2xl md:text-3xl hover:text-accent text-foreground\",\"role\":\"img\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"viewBox\":\"0 0 512 512\",\"style\":{},\"ref\":\"$undefined\",\"children\":[\"$\",\"path\",null,{\"fill\":\"currentColor\",\"d\":\"M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z\",\"style\":{}},\"$61\"]},\"$61\"]\n58:[\"$\",\"div\",null,{\"className\":\"flex gap-4 md:gap-6\",\"children\":[[\"$\",\"a\",null,{\"href\":\"https://github.com\",\"className\":\"hover:cursor-pointer\",\"aria-label\":\"GitHub\",\"children\":\"$5a\"},\"$59\"],[\"$\",\"a\",null,{\"href\":\"https://linkedin.com\",\"className\":\"hover:cursor-pointer\",\"aria-label\":\"LinkedIn\",\"children\":\"$5e\"},\"$59\"],[\"$\",\"a\",null,{\"href\":\"mailto:hello@example.com\",\"className\":\"hover:cursor-pointer\",\"aria-label\":\"Email\",\"children\":\"$60\"},\"$59\"]]},\"$59\"]\n56:[\"$\",\"footer\",null,{\"className\":\"bg-background2 border-t-4 border-foreground w-full flex flex-col\",\""])</script><script>self.__next_f.push([1,"children\":[\"$\",\"div\",null,{\"className\":\"max-w-3xl w-full flex justify-between py-4 px-2 items-center mx-auto gap-2\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex \",\"children\":[\"$\",\"p\",null,{\"className\":\"text-sm\",\"children\":[[\"$\",\"span\",null,{\"children\":[\"© \",2024]},\"$57\"],\" \",[\"$\",\"$L3f\",null,{\"className\":\"\",\"href\":\"/\",\"children\":\"onnisalomaa.dev\"},\"$57\"],\" | \",[\"$\",\"$L3f\",null,{\"className\":\"font-bold hover:text-accent\",\"href\":\"/privacy\",\"children\":[\"privacy\",\"?\"]},\"$57\"]]},\"$57\"]},\"$57\"],\"$58\"]},\"$57\"]},\"$57\"]\n"])</script><script>self.__next_f.push([1,"4e:[\"$\",\"$L50\",null,{\"locale\":\"en\",\"now\":\"$D2024-12-23T23:54:54.503Z\",\"timeZone\":\"Europe/Helsinki\",\"messages\":{\"HomePage\":{\"navigation\":{\"home\":\"Home\",\"projects\":\"Projects\",\"blog\":\"Blog\",\"contact\":\"Contact\",\"theme\":\"Choose theme\"},\"about\":{\"title\":\"Hey Onni here! \",\"location\":\"Tampere, Finland\",\"about\":\"-year-old software engineering major student. I learn, design and implement websites and applications.\",\"cvLink\":\"Résumé\"},\"experience\":{\"work\":\"Work\",\"education\":\"Education\"},\"techStack\":{\"title\":\"Tech stack\"},\"projects\":{\"title\":\"Projects\",\"link\":\"View more\"},\"blog\":{\"title\":\"Blog\",\"link\":\"Read more\"},\"footer\":{\"privacy\":\"privacy\"}},\"ProjectsPage\":{\"title\":\"My projects\"},\"BlogPage\":{\"title\":\"My blog\",\"back\":\"Back to blog\"},\"NotFoundPage\":{\"message\":\"The page you are looking for does not exist.\",\"back\":\"Back\"},\"PrivacyPage\":{\"title\":\"Privacy Policy\",\"lastUpdated\":\"Last updated\",\"section1\":{\"title\":\"Hey, Welcome!\",\"content\":\"Thanks for stopping by! This Privacy Policy is just here to let you know how things work around here. I'm Onni, and I'm the only one in charge of this website.\"},\"section2\":{\"title\":\"What Information I Collect\",\"content\":\"This is just a personal website, so I don’t collect much info. There’s no account creation, no tracking cookies, and definitely no sneaky data gathering. Here’s what I might collect:\",\"contactInfo\":\"Contact Info\",\"desc\":\"If you reach out via email or the contact form, the info you provide is entirely up to you. I'll use it to reply and have a conversation.\"},\"section3\":{\"title\":\"How I Use the Info\",\"content\":\"Here's what I might do with any information I collect:\",\"listItem1\":\"Make sure that the site experience is smooth\",\"listItem2\":\"Improve the website based on feedback\",\"listItem3\":\"Respond to your messages and emails\"},\"section4\":{\"title\":\"Sharing Your Info\",\"content\":\"I don't sell, trade or rent your personal info. If you shared something sensitive by accident, feel free to reach out, and I'll help you remove it.\"},\"section5\":{\"title\":\"Security\",\"content\":\"I take security seriously, but remember that no method of transmission over the internet is 100% secure.\"},\"section6\":{\"title\":\"Policy Updates\",\"content\":\"This policy is current as of Dec 2024. If I make any changes, I'll update this page. Don't worry though, I won't make any sneaky or major changes.\"},\"section7\":{\"title\":\"Got Questions?\",\"content\":\"If you have any questions send me an email at\",\"contactForm\":\"or use the\",\"contactFormLink\":\"contact form\"}},\"work\":{\"keskoF\":{\"title\":\"Warehouse worker\",\"startDate\":\"July 2024\",\"endDate\":\"August 2024\",\"description\":[\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\",\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"]},\"kuntokauppa\":{\"title\":\"Warehouse worker\",\"startDate\":\"July 2024\",\"endDate\":\"August 2024\",\"description\":[\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\",\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"]},\"kesko\":{\"title\":\"Warehouse worker\",\"startDate\":\"July 2024\",\"endDate\":\"August 2024\",\"description\":[\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\",\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"]}},\"education\":{\"tuni\":{\"school\":\"Tampere University\",\"title\":\"Bachelor of Engineering, Software Engineering\",\"startDate\":\"August 2021\",\"endDate\":\"present\",\"description\":[\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\",\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"]},\"vaskivuori\":{\"school\":\"Vaskivuori High School\",\"title\":\"High School\",\"startDate\":\"August 2017\",\"endDate\":\"June 2020\",\"description\":[\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\",\"Lorem ipsum dolor sit amet, consectetur adipiscing elit.\"]}}},\"children\":[[\"$\",\"$L51\",null,{},\"$a\"],[\"$\",\"main\",null,{\"className\":\"grow\",\"children\":[\"$\",\"$L4\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"$0:f:0:1:2:children:0\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L5\",null,{},null],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[],\"$52\"],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"},null]},\"$a\"],\"$56\"]},\"$4f\"]\n"])</script><nextjs-portal><template shadowrootmode="open"><style>
+        :host {
+          all: initial;
+
+          /* the direction property is not reset by 'all' */
+          direction: ltr;
+        }
+
+        /*!
+         * Bootstrap Reboot v4.4.1 (https://getbootstrap.com/)
+         * Copyright 2011-2019 The Bootstrap Authors
+         * Copyright 2011-2019 Twitter, Inc.
+         * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+         * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+         */
+        *,
+        *::before,
+        *::after {
+          box-sizing: border-box;
+        }
+
+        :host {
+          font-family: sans-serif;
+          line-height: 1.15;
+          -webkit-text-size-adjust: 100%;
+          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        article,
+        aside,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        nav,
+        section {
+          display: block;
+        }
+
+        :host {
+          margin: 0;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+            'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+            'Noto Color Emoji';
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 1.5;
+          color: var(--color-font);
+          text-align: left;
+          background-color: #fff;
+        }
+
+        [tabindex='-1']:focus:not(:focus-visible) {
+          outline: 0 !important;
+        }
+
+        hr {
+          box-sizing: content-box;
+          height: 0;
+          overflow: visible;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          margin-top: 0;
+          margin-bottom: 8px;
+        }
+
+        p {
+          margin-top: 0;
+          margin-bottom: 16px;
+        }
+
+        abbr[title],
+        abbr[data-original-title] {
+          text-decoration: underline;
+          -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+          cursor: help;
+          border-bottom: 0;
+          -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+        }
+
+        address {
+          margin-bottom: 16px;
+          font-style: normal;
+          line-height: inherit;
+        }
+
+        ol,
+        ul,
+        dl {
+          margin-top: 0;
+          margin-bottom: 16px;
+        }
+
+        ol ol,
+        ul ul,
+        ol ul,
+        ul ol {
+          margin-bottom: 0;
+        }
+
+        dt {
+          font-weight: 700;
+        }
+
+        dd {
+          margin-bottom: 8px;
+          margin-left: 0;
+        }
+
+        blockquote {
+          margin: 0 0 16px;
+        }
+
+        b,
+        strong {
+          font-weight: bolder;
+        }
+
+        small {
+          font-size: 80%;
+        }
+
+        sub,
+        sup {
+          position: relative;
+          font-size: 75%;
+          line-height: 0;
+          vertical-align: baseline;
+        }
+
+        sub {
+          bottom: -0.25em;
+        }
+
+        sup {
+          top: -0.5em;
+        }
+
+        a {
+          color: #007bff;
+          text-decoration: none;
+          background-color: transparent;
+        }
+
+        a:hover {
+          color: #0056b3;
+          text-decoration: underline;
+        }
+
+        a:not([href]) {
+          color: inherit;
+          text-decoration: none;
+        }
+
+        a:not([href]):hover {
+          color: inherit;
+          text-decoration: none;
+        }
+
+        pre,
+        code,
+        kbd,
+        samp {
+          font-family: SFMono-Regular, Menlo, Monaco, Consolas,
+            'Liberation Mono', 'Courier New', monospace;
+          font-size: 1em;
+        }
+
+        pre {
+          margin-top: 0;
+          margin-bottom: 16px;
+          overflow: auto;
+        }
+
+        figure {
+          margin: 0 0 16px;
+        }
+
+        img {
+          vertical-align: middle;
+          border-style: none;
+        }
+
+        svg {
+          overflow: hidden;
+          vertical-align: middle;
+        }
+
+        table {
+          border-collapse: collapse;
+        }
+
+        caption {
+          padding-top: 12px;
+          padding-bottom: 12px;
+          color: #6c757d;
+          text-align: left;
+          caption-side: bottom;
+        }
+
+        th {
+          text-align: inherit;
+        }
+
+        label {
+          display: inline-block;
+          margin-bottom: 8px;
+        }
+
+        button {
+          border-radius: 0;
+        }
+
+        button:focus {
+          outline: 1px dotted;
+          outline: 5px auto -webkit-focus-ring-color;
+        }
+
+        input,
+        button,
+        select,
+        optgroup,
+        textarea {
+          margin: 0;
+          font-family: inherit;
+          font-size: inherit;
+          line-height: inherit;
+        }
+
+        button,
+        input {
+          overflow: visible;
+        }
+
+        button,
+        select {
+          text-transform: none;
+        }
+
+        select {
+          word-wrap: normal;
+        }
+
+        button,
+        [type='button'],
+        [type='reset'],
+        [type='submit'] {
+          -webkit-appearance: button;
+        }
+
+        button:not(:disabled),
+        [type='button']:not(:disabled),
+        [type='reset']:not(:disabled),
+        [type='submit']:not(:disabled) {
+          cursor: pointer;
+        }
+
+        button::-moz-focus-inner,
+        [type='button']::-moz-focus-inner,
+        [type='reset']::-moz-focus-inner,
+        [type='submit']::-moz-focus-inner {
+          padding: 0;
+          border-style: none;
+        }
+
+        input[type='radio'],
+        input[type='checkbox'] {
+          box-sizing: border-box;
+          padding: 0;
+        }
+
+        input[type='date'],
+        input[type='time'],
+        input[type='datetime-local'],
+        input[type='month'] {
+          -webkit-appearance: listbox;
+        }
+
+        textarea {
+          overflow: auto;
+          resize: vertical;
+        }
+
+        fieldset {
+          min-width: 0;
+          padding: 0;
+          margin: 0;
+          border: 0;
+        }
+
+        legend {
+          display: block;
+          width: 100%;
+          max-width: 100%;
+          padding: 0;
+          margin-bottom: 8px;
+          font-size: 24px;
+          line-height: inherit;
+          color: inherit;
+          white-space: normal;
+        }
+
+        progress {
+          vertical-align: baseline;
+        }
+
+        [type='number']::-webkit-inner-spin-button,
+        [type='number']::-webkit-outer-spin-button {
+          height: auto;
+        }
+
+        [type='search'] {
+          outline-offset: -2px;
+          -webkit-appearance: none;
+        }
+
+        [type='search']::-webkit-search-decoration {
+          -webkit-appearance: none;
+        }
+
+        ::-webkit-file-upload-button {
+          font: inherit;
+          -webkit-appearance: button;
+        }
+
+        output {
+          display: inline-block;
+        }
+
+        summary {
+          display: list-item;
+          cursor: pointer;
+        }
+
+        template {
+          display: none;
+        }
+
+        [hidden] {
+          display: none !important;
+        }
+      </style><style>
+        :host {
+          --size-gap-half: 4px;
+          --size-gap: 8px;
+          --size-gap-double: 16px;
+          --size-gap-triple: 24px;
+          --size-gap-quad: 32px;
+
+          --size-font-small: 14px;
+          --size-font: 16px;
+          --size-font-big: 20px;
+          --size-font-bigger: 24px;
+
+          --color-background: white;
+          --color-font: #757575;
+          --color-backdrop: rgba(17, 17, 17, 0.2);
+          --color-border-shadow: rgba(0, 0, 0, 0.145);
+
+          --color-title-color: #1f1f1f;
+          --color-stack-h6: #222;
+          --color-stack-headline: #666;
+          --color-stack-subline: #999;
+          --color-stack-notes: #777;
+
+          --color-accents-1: #808080;
+          --color-accents-2: #222222;
+          --color-accents-3: #404040;
+
+          --color-text-color-red-1: #ff5555;
+          --color-text-background-red-1: #fff9f9;
+
+          --font-stack-monospace: 'SFMono-Regular', Consolas, 'Liberation Mono',
+            Menlo, Courier, monospace;
+          --font-stack-sans: -apple-system, 'Source Sans Pro', sans-serif;
+
+          --color-ansi-selection: rgba(95, 126, 151, 0.48);
+          --color-ansi-bg: #111111;
+          --color-ansi-fg: #cccccc;
+
+          --color-ansi-white: #777777;
+          --color-ansi-black: #141414;
+          --color-ansi-blue: #00aaff;
+          --color-ansi-cyan: #88ddff;
+          --color-ansi-green: #98ec65;
+          --color-ansi-magenta: #aa88ff;
+          --color-ansi-red: #ff5555;
+          --color-ansi-yellow: #ffcc33;
+          --color-ansi-bright-white: #ffffff;
+          --color-ansi-bright-black: #777777;
+          --color-ansi-bright-blue: #33bbff;
+          --color-ansi-bright-cyan: #bbecff;
+          --color-ansi-bright-green: #b6f292;
+          --color-ansi-bright-magenta: #cebbff;
+          --color-ansi-bright-red: #ff8888;
+          --color-ansi-bright-yellow: #ffd966;
+        }
+
+        @media (prefers-color-scheme: dark) {
+          :host {
+            --color-background: rgb(28, 28, 30);
+            --color-font: white;
+            --color-backdrop: rgb(44, 44, 46);
+            --color-border-shadow: rgba(255, 255, 255, 0.145);
+
+            --color-title-color: #fafafa;
+            --color-stack-h6: rgb(200, 200, 204);
+            --color-stack-headline: rgb(99, 99, 102);
+            --color-stack-notes: #a9a9a9;
+            --color-stack-subline: rgb(121, 121, 121);
+
+            --color-accents-3: rgb(118, 118, 118);
+
+            --color-text-background-red-1: #2a1e1e;
+          }
+        }
+
+        .mono {
+          font-family: var(--font-stack-monospace);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          margin-bottom: var(--size-gap);
+          font-weight: 500;
+          line-height: 1.5;
+        }
+      </style><style>
+        
+  [data-nextjs-dialog-overlay] {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    z-index: 9000;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10vh 15px 0;
+  }
+
+  @media (max-height: 812px) {
+    [data-nextjs-dialog-overlay] {
+      padding: 15px 15px 0;
+    }
+  }
+
+  [data-nextjs-dialog-backdrop] {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-backdrop);
+    pointer-events: all;
+    z-index: -1;
+  }
+
+  [data-nextjs-dialog-backdrop-fixed] {
+    cursor: not-allowed;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+  }
+
+        
+  .nextjs-toast {
+    position: fixed;
+    bottom: var(--size-gap-double);
+    left: var(--size-gap-double);
+    max-width: 420px;
+    z-index: 9000;
+    box-shadow: 0px var(--size-gap-double) var(--size-gap-quad)
+      rgba(0, 0, 0, 0.25);
+  }
+
+  @media (max-width: 440px) {
+    .nextjs-toast {
+      max-width: 90vw;
+      left: 5vw;
+    }
+  }
+
+  .nextjs-toast-errors-parent {
+    padding: 16px;
+    border-radius: var(--size-gap-quad);
+    font-weight: 500;
+    color: var(--color-ansi-bright-white);
+    background-color: var(--color-ansi-red);
+  }
+
+  .nextjs-static-indicator-toast-wrapper {
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    border: 0;
+    border-radius: var(--size-gap-triple);
+    background: var(--color-background);
+    color: var(--color-font);
+    transition: all 0.3s ease-in-out;
+    box-shadow:
+      inset 0 0 0 1px var(--color-border-shadow),
+      0 11px 40px 0 rgba(0, 0, 0, 0.25),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .nextjs-static-indicator-toast-wrapper:hover {
+    width: 140px;
+  }
+
+  .nextjs-static-indicator-toast-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+  }
+
+  .nextjs-static-indicator-toast-text {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.3s ease-in-out;
+    line-height: 30px;
+    position: absolute;
+    left: 30px;
+    top: 0;
+  }
+
+  .nextjs-static-indicator-toast-wrapper:hover
+    .nextjs-static-indicator-toast-text {
+    opacity: 1;
+  }
+
+  .nextjs-static-indicator-toast-wrapper button {
+    color: var(--color-font);
+    opacity: 0.8;
+    background: none;
+    border: none;
+    margin-left: 6px;
+    margin-top: -2px;
+    outline: 0;
+  }
+
+  .nextjs-static-indicator-toast-wrapper button:focus {
+    opacity: 1;
+  }
+
+  .nextjs-static-indicator-toast-wrapper button > svg {
+    width: 16px;
+    height: 16px;
+  }
+
+        
+  [data-nextjs-dialog] {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    outline: none;
+    background: var(--color-background);
+    border-radius: var(--size-gap);
+    box-shadow: 0 var(--size-gap-half) var(--size-gap-double)
+      rgba(0, 0, 0, 0.25);
+    max-height: calc(100% - 56px);
+    overflow-y: hidden;
+  }
+
+  @media (max-height: 812px) {
+    [data-nextjs-dialog-overlay] {
+      max-height: calc(100% - 15px);
+    }
+  }
+
+  @media (min-width: 576px) {
+    [data-nextjs-dialog] {
+      max-width: 540px;
+      box-shadow: 0 var(--size-gap) var(--size-gap-quad) rgba(0, 0, 0, 0.25);
+    }
+  }
+
+  @media (min-width: 768px) {
+    [data-nextjs-dialog] {
+      max-width: 720px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    [data-nextjs-dialog] {
+      max-width: 960px;
+    }
+  }
+
+  [data-nextjs-dialog-banner] {
+    position: relative;
+  }
+  [data-nextjs-dialog-banner].banner-warning {
+    border-color: var(--color-ansi-yellow);
+  }
+  [data-nextjs-dialog-banner].banner-error {
+    border-color: var(--color-ansi-red);
+  }
+
+  [data-nextjs-dialog-banner]::after {
+    z-index: 2;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    /* banner width: */
+    border-top-width: var(--size-gap-half);
+    border-bottom-width: 0;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: inherit;
+    border-bottom-color: transparent;
+  }
+
+  [data-nextjs-dialog-content] {
+    overflow-y: auto;
+    border: none;
+    margin: 0;
+    /* calc(padding + banner width offset) */
+    padding: calc(var(--size-gap-double) + var(--size-gap-half))
+      var(--size-gap-double);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  [data-nextjs-dialog-content] > [data-nextjs-dialog-header] {
+    flex-shrink: 0;
+    margin-bottom: var(--size-gap-double);
+  }
+  [data-nextjs-dialog-content] > [data-nextjs-dialog-body] {
+    position: relative;
+    flex: 1 1 auto;
+  }
+
+        
+  [data-nextjs-dialog-left-right] {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  [data-nextjs-dialog-left-right] > nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: var(--size-gap);
+  }
+  [data-nextjs-dialog-left-right] > nav > button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: calc(var(--size-gap-double) + var(--size-gap));
+    height: calc(var(--size-gap-double) + var(--size-gap));
+    font-size: 0;
+    border: none;
+    background-color: rgba(255, 85, 85, 0.1);
+    color: var(--color-ansi-red);
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+  }
+  [data-nextjs-dialog-left-right] > nav > button > svg {
+    width: auto;
+    height: calc(var(--size-gap) + var(--size-gap-half));
+  }
+  [data-nextjs-dialog-left-right] > nav > button:hover {
+    background-color: rgba(255, 85, 85, 0.2);
+  }
+  [data-nextjs-dialog-left-right] > nav > button:disabled {
+    background-color: rgba(255, 85, 85, 0.1);
+    color: rgba(255, 85, 85, 0.4);
+    cursor: not-allowed;
+  }
+
+  [data-nextjs-dialog-left-right] > nav > button:first-of-type {
+    border-radius: var(--size-gap-half) 0 0 var(--size-gap-half);
+    margin-right: 1px;
+  }
+  [data-nextjs-dialog-left-right] > nav > button:last-of-type {
+    border-radius: 0 var(--size-gap-half) var(--size-gap-half) 0;
+  }
+
+  [data-nextjs-dialog-left-right] > button:last-of-type {
+    border: 0;
+    padding: 0;
+
+    background-color: transparent;
+    appearance: none;
+
+    opacity: 0.4;
+    transition: opacity 0.25s ease;
+
+    color: var(--color-font);
+  }
+  [data-nextjs-dialog-left-right] > button:last-of-type:hover {
+    opacity: 0.7;
+  }
+
+        
+  [data-nextjs-codeframe] {
+    overflow: auto;
+    border-radius: var(--size-gap-half);
+    background-color: var(--color-ansi-bg);
+    color: var(--color-ansi-fg);
+    margin-bottom: var(--size-gap-double);
+  }
+  [data-nextjs-codeframe]::selection,
+  [data-nextjs-codeframe] *::selection {
+    background-color: var(--color-ansi-selection);
+  }
+  [data-nextjs-codeframe] * {
+    color: inherit;
+    background-color: transparent;
+    font-family: var(--font-stack-monospace);
+  }
+
+  [data-nextjs-codeframe] > * {
+    margin: 0;
+    padding: calc(var(--size-gap) + var(--size-gap-half))
+      calc(var(--size-gap-double) + var(--size-gap-half));
+  }
+  [data-nextjs-codeframe] > div {
+    display: inline-block;
+    width: auto;
+    min-width: 100%;
+    border-bottom: 1px solid var(--color-ansi-bright-black);
+  }
+  [data-nextjs-codeframe] > div > p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 0;
+  }
+  [data-nextjs-codeframe] > div > p:hover {
+    text-decoration: underline dotted;
+  }
+  [data-nextjs-codeframe] div > p > svg {
+    width: auto;
+    height: 1em;
+    margin-left: 8px;
+  }
+  [data-nextjs-codeframe] div > pre {
+    overflow: hidden;
+    display: inline-block;
+  }
+
+        
+  [data-nextjs-terminal] {
+    border-radius: var(--size-gap-half);
+    background-color: var(--color-ansi-bg);
+    color: var(--color-ansi-fg);
+  }
+  [data-nextjs-terminal]::selection,
+  [data-nextjs-terminal] *::selection {
+    background-color: var(--color-ansi-selection);
+  }
+  [data-nextjs-terminal] * {
+    color: inherit;
+    background-color: transparent;
+    font-family: var(--font-stack-monospace);
+  }
+  [data-nextjs-terminal] > * {
+    margin: 0;
+    padding: calc(var(--size-gap) + var(--size-gap-half))
+      calc(var(--size-gap-double) + var(--size-gap-half));
+  }
+
+  [data-nextjs-terminal] pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  [data-with-open-in-editor-link] svg {
+    width: auto;
+    height: var(--size-font-small);
+    margin-left: var(--size-gap);
+  }
+  [data-with-open-in-editor-link] {
+    cursor: pointer;
+  }
+  [data-with-open-in-editor-link]:hover {
+    text-decoration: underline dotted;
+  }
+  [data-with-open-in-editor-link-source-file] {
+    border-bottom: 1px solid var(--color-ansi-bright-black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-break: anywhere;
+  }
+  [data-with-open-in-editor-link-import-trace] {
+    margin-left: var(--size-gap-double);
+  }
+  [data-nextjs-terminal] a {
+    color: inherit;
+  }
+
+        
+  h1.nextjs__container_errors_label {
+    font-size: var(--size-font-big);
+    line-height: var(--size-font-bigger);
+    font-weight: bold;
+    margin: var(--size-gap-double) 0;
+  }
+  .nextjs-container-errors-header p {
+    font-size: var(--size-font-small);
+    line-height: var(--size-font-big);
+    white-space: pre-wrap;
+  }
+  .nextjs-container-errors-body footer {
+    margin-top: var(--size-gap);
+  }
+  .nextjs-container-errors-body footer p {
+    margin: 0;
+  }
+
+  .nextjs-container-errors-body small {
+    color: var(--color-font);
+  }
+
+        
+  .nextjs-error-with-static {
+    bottom: calc(var(--size-gap-double) * 4.5);
+  }
+  .nextjs-container-errors-header {
+    position: relative;
+  }
+  .nextjs-container-errors-header > h1 {
+    font-size: var(--size-font-big);
+    line-height: var(--size-font-bigger);
+    font-weight: bold;
+    margin: calc(var(--size-gap-double) * 1.5) 0;
+    color: var(--color-title-h1);
+  }
+  .nextjs-container-errors-header small {
+    font-size: var(--size-font-small);
+    color: var(--color-accents-1);
+    margin-left: var(--size-gap-double);
+  }
+  .nextjs-container-errors-header small > span {
+    font-family: var(--font-stack-monospace);
+  }
+  .nextjs-container-errors-header p {
+    font-size: var(--size-font-small);
+    line-height: var(--size-font-big);
+    white-space: pre-wrap;
+  }
+  .nextjs__container_errors_desc {
+    font-family: var(--font-stack-monospace);
+    padding: var(--size-gap) var(--size-gap-double);
+    border-left: 2px solid var(--color-text-color-red-1);
+    margin-top: var(--size-gap);
+    font-weight: bold;
+    color: var(--color-text-color-red-1);
+    background-color: var(--color-text-background-red-1);
+  }
+  p.nextjs__container_errors__link {
+    margin: var(--size-gap-double) auto;
+    color: var(--color-text-color-red-1);
+    font-weight: 600;
+    font-size: 15px;
+  }
+  p.nextjs__container_errors__notes {
+    margin: var(--size-gap-double) auto;
+    color: var(--color-stack-notes);
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .nextjs-container-errors-header > div > small {
+    margin: 0;
+    margin-top: var(--size-gap-half);
+  }
+  .nextjs-container-errors-header > p > a {
+    color: inherit;
+    font-weight: bold;
+  }
+  .nextjs-container-errors-body > h2:not(:first-child) {
+    margin-top: calc(var(--size-gap-double) + var(--size-gap));
+  }
+  .nextjs-container-errors-body > h2 {
+    color: var(--color-title-color);
+    margin-bottom: var(--size-gap);
+    font-size: var(--size-font-big);
+  }
+  .nextjs__container_errors__component-stack {
+    padding: 12px 32px;
+    color: var(--color-ansi-fg);
+    background: var(--color-ansi-bg);
+  }
+  .nextjs-toast-errors-parent {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  .nextjs-toast-errors-parent:hover {
+    transform: scale(1.1);
+  }
+  .nextjs-toast-errors {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .nextjs-toast-errors > svg {
+    margin-right: var(--size-gap);
+  }
+  .nextjs-toast-hide-button {
+    margin-left: var(--size-gap-triple);
+    border: none;
+    background: none;
+    color: var(--color-ansi-bright-white);
+    padding: 0;
+    transition: opacity 0.25s ease;
+    opacity: 0.7;
+  }
+  .nextjs-toast-hide-button:hover {
+    opacity: 1;
+  }
+  .nextjs-container-errors-header
+    > .nextjs-container-build-error-version-status {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .nextjs__container_errors_inspect_copy_button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--color-ansi-bright-white);
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    margin-left: var(--size-gap);
+    transition: opacity 0.25s ease;
+  }
+  .nextjs__container_errors__error_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nextjs-data-runtime-error-inspect-link,
+  .nextjs-data-runtime-error-inspect-link:hover {
+    margin: 0 8px;
+    color: inherit;
+  }
+
+        
+  [data-nextjs-call-stack-frame]:not(:last-child),
+  [data-nextjs-component-stack-frame]:not(:last-child) {
+    margin-bottom: var(--size-gap-double);
+  }
+
+  [data-expand-ignore-button]:focus:not(:focus-visible),
+  [data-expand-ignore-button] {
+    background: none;
+    border: none;
+    color: var(--color-font);
+    cursor: pointer;
+    font-size: var(--size-font);
+    margin: var(--size-gap) 0;
+    padding: 0;
+    text-decoration: underline;
+    outline: none;
+  }
+
+  [data-nextjs-data-runtime-error-copy-button],
+  [data-nextjs-data-runtime-error-copy-button]:focus:not(:focus-visible) {
+    position: relative;
+    margin-left: var(--size-gap);
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  [data-nextjs-data-runtime-error-copy-button] > svg {
+    vertical-align: middle;
+  }
+  .nextjs-data-runtime-error-copy-button {
+    color: inherit;
+  }
+  .nextjs-data-runtime-error-copy-button--initial:hover {
+    cursor: pointer;
+  }
+  .nextjs-data-runtime-error-copy-button[aria-disabled='true'] {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+  .nextjs-data-runtime-error-copy-button--error,
+  .nextjs-data-runtime-error-copy-button--error:hover {
+    color: var(--color-ansi-red);
+  }
+  .nextjs-data-runtime-error-copy-button--success {
+    color: var(--color-ansi-green);
+  }
+
+  [data-nextjs-call-stack-frame] > h3,
+  [data-nextjs-component-stack-frame] > h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: var(--font-stack-monospace);
+    font-size: var(--size-font);
+  }
+  [data-nextjs-call-stack-frame] > h3[data-nextjs-frame-expanded='false'] {
+    color: #666;
+    display: inline-block;
+  }
+  [data-nextjs-call-stack-frame] > div,
+  [data-nextjs-component-stack-frame] > div {
+    display: flex;
+    align-items: center;
+    padding-left: calc(var(--size-gap) + var(--size-gap-half));
+    font-size: var(--size-font-small);
+    color: #999;
+  }
+  [data-nextjs-call-stack-frame] > div > svg,
+  [data-nextjs-component-stack-frame] > [role='link'] > svg {
+    width: auto;
+    height: var(--size-font-small);
+    margin-left: var(--size-gap);
+    flex-shrink: 0;
+    display: none;
+  }
+
+  [data-nextjs-call-stack-frame] > div[data-has-source],
+  [data-nextjs-component-stack-frame] > [role='link'] {
+    cursor: pointer;
+  }
+  [data-nextjs-call-stack-frame] > div[data-has-source]:hover,
+  [data-nextjs-component-stack-frame] > [role='link']:hover {
+    text-decoration: underline dotted;
+  }
+  [data-nextjs-call-stack-frame] > div[data-has-source] > svg,
+  [data-nextjs-component-stack-frame] > [role='link'] > svg {
+    display: unset;
+  }
+
+  [data-nextjs-call-stack-framework-icon] {
+    margin-right: var(--size-gap);
+  }
+  [data-nextjs-call-stack-framework-icon='next'] > mask {
+    mask-type: alpha;
+  }
+  [data-nextjs-call-stack-framework-icon='react'] {
+    color: rgb(20, 158, 202);
+  }
+  [data-nextjs-collapsed-call-stack-details][open]
+    [data-nextjs-call-stack-chevron-icon] {
+    transform: rotate(90deg);
+  }
+  [data-nextjs-collapsed-call-stack-details] summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--size-gap);
+    list-style: none;
+  }
+  [data-nextjs-collapsed-call-stack-details] summary::-webkit-details-marker {
+    display: none;
+  }
+
+  [data-nextjs-collapsed-call-stack-details] h3 {
+    color: #666;
+  }
+  [data-nextjs-collapsed-call-stack-details] [data-nextjs-call-stack-frame] {
+    margin-bottom: var(--size-gap-double);
+  }
+
+  [data-nextjs-container-errors-pseudo-html] {
+    position: relative;
+  }
+  [data-nextjs-container-errors-pseudo-html-collapse] {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: inherit;
+    background: none;
+    border: none;
+    padding: 0;
+  }
+  [data-nextjs-container-errors-pseudo-html--diff='add'] {
+    color: var(--color-ansi-green);
+  }
+  [data-nextjs-container-errors-pseudo-html--diff='remove'] {
+    color: var(--color-ansi-red);
+  }
+  [data-nextjs-container-errors-pseudo-html--tag-error] {
+    color: var(--color-ansi-red);
+    font-weight: bold;
+  }
+  /* hide but text are still accessible in DOM */
+  [data-nextjs-container-errors-pseudo-html--hint] {
+    display: inline-block;
+    font-size: 0;
+  }
+  [data-nextjs-container-errors-pseudo-html--tag-adjacent='false'] {
+    color: var(--color-accents-1);
+  }
+
+        
+  .nextjs-container-build-error-version-status {
+    flex: 1;
+    text-align: right;
+    font-size: var(--size-font-small);
+  }
+  .nextjs-container-build-error-version-status span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: var(--color-ansi-bright-black);
+  }
+  .nextjs-container-build-error-version-status span.fresh {
+    background: var(--color-ansi-green);
+  }
+  .nextjs-container-build-error-version-status span.stale {
+    background: var(--color-ansi-yellow);
+  }
+  .nextjs-container-build-error-version-status span.outdated {
+    background: var(--color-ansi-red);
+  }
+
+      </style></template></nextjs-portal><next-route-announcer style="position: absolute;"><template shadowrootmode="open"><div aria-live="assertive" id="__next-route-announcer__" role="alert" style="position: absolute; border: 0px; height: 1px; margin: -1px; padding: 0px; width: 1px; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; white-space: nowrap; overflow-wrap: normal;"></div></template></next-route-announcer><script src="./onnikoodaa!_files/[turbopack]_browser_dev_hmr-client_d6d8d4._.js"></script><script src="./onnikoodaa!_files/[turbopack]_browser_dev_hmr-client_hmr-client_ts_8e6352._.js"></script><script src="./onnikoodaa!_files/src_947a87._.js"></script><script src="./onnikoodaa!_files/src_app_[locale]_projects_page_tsx_abc921._.js"></script><script src="./onnikoodaa!_files/src_app_[locale]_blog_page_tsx_0dba7c._.js"></script><script src="./onnikoodaa!_files/src_app_[locale]_blog_page_tsx_abc921._.js"></script><script src="./onnikoodaa!_files/_46cb6d._.js"></script><script src="./onnikoodaa!_files/src_app_[locale]_not-found_tsx_abc921._.js"></script></body></html>

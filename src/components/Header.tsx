@@ -22,11 +22,11 @@ export default function Header() {
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
   return (
-    <header className="bg-background2 border-b-4 border-foreground w-full flex flex-col">
+    <header className="sticky top-0 bg-background2 border-b-4 border-foreground w-full flex flex-col z-50">
       {/* Top Header Section */}
       <div className="max-w-3xl w-full flex justify-between py-4 px-2 items-center mx-auto">
         {/* Logo */}
-        <div className="text-4xl font-bold border-foreground border-4 rounded-lg p-2">
+        <div className="text-4xl flex items-center justify-center aspect-square font-bold border-foreground border-4 rounded-lg p-2">
           OS
         </div>
 
@@ -65,7 +65,7 @@ export default function Header() {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden bg-background3 border-foreground overflow-hidden transition-all duration-500 ease-in-out ${
+        className={`md:hidden bg-background2 border-foreground overflow-hidden transition-all duration-500 ease-in-out ${
           isMenuOpen ? 'max-h-screen' : 'max-h-0'
         }`}
       >
