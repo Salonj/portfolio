@@ -4,6 +4,7 @@ import { MDXRemote } from 'next-mdx-remote/rsc';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
+import Container from '@/components/ui/Container';
 
 type BlogPostProps = {
   params: Promise<{ slug: string; locale?: string }>;
@@ -24,8 +25,8 @@ export default async function BlogPost({ params }: BlogPostProps) {
   const { metadata, content } = post;
 
   return (
-    <div className="flex flex-col gap-8 mt-10 px-8">
-      <div className="flex flex-col gap-2">
+    <Container className="flex flex-col gap-8 my-10">
+      <div className="flex flex-col gap-4">
         <Link
           href="/blog"
           className="text-sm flex items-center gap-2 hover:text-highlight"
@@ -45,14 +46,14 @@ export default async function BlogPost({ params }: BlogPostProps) {
       </div>
 
       <div>
-        <h1 className="text-2xl font-bold">{metadata.title}</h1>
-        <p className="text-muted">{metadata.date}</p>
+        <h1 className="text-5xl font-bold mb-1">{metadata.title}</h1>
+        <p className="text-lg text-muted">{metadata.date}</p>
       </div>
 
-      <article className="prose text-foreground">
+      <article className="prose prose-xl prose-img:rounded-lg text-foreground">
         <MDXRemote source={content} />
       </article>
-    </div>
+    </Container>
   );
 }
 

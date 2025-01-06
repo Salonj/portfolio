@@ -34,7 +34,10 @@ export default function Header() {
         <nav className="hidden md:flex">
           <ul className="flex gap-2 md:gap-4">
             {navLinks.map((nav, id) => (
-              <li key={id} className="text-3xl font-bold">
+              <li
+                key={id}
+                className="text-3xl font-bold hover:text-accent hover:underline"
+              >
                 <Link href={nav.href}>{t(nav.name)}</Link>
               </li>
             ))}

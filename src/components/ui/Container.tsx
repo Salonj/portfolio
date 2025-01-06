@@ -2,7 +2,7 @@ import React from 'react';
 
 type ContainerProps = {
   children: React.ReactNode;
-  className?: string; // Optional additional classes
+  className?: string;
 };
 
 export default function Container({

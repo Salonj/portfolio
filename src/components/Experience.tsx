@@ -20,7 +20,7 @@ export default function Experience() {
   return (
     <div className="mt-10 md:mt-20 bg-foreground">
       <Container className="flex flex-col justify-between gap-2 my-20">
-        <div className="snes-container text-2xl font-bold flex bg-background p-2 rounded-md">
+        <div className="text-2xl font-bold flex bg-background p-2 rounded-md">
           <button
             className={`w-1/2 p-2 rounded-md ${
               isCareerTab

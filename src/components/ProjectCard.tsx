@@ -110,7 +110,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                   <li>Debugging database interactions in IndexedDB.</li>
                 </ul>
                 <h3 className="text-3xl font-bold">Tech Stack</h3>
-                <div></div>
+                <div className="flex justify-between gap-2 font-bold">
+                  <button className="bg-foreground w-full text-xl text-background2 px-4 py-2 rounded-md">
+                    Github
+                  </button>
+                  <button className="bg-foreground w-full text-xl text-background2 px-4 py-2 rounded-md">
+                    Live
+                  </button>
+                </div>
               </div>
             </div>
           </div>
