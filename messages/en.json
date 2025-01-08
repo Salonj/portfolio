@@ -8,10 +8,11 @@
       "theme": "Choose theme"
     },
     "about": {
-      "title": "Hey Onni here! ",
-      "location": "Tampere, Finland",
-      "about": "-year-old software engineering major student. I learn, design and implement websites and applications.",
-      "cvLink": "Résumé"
+      "introStart": "Hey, I'm ",
+      "introEnd": " a software engineering student. Welcome to my personal website!",
+      "about": "About me",
+      "info": "-year-old software engineering student from Tampere, Finland. I'm currently studying at Tampere University and working on my personal projects.",
+      "resume": "Resumé"
     },
     "experience": {
       "work": "Work",
@@ -38,6 +39,15 @@
   "BlogPage": {
     "title": "My blog",
     "back": "Back to blog"
+  },
+  "ContactPage": {
+    "title": "Contact me",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "errorMessage": "Please fill in all fields."
   },
   "NotFoundPage": {
     "message": "The page you are looking for does not exist.",

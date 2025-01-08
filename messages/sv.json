@@ -8,10 +8,11 @@
       "theme": "Välj tema"
     },
     "about": {
-      "title": "hej onni här!",
-      "location": "Tammerfors, Finland",
-      "about": "-årig studerande inom programvaruteknik. Jag lär mig, designar och implementerar webbplatser och applikationer.",
-      "cvLink": "Meritförteckning"
+      "introStart": "Hej, jag är ",
+      "introEnd": " en programvaruteknikstuderande. Välkommen till min personliga webbplats!",
+      "about": "Om mig",
+      "info": "-årig programvaruteknikstuderande från Tammerfors, Finland. Jag studerar för närvarande vid Tammerfors universitet och arbetar med mina personliga projekt.",
+      "resume": "Resumé"
     },
     "experience": {
       "work": "Arbetslivserfarenhet",
@@ -38,6 +39,15 @@
   "BlogPage": {
     "title": "Min blogg",
     "back": "Tillbaka till bloggen"
+  },
+  "ContactPage": {
+    "title": "Kontakta mig",
+    "name": "Namn",
+    "email": "E-post",
+    "message": "Meddelande",
+    "submit": "Skicka",
+    "submitting": "Skickar...",
+    "errorMessage": "Fyll i alla fält."
   },
   "NotFoundPage": {
     "message": "Sidan du letar efter finns inte.",

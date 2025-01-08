@@ -15,7 +15,7 @@ export default function Blog() {
         <div className="flex items-baseline justify-between text-background">
           <h2 className="text-5xl font-bold">{t('title')}</h2>
           <Link
-            href="/projects"
+            href="/blog"
             className="flex items-center justify-center gap-2 hover:text-accent"
           >
             <p className="text-2xl">{t('link')}</p>

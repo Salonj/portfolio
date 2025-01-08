@@ -3,7 +3,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 import LanguageSelector from './LanguageSelector';
 import { useTranslations } from 'next-intl';
-import InlineLanguageSwitcher from './InlineLanguageSelector';
 import ThemeDropdown from './ThemeSelector';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
@@ -26,8 +25,10 @@ export default function Header() {
       {/* Top Header Section */}
       <div className="max-w-3xl w-full flex justify-between py-4 px-2 items-center mx-auto">
         {/* Logo */}
-        <div className="text-4xl flex items-center justify-center aspect-square font-bold border-foreground border-4 rounded-lg p-2">
-          OS
+        <div className="text-4xl flex items-center justify-center aspect-square font-bold border-foreground border-4 rounded-md p-2">
+          <Link href="/" className="text-4xl font-bold">
+            OS
+          </Link>
         </div>
 
         {/* Desktop Navigation */}

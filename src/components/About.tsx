@@ -1,4 +1,3 @@
-import { DownloadIcon, ThumbtackIcon } from '@/components/svgs';
 import { useTranslations } from 'next-intl';
 import Socials from '@/components/Socials';
 import Image from 'next/image';
@@ -6,15 +5,33 @@ import Container from './ui/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 
-const ONNI_BIRTH_YEAR = 2003;
+const ONNI_BIRTH_DATE = '2003-10-04';
 
 export default function About() {
   const t = useTranslations('HomePage.about');
 
-  const age = new Date().getFullYear() - ONNI_BIRTH_YEAR;
+  const calculateAge = (birthDate: string): number => {
+    const today = new Date();
+    const birth = new Date(birthDate);
+    let age = today.getFullYear() - birth.getFullYear();
+
+    // Adjust age if the birth date hasn't occurred yet this year
+    const hasHadBirthdayThisYear =
+      today.getMonth() > birth.getMonth() ||
+      (today.getMonth() === birth.getMonth() &&
+        today.getDate() >= birth.getDate());
+    if (!hasHadBirthdayThisYear) {
+      age--;
+    }
+
+    return age;
+  };
+
+  const age = calculateAge(ONNI_BIRTH_DATE);
+
   return (
     <div className="mt-10 md:mt-20 bg-foreground">
-      <Container className="flex items-stretch justify-between gap-2 my-20">
+      <Container className="flex flex-col items-center md:flex-row  md:items-stretch justify-between gap-2 my-20">
         {/* Image Section */}
         <div className="w-1/2 flex items-center justify-center">
           <Image
@@ -29,18 +46,18 @@ export default function About() {
         {/* Content Section */}
         <div className="w-1/2 flex flex-col justify-between text-background2">
           <div>
-            <h2 className="text-5xl font-bold">About me</h2>
-            <p className="text-2xl">
-              {age}-year-old software engineering major student. I learn, design
-              and implement websites and applications.
+            <h2 className="text-5xl font-bold mb-4">{t('about')}</h2>
+            <p className="text-2xl mb-2">
+              {age}
+              {t('info')}
             </p>
           </div>
           <Socials
             textColor="text-background2"
-            textSize="text-3xl md:text-4xl"
+            textSize="text-3xl md:text-4xl mb-8"
           />
-          <button className="w-full border-4 rounded-md p-4 flex gap-2 items-center justify-center text-3xl font-bold">
-            Resume
+          <button className="w-full border-4 rounded-md p-4 flex gap-2 items-center justify-center text-3xl font-bold hover:border-accent hover:text-accent">
+            {t('resume')}
             <FontAwesomeIcon icon={faFileArrowDown} className="text-3xl" />
           </button>
         </div>

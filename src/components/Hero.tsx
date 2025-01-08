@@ -16,9 +16,8 @@ export default function Hero() {
         />
         <div className="mt-10">
           <p className="text-center text-3xl md:text-4xl font-bold">
-            Hey, I’m <b className="text-accent">Onni Salomaa.</b> Here you can
-            check out what I’m working on. I try and learn to become better on
-            what I do.
+            {t('introStart')}
+            <b className="text-accent"> Onni Salomaa </b> {t('introEnd')}
           </p>
         </div>
       </Container>

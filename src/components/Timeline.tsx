@@ -39,7 +39,7 @@ const Card: React.FC<CardProps> = ({
       </div>
 
       {/* Timeline Content */}
-      <div className="flex flex-col bg-background2 p-4 rounded-lg shadow-md ml-16 w-[calc(100%-4rem)] z-0">
+      <div className="flex flex-col bg-background2 p-4 rounded-md shadow-md ml-16 w-[calc(100%-4rem)] z-0">
         {/* Date Range */}
         <div className="flex items-center text-xs md:text-sm text-muted mb-3">
           <span>{start}</span>

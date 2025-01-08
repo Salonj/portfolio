@@ -8,10 +8,11 @@
       "theme": "Valitse teema"
     },
     "about": {
-      "title": "hei onni täällä!",
-      "location": "Tampere, Suomi",
-      "about": "-vuotias ohjelmistotekniikan opiskelija. Opiskelen, suunnittelen ja toteutan verkkosivuja ja sovelluksia.",
-      "cvLink": "Ansioluettelo"
+      "introStart": "Moro, olen ",
+      "introEnd": " ohjelmistotekniikan opiskelija. Tervetuloa kotisivuilleni!",
+      "about": "Tietoa minusta",
+      "info": "-vuotias ohjelmistotekniikan opiskelija Tampereelta. Opiskelen tällä hetkellä Tampereen korkeakoulussa ja teen omia projekteja.",
+      "resume": "Resumé"
     },
     "experience": {
       "work": "Työkokemus",
@@ -38,6 +39,15 @@
   "BlogPage": {
     "title": "Minun blogi",
     "back": "Takaisin blogisivulle"
+  },
+  "ContactPage": {
+    "title": "Ota yhteyttä",
+    "name": "Nimi",
+    "email": "Sähköposti",
+    "message": "Viesti",
+    "submit": "Lähetä",
+    "submitting": "Lähetetään...",
+    "errorMessage": "Täytä kaikki kentät."
   },
   "NotFoundPage": {
     "message": "Etsimääsi sivua ei ole olemassa.",

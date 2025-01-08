@@ -16,7 +16,7 @@ export default function BlogCard({
   return (
     <Link
       href={`/blog/${slug}`}
-      className="bg-background p-4 rounded-md hover:bg-background2 hover:text-accent"
+      className="bg-background2 p-4 rounded-md hover:bg-background hover:text-accent"
     >
       <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-6 py-4">
         {/* Blog Info */}

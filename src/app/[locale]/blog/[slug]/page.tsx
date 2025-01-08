@@ -1,4 +1,5 @@
-import { ArrowRightIcon } from '@/components/svgs';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { getPostBySlug, getAllPosts } from '@/utils/blog';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import Link from 'next/link';
@@ -31,7 +32,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
           href="/blog"
           className="text-sm flex items-center gap-2 hover:text-highlight"
         >
-          <ArrowRightIcon className="w-6 h-6 md:h-8 md:w-8 transform rotate-180" />
+          <FontAwesomeIcon icon={faArrowLeft} className="text-3xl" />
         </Link>
         <div className="w-full h-80 overflow-hidden rounded-md flex items-center justify-center">
           <Image

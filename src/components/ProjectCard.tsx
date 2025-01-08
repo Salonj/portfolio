@@ -2,12 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import {
-  faArrowUpRightFromSquare,
-  faXmark,
-} from '@fortawesome/free-solid-svg-icons';
-import TechStackGrid from './TechStackGrid';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 interface ProjectCardProps {
   name: string;
@@ -21,8 +16,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   name,
   description,
   image,
-  techStack,
-  links,
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -31,7 +24,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <>
       {/* Project Card */}
-      <div className="flex flex-col justify-between border-4 border-foreground p-4 rounded-md">
+      <div className="flex flex-col bg-background2 justify-between border-4 border-foreground p-4 rounded-md">
         {/* Project Image */}
         <div className="flex flex-col mb-10">
           <Image
@@ -48,7 +41,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         {/* Read More Button */}
         <button
           onClick={toggleModal}
-          className="w-full bg-foreground text-background rounded-md py-2"
+          className="w-full bg-foreground text-background rounded-md py-2 hover:bg-accent"
           aria-label="Read More"
         >
           Read More
@@ -58,7 +51,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       {/* Modal */}
       {isModalOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-background max-h-full p-4 rounded-lg shadow-lg max-w-3xl w-full">
+          <div className="bg-background max-h-full p-4 rounded-md shadow-lg max-w-3xl w-full">
             {/* Modal Header */}
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-5xl font-bold">{name}</h2>

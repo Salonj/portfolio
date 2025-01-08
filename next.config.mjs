@@ -3,6 +3,9 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    domains: ['i.giphy.com'],
+  },
   experimental: {
     turbo: {
       rules: {

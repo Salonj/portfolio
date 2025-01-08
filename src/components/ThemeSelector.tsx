@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleHalfStroke } from '@fortawesome/free-solid-svg-icons';
-import { useTranslations } from 'next-intl';
 
 const themes = [
   {
@@ -21,7 +20,6 @@ const themes = [
 ];
 
 export default function ThemeDropdown() {
-  const t = useTranslations('HomePage.navigation');
   const [currentTheme, setCurrentTheme] = useState('Default');
 
   // Handle theme change

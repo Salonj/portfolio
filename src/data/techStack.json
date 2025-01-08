@@ -1,64 +1,79 @@
 {
   "techStack": {
-    "javascript": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
+    "cplusplus": {
+      "name": "C++",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg",
+      "color": "#00599c"
     },
-    "typescript": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
+    "html5": {
+      "name": "HTML5",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+      "color": "#E44D26"
     },
-    "shitscript": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
+    "java": {
+      "name": "Java",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+      "color": "#0074BD"
     },
-    "idkscript": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
+    "git": {
+      "name": "Git",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+      "color": "#F34F29"
     },
-    "goofy": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
+    "github": {
+      "name": "GitHub",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
+      "color": "#181616"
     },
-    "bomboclat": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
+    "python": {
+      "name": "Python",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+      "color": "#306998"
+    },
+    "tailwindcss": {
+      "name": "Tailwindcss",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      "color": "#38bdf8"
+    },
+    "figma": {
+      "name": "Figma",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+      "color": "#0acf83"
+    },
+    "css3": {
+      "name": "CSS3",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+      "color": "#1572B6"
+    },
+    "nodejs": {
+      "name": "Node.js",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+      "color": "#3F8B3D"
+    },
+    "nextjs": {
+      "name": "Next.js",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      "color": "#000000"
+    },
+    "wordpress": {
+      "name": "Wordpress",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg",
+      "color": "#337BA2"
     },
     "react": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
+      "name": "React",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+      "color": "#61DAFB"
     },
-    "vue": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
+    "typescript": {
+      "name": "Typescript",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      "color": "#007acc"
     },
-    "angular": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
-    },
-    "svelte": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
-    },
-    "node": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
-    },
-    "express": {
-      "name": "JavaScript",
-      "icon": "/javascript.png",
-      "color": "#f0db4f"
+    "javascript": {
+      "name": "Javascript",
+      "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+      "color": "#F0DB4F"
     }
   }
 }

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { usePathname } from 'next/navigation';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -39,12 +39,12 @@ export default function LanguageSelector() {
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 top-8 border-4 bg-background2 border-foreground rounded-lg">
+        <div className="absolute right-0 top-8 border-4 bg-background2 border-foreground rounded-md">
           <ul className="flex flex-col">
             {sortedLocales.map((locale) => (
               <li key={locale.code}>
                 <button
-                  className={`block w-full px-4 py-2 text-center hover:bg-foreground hover:text-background2 text-lg ${
+                  className={`block w-full px-6 py-2 text-center hover:bg-foreground hover:text-background2 text-xl ${
                     locale.code === currentLocale ? 'font-bold' : ''
                   }`}
                   onClick={() => changeLocale(locale.code)}
