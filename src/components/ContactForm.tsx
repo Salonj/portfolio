@@ -56,9 +56,9 @@ export default function ContactForm() {
     if (isPopupVisible) {
       const timer = setTimeout(() => {
         setPopupVisible(false);
-      }, 500000);
+      }, 5000);
 
-      return () => clearTimeout(timer); // Cleanup timer on unmount
+      return () => clearTimeout(timer);
     }
   }, [isPopupVisible]);
 
@@ -155,7 +155,7 @@ export default function ContactForm() {
               <div className="h-4 w-full bg-gray-300 rounded-md overflow-hidden">
                 <div
                   className="h-full bg-accent transition-all"
-                  style={{ animation: 'progress 1000s linear forwards' }}
+                  style={{ animation: 'progress 5s linear forwards' }}
                 />
               </div>
               <button
@@ -174,7 +174,7 @@ export default function ContactForm() {
               </p>
               <Image
                 className="w-64 h-64 object-contain rounded-md"
-                src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif"
+                src="https://i.giphy.com/JIX9t2j0ZTN9S.webp"
                 alt="Mr. Bean"
                 width={500}
                 height={500}
