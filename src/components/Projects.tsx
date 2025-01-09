@@ -11,12 +11,12 @@ export default function Projects() {
   const t = useTranslations('HomePage.projects');
   return (
     <div className="mt-10 md:mt-20">
-      <Container className="flex flex-col justify-between gap-2 my-20">
+      <Container className="flex flex-col justify-between gap-6 my-20">
         <div className="flex items-baseline justify-between">
           <h2 className="text-5xl font-bold">{t('title')}</h2>
           <Link
             href="/projects"
-            className="flex items-center justify-center gap-2 hover:text-accent"
+            className="flex items-center justify-center gap-2 hover:text-oka"
           >
             <p className="text-2xl">{t('link')}</p>
             <FontAwesomeIcon icon={faArrowRight} className="text-2xl" />

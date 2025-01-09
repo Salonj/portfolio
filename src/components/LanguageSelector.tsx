@@ -31,7 +31,7 @@ export default function LanguageSelector() {
     <div className="relative inline-block">
       <button
         className={`flex items-center ${
-          isOpen ? 'text-accent' : 'hover:text-accent'
+          isOpen ? 'text-oka' : 'hover:text-oka'
         }`}
         onClick={() => setIsOpen((prev) => !prev)}
       >
@@ -39,12 +39,12 @@ export default function LanguageSelector() {
       </button>
 
       {isOpen && (
-        <div className="absolute right-0 top-8 border-4 bg-background2 border-foreground rounded-md">
+        <div className="absolute right-0 top-8 border-4 bg-okbg border-okfg rounded-md">
           <ul className="flex flex-col">
             {sortedLocales.map((locale) => (
               <li key={locale.code}>
                 <button
-                  className={`block w-full px-6 py-2 text-center hover:bg-foreground hover:text-background2 text-xl ${
+                  className={`block w-full px-6 py-2 text-center hover:bg-okfg hover:text-oktext text-xl ${
                     locale.code === currentLocale ? 'font-bold' : ''
                   }`}
                   onClick={() => changeLocale(locale.code)}

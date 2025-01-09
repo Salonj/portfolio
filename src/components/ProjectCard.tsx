@@ -24,7 +24,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   return (
     <>
       {/* Project Card */}
-      <div className="flex flex-col bg-background2 justify-between border-4 border-foreground p-4 rounded-md">
+      <div className="flex flex-col bg-okbg justify-between border-4 border-okfg p-4 rounded-md">
         {/* Project Image */}
         <div className="flex flex-col mb-10">
           <Image
@@ -41,7 +41,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         {/* Read More Button */}
         <button
           onClick={toggleModal}
-          className="w-full bg-foreground text-background rounded-md py-2 hover:bg-accent"
+          className="w-full bg-okfg text-oktext rounded-md py-2 hover:bg-oka"
           aria-label="Read More"
         >
           Read More

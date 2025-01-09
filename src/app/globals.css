@@ -8,19 +8,23 @@
       BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
       'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
       'Segoe UI Symbol', 'Noto Color Emoji';
-    --background: #f2f2f2;
-    --background-2: #ffffff;
-    --background-3: #d9d9d9;
-    --foreground: #111827;
-    --accent: #3b9cd4;
+    --ok-bg: #ffffff;
+    --ok-bg2: #f2f2f2;
+    --ok-bg3: #d9d9d9;
+    --ok-fg: #111827;
+    --ok-accent: #3b9cd4;
+    --ok-text: #ffffff;
+    --ok-text2: #111827;
   }
 
   .dark {
-    --background: #111827;
-    --background-2: #1f2937;
-    --background-3: #374151;
-    --foreground: #f2f2f2;
-    --accent: #d97706;
+    --ok-bg: #111827;
+    --ok-bg2: #1f2937;
+    --ok-bg3: #374151;
+    --ok-fg: #465160;
+    --ok-accent: #3b9cd4;
+    --ok-text: #ffffff;
+    --ok-text2: #ffffff;
   }
 }
 
@@ -30,41 +34,22 @@ body {
 
 @layer base {
   body {
-    @apply bg-background text-foreground;
-  }
-
-  .prose {
-    @apply text-foreground;
-  }
-
-  .prose h1 {
-    @apply text-foreground;
-  }
-  .prose h2 {
-    @apply text-foreground;
-  }
-
-  .prose h3 {
-    @apply text-foreground;
-  }
-
-  .prose a {
-    @apply text-foreground;
-  }
-
-  .prose p strong {
-    @apply text-foreground text-xl;
+    @apply bg-okbg2 text-oktext2;
   }
 
   .prose img {
     @apply h-60 w-auto;
   }
 
-  .prose ul {
-    @apply list-disc list-inside;
+  .prose strong {
+    @apply text-oka;
+  }
+
+  .prose a {
+    @apply text-oka;
   }
 
   .prose pre {
-    @apply px-5 py-4 text-lg rounded-md;
+    @apply bg-okfg;
   }
 }

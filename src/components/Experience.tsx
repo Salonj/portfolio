@@ -18,14 +18,12 @@ export default function Experience() {
   };
 
   return (
-    <div className="mt-10 md:mt-20 bg-foreground">
+    <div className="mt-10 md:mt-20 bg-okfg">
       <Container className="flex flex-col justify-between gap-2 my-20">
-        <div className="text-2xl font-bold flex bg-background p-2 rounded-md">
+        <div className="text-2xl font-bold flex bg-okbg2 p-2 rounded-md">
           <button
             className={`w-1/2 p-2 rounded-md ${
-              isCareerTab
-                ? 'bg-foreground text-background'
-                : 'bg-background text-foreground'
+              isCareerTab ? 'bg-okfg text-oktext' : 'bg-okbg2 text-okfg'
             }`}
             onClick={switchTab}
           >
@@ -33,9 +31,7 @@ export default function Experience() {
           </button>
           <button
             className={`w-1/2 p-2 rounded-md ${
-              isCareerTab
-                ? 'bg-background text-foreground'
-                : 'bg-foreground text-background'
+              isCareerTab ? 'bg-okbg2 text-oktext2' : 'bg-okfg text-oktext'
             }`}
             onClick={switchTab}
           >
@@ -44,7 +40,7 @@ export default function Experience() {
         </div>
 
         {/* Timeline */}
-        <div className="bg-background rounded-md">
+        <div className="bg-okbg2 rounded-md">
           {isCareerTab ? (
             <div>
               {workExperience.workExperience.map((job, id) => (
@@ -54,8 +50,8 @@ export default function Experience() {
                   name={job.nameKey}
                   link={job.href}
                   title={tWork(job.titleKey)}
-                  start={tWork(job.startKey)}
-                  end={tWork(job.endKey)}
+                  start={job.startKey}
+                  end={job.endKey}
                   description={job.descriptionKey.map((key) => tWork(key))}
                 />
               ))}
@@ -69,8 +65,8 @@ export default function Experience() {
                   name={tEdu(edu.nameKey)}
                   link={edu.href}
                   title={tEdu(edu.titleKey)}
-                  start={tEdu(edu.startKey)}
-                  end={tEdu(edu.endKey)}
+                  start={edu.startKey}
+                  end={edu.endKey}
                   description={edu.descriptionKey.map((key) => tEdu(key))}
                 />
               ))}

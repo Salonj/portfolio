@@ -5,8 +5,8 @@
       "href": "https://www.tuni.fi/",
       "titleKey": "tuni.title",
       "logo": "/tuni.png",
-      "startKey": "tuni.startDate",
-      "endKey": "tuni.endDate",
+      "startKey": "2022-08-01",
+      "endKey": "2022-12-31",
       "descriptionKey": ["tuni.description.0", "tuni.description.1"]
     },
     {
@@ -14,8 +14,8 @@
       "href": "https://www.vaskivuori.fi/",
       "titleKey": "vaskivuori.title",
       "logo": "/vaskivuori.png",
-      "startKey": "vaskivuori.startDate",
-      "endKey": "vaskivuori.endDate",
+      "startKey": "2018-08-01",
+      "endKey": "2022-08-01",
       "descriptionKey": ["vaskivuori.description.0", "vaskivuori.description.1"]
     }
   ]

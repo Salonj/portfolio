@@ -9,14 +9,14 @@ export default function TechStackGrid() {
   const { techStack } = techData;
 
   return (
-    <div className="mt-10 md:mt-20 mb-20">
-      <Container className="flex flex-col justify-between gap-4">
-        <h2 className="text-5xl font-bold text-center">{t('title')}</h2>
+    <div className="mt-10 md:mt-20">
+      <Container className="flex flex-col justify-between gap-6 my-20">
+        <h2 className="text-5xl font-bold md:text-center">{t('title')}</h2>
         <div className="grid grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] gap-6">
           {Object.entries(techStack).map(([key, { name, icon, color }]) => (
             <div
               key={key}
-              className="relative p-4 bg-background2 rounded-md shadow-md aspect-square transform transition-transform duration-300 hover:scale-110 group"
+              className="relative p-4 bg-okbg rounded-md shadow-md aspect-square transform transition-transform duration-300 hover:scale-110 group"
             >
               <Image
                 src={icon}

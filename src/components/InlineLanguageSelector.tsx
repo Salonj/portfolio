@@ -4,8 +4,8 @@ import { useRouter } from 'next/navigation';
 import { usePathname } from 'next/navigation';
 
 const availableLocales = [
-  { code: 'en', name: 'English' },
   { code: 'fi', name: 'Suomi' },
+  { code: 'en', name: 'English' },
   { code: 'sv', name: 'Svenska' },
 ];
 
@@ -24,16 +24,16 @@ export default function InlineLanguageSwitcher({
   };
 
   return (
-    <div className="flex justify-center text-sm text-background">
+    <div className="flex justify-center text-base text-foreground">
       {availableLocales.map((locale, index) => (
         <button
           key={locale.code}
           onClick={() => changeLocale(locale.code)}
           className="transition-all"
         >
-          <span className="hover:text-highlight">{locale.name}</span>
+          <span className="hover:text-accent">{locale.name}</span>
           {index < availableLocales.length - 1 && (
-            <span className="mx-2 !hover:text-background">|</span>
+            <span className="mx-2">|</span>
           )}
         </button>
       ))}

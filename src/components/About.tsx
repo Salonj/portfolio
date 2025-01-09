@@ -30,10 +30,10 @@ export default function About() {
   const age = calculateAge(ONNI_BIRTH_DATE);
 
   return (
-    <div className="mt-10 md:mt-20 bg-foreground">
-      <Container className="flex flex-col items-center md:flex-row  md:items-stretch justify-between gap-2 my-20">
+    <div className="mt-10 md:mt-20 bg-okfg">
+      <Container className="flex flex-col md:flex-row md:items-stretch justify-between gap-2 my-20">
         {/* Image Section */}
-        <div className="w-1/2 flex items-center justify-center">
+        <div className="w-full md:w-1/2 flex items-center md:justify-center">
           <Image
             src="/mrBean.png"
             alt="Onni Salomaa"
@@ -44,7 +44,7 @@ export default function About() {
         </div>
 
         {/* Content Section */}
-        <div className="w-1/2 flex flex-col justify-between text-background2">
+        <div className="w-full  md:w-1/2 flex flex-col justify-between text-oktext">
           <div>
             <h2 className="text-5xl font-bold mb-4">{t('about')}</h2>
             <p className="text-2xl mb-2">
@@ -56,7 +56,7 @@ export default function About() {
             textColor="text-background2"
             textSize="text-3xl md:text-4xl mb-8"
           />
-          <button className="w-full border-4 rounded-md p-4 flex gap-2 items-center justify-center text-3xl font-bold hover:border-accent hover:text-accent">
+          <button className="w-full border-4 rounded-md p-4 flex gap-2 items-center justify-center text-3xl font-bold hover:border-oka hover:text-oka">
             {t('resume')}
             <FontAwesomeIcon icon={faFileArrowDown} className="text-3xl" />
           </button>

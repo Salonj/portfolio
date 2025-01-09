@@ -17,7 +17,7 @@ export default function BlogGrid({ limit, showBorders = true }: BlogGridProps) {
   return (
     <div
       className={`flex flex-col ${
-        showBorders ? 'border-4 border-foreground rounded-md' : 'gap-2'
+        showBorders ? 'border-4 border-okfg rounded-md' : 'gap-2'
       }`}
     >
       {limitedPosts.map((post, index) => (
@@ -30,7 +30,7 @@ export default function BlogGrid({ limit, showBorders = true }: BlogGridProps) {
           />
           {/* Add line only if there is another post after */}
           {index < limitedPosts.length - 1 && showBorders && (
-            <hr className="w-full border-foreground border-2" />
+            <hr className="w-full border-okfg border-2" />
           )}
         </React.Fragment>
       ))}

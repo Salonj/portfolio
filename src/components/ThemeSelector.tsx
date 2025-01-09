@@ -44,7 +44,7 @@ export default function ThemeDropdown() {
   return (
     <div className="relative inline-block">
       <button
-        className="flex items-center hover:text-accent"
+        className="flex items-center hover:text-oka"
         onClick={handleThemeChange}
       >
         <FontAwesomeIcon icon={faCircleHalfStroke} className="text-3xl" />

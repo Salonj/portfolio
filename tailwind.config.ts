@@ -1,3 +1,4 @@
+import { text } from 'stream/consumers';
 import type { Config } from 'tailwindcss';
 
 export default {
@@ -9,12 +10,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: 'var(--background)',
-        foreground: 'var(--foreground)',
-        background2: 'var(--background-2)',
-        background3: 'var(--background-3)',
-        accent: 'var(--accent)',
-        accent2: 'var(--accent-2)',
+        okbg: 'var(--ok-bg)',
+        okbg2: 'var(--ok-bg2)',
+        okbg3: 'var(--ok-bg3)',
+        okfg: 'var(--ok-fg)',
+        oka: 'var(--ok-accent)',
+        oktext: 'var(--ok-text)',
+        oktext2: 'var(--ok-text2)',
       },
       fontFamily: {
         ok: 'var(--font-press-start-2p)',

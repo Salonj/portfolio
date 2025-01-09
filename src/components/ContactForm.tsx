@@ -70,14 +70,11 @@ export default function ContactForm() {
       <form onSubmit={sendMail} className="flex flex-col gap-4">
         {/* Name Input */}
         <div className="flex flex-col">
-          <label
-            className="font-semibold text-lg text-foreground"
-            htmlFor="name"
-          >
+          <label className="font-semibold text-lg" htmlFor="name">
             {t('name')}
           </label>
           <input
-            className="border-4 w-1/2 bg-background2 rounded-md p-4 border-foreground focus:border-accent"
+            className="border-4 w-1/2 bg-okbg rounded-md p-4 border-okfg focus:border-oka"
             name="name"
             type="text"
             id="name"
@@ -89,14 +86,11 @@ export default function ContactForm() {
 
         {/* Email Input */}
         <div className="flex flex-col">
-          <label
-            className="font-semibold text-lg text-foreground"
-            htmlFor="email"
-          >
+          <label className="font-semibold text-lg " htmlFor="email">
             {t('email')}
           </label>
           <input
-            className="border-4 w-2/3 bg-background2 rounded-md p-4 border-foreground focus:border-accent"
+            className="border-4 w-2/3 bg-okbg rounded-md p-4 border-okfg focus:border-oka"
             name="email"
             type="email"
             id="email"
@@ -108,14 +102,11 @@ export default function ContactForm() {
 
         {/* Message Input */}
         <div className="flex flex-col">
-          <label
-            className="font-semibold text-lg text-foreground"
-            htmlFor="message"
-          >
+          <label className="font-semibold text-lg" htmlFor="message">
             {t('message')}
           </label>
           <textarea
-            className="border-4 bg-background2 rounded-md p-4 border-foreground focus:border-accent"
+            className="border-4 bg-okbg rounded-md p-4 border-okfg focus:border-oka"
             name="message"
             id="message"
             required
@@ -131,7 +122,7 @@ export default function ContactForm() {
           className={`p-4 text-2xl rounded-md font-bold transition ${
             status === 'sending'
               ? 'bg-gray-400 cursor-not-allowed'
-              : 'bg-foreground text-background hover:bg-accent'
+              : 'bg-okfg text-oktext hover:bg-oka'
           }`}
           type="submit"
           disabled={status === 'sending'}
@@ -150,26 +141,24 @@ export default function ContactForm() {
       {/* Success Popup */}
       {isPopupVisible && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-background2 rounded-md p-6 gap-4 flex flex-col">
+          <div className="bg-okbg rounded-md p-6 gap-4 flex flex-col">
             <div className="flex flex-row items-center justify-between gap-4">
               <div className="h-4 w-full bg-gray-300 rounded-md overflow-hidden">
                 <div
-                  className="h-full bg-accent transition-all"
+                  className="h-full bg-oka transition-all"
                   style={{ animation: 'progress 5s linear forwards' }}
                 />
               </div>
               <button
                 onClick={closePopup}
-                className="flex justify-end text-foreground hover:text-accent transition"
+                className="flex justify-end hover:text-oka transition"
               >
                 <FontAwesomeIcon icon={faXmark} className="text-3xl" />
               </button>
             </div>
             <div className="flex flex-col items-center">
-              <h3 className="text-2xl font-bold text-foreground mb-2">
-                Thank You!
-              </h3>
-              <p className="text-lg text-foreground mb-2">
+              <h3 className="text-2xl font-bold  mb-2">Thank You!</h3>
+              <p className="text-lg mb-2">
                 Your message has been sent successfully!
               </p>
               <Image

@@ -12,14 +12,11 @@ type BlogPostProps = {
 };
 
 export default async function BlogPost({ params }: BlogPostProps) {
-  // Await params if it's a promise
   const { slug, locale = 'en' } = await params;
 
-  // Fetch the post by slug and locale
   const post = await getPostBySlug(slug, locale);
 
   if (!post) {
-    // Handle post not found
     return notFound();
   }
 
@@ -30,7 +27,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
       <div className="flex flex-col gap-4">
         <Link
           href="/blog"
-          className="text-sm flex items-center gap-2 hover:text-highlight"
+          className="text-sm flex items-center gap-2 hover:text-oka"
         >
           <FontAwesomeIcon icon={faArrowLeft} className="text-3xl" />
         </Link>
@@ -48,10 +45,10 @@ export default async function BlogPost({ params }: BlogPostProps) {
 
       <div>
         <h1 className="text-5xl font-bold mb-1">{metadata.title}</h1>
-        <p className="text-lg text-muted">{metadata.date}</p>
+        <p className="text-lg">{metadata.date}</p>
       </div>
 
-      <article className="prose prose-xl prose-img:rounded-lg text-foreground">
+      <article className="prose prose-xl prose-img:rounded-lg text-oktext2 prose-headings:text-oktext2">
         <MDXRemote source={content} />
       </article>
     </Container>

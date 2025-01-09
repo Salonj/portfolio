@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import { DateTimeFormatOptions } from 'next-intl';
+import { formatDate, normalizeLocale } from '@/utils/misc';
 
 const contentDirectory = path.join(process.cwd(), 'content');
 
@@ -19,32 +19,6 @@ export type PostData = {
   metadata: PostMetadata;
   content: string;
 };
-
-// Map or normalize locale strings
-function normalizeLocale(locale: string): string {
-  const localeMap: Record<string, string> = {
-    en: 'en-US',
-    fi: 'fi-FI',
-    sv: 'sv-SE',
-  };
-
-  return localeMap[locale] || locale; // Return mapped locale or fallback to original
-}
-
-// Format date using next-intl
-function formatDate(
-  date: string,
-  locale: string,
-  options?: DateTimeFormatOptions
-): string {
-  const normalizedLocale = normalizeLocale(locale);
-  return new Intl.DateTimeFormat(normalizedLocale, {
-    ...options,
-    year: 'numeric',
-    month: 'long',
-    day: '2-digit',
-  }).format(new Date(date));
-}
 
 // Fetch all posts
 export function getAllPosts(locale: string): PostMetadata[] {

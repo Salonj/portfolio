@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import LanguageSelector from './LanguageSelector';
+import InlineLanguageSwitcher from './InlineLanguageSelector';
 import { useTranslations } from 'next-intl';
 import ThemeDropdown from './ThemeSelector';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -21,11 +22,11 @@ export default function Header() {
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
   return (
-    <header className="sticky top-0 bg-background2 border-b-4 border-foreground w-full flex flex-col z-50">
+    <header className="sticky top-0 bg-okbg border-b-4 border-okfg w-full flex flex-col z-50">
       {/* Top Header Section */}
       <div className="max-w-3xl w-full flex justify-between py-4 px-2 items-center mx-auto">
         {/* Logo */}
-        <div className="text-4xl flex items-center justify-center aspect-square font-bold border-foreground border-4 rounded-md p-2">
+        <div className="text-4xl flex items-center justify-center aspect-square font-bold border-oktext2 border-4 rounded-md p-2">
           <Link href="/" className="text-4xl font-bold">
             OS
           </Link>
@@ -37,7 +38,7 @@ export default function Header() {
             {navLinks.map((nav, id) => (
               <li
                 key={id}
-                className="text-3xl font-bold hover:text-accent hover:underline"
+                className="text-3xl font-bold hover:text-oka hover:underline"
               >
                 <Link href={nav.href}>{t(nav.name)}</Link>
               </li>
@@ -55,7 +56,7 @@ export default function Header() {
         <div className="md:hidden flex items-center">
           <button
             onClick={toggleMenu}
-            className="p-2 text-foreground focus:outline-none"
+            className="p-2 focus:outline-none"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
@@ -91,7 +92,7 @@ export default function Header() {
             ))}
             <div className="flex gap-4 md:gap-6 px-1 mt-2">
               <ThemeDropdown />
-              <LanguageSelector />
+              <InlineLanguageSwitcher />
             </div>
           </ul>
         </nav>
