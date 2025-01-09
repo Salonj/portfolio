@@ -20,7 +20,7 @@ export default function Socials({
       >
         <FontAwesomeIcon
           icon={faGithub}
-          className={`${textSize} hover:text-oka ${textColor}`}
+          className={`${textSize} hover:text-[#6e5494] ${textColor}`}
         />
       </a>
       <a
@@ -30,7 +30,7 @@ export default function Socials({
       >
         <FontAwesomeIcon
           icon={faLinkedin}
-          className={`${textSize} hover:text-oka ${textColor}`}
+          className={`${textSize} hover:text-[#0077b5] ${textColor}`}
         />
       </a>
       <a
@@ -40,7 +40,7 @@ export default function Socials({
       >
         <FontAwesomeIcon
           icon={faEnvelope}
-          className={`${textSize} hover:text-oka ${textColor}`}
+          className={`${textSize} hover:text-[#d14836] ${textColor}`}
         />
       </a>
     </div>

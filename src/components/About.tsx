@@ -30,8 +30,8 @@ export default function About() {
   const age = calculateAge(ONNI_BIRTH_DATE);
 
   return (
-    <div className="mt-10 md:mt-20 bg-okfg">
-      <Container className="flex flex-col md:flex-row md:items-stretch justify-between gap-2 my-20">
+    <div className="mt-10 md:mt-20 bg-okbg3">
+      <Container className="flex flex-col md:flex-row md:items-stretch justify-between gap-6 my-20">
         {/* Image Section */}
         <div className="w-full md:w-1/2 flex items-center md:justify-center">
           <Image
@@ -53,10 +53,10 @@ export default function About() {
             </p>
           </div>
           <Socials
-            textColor="text-background2"
+            textColor="text-oktext"
             textSize="text-3xl md:text-4xl mb-8"
           />
-          <button className="w-full border-4 rounded-md p-4 flex gap-2 items-center justify-center text-3xl font-bold hover:border-oka hover:text-oka">
+          <button className="w-full border-4 border-oktext rounded-md p-4 flex gap-2 items-center justify-center text-3xl font-bold hover:bg-oktext hover:text-okfg transition-transform transform hover:scale-105">
             {t('resume')}
             <FontAwesomeIcon icon={faFileArrowDown} className="text-3xl" />
           </button>

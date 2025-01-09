@@ -16,7 +16,7 @@ export default function Projects() {
           <h2 className="text-5xl font-bold">{t('title')}</h2>
           <Link
             href="/projects"
-            className="flex items-center justify-center gap-2 hover:text-oka"
+            className="flex items-center justify-center gap-2 hover:text-oka transition-transform transform hover:scale-105"
           >
             <p className="text-2xl">{t('link')}</p>
             <FontAwesomeIcon icon={faArrowRight} className="text-2xl" />

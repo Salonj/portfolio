@@ -10,7 +10,7 @@
       'Segoe UI Symbol', 'Noto Color Emoji';
     --ok-bg: #ffffff;
     --ok-bg2: #f2f2f2;
-    --ok-bg3: #d9d9d9;
+    --ok-bg3: #111827;
     --ok-fg: #111827;
     --ok-accent: #3b9cd4;
     --ok-text: #ffffff;
@@ -18,10 +18,10 @@
   }
 
   .dark {
-    --ok-bg: #111827;
-    --ok-bg2: #1f2937;
-    --ok-bg3: #374151;
-    --ok-fg: #465160;
+    --ok-bg: #0e1217;
+    --ok-bg2: #151b22;
+    --ok-bg3: #0e1217;
+    --ok-fg: #2e353c;
     --ok-accent: #3b9cd4;
     --ok-text: #ffffff;
     --ok-text2: #ffffff;

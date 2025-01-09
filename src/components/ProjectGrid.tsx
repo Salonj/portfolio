@@ -18,6 +18,8 @@ export default function ProjectGrid({ LIMIT_PROJECTS }: ProjectGridProps) {
             image={project.image}
             techStack={project.techStack}
             links={project.links}
+            about={project.about || ''}
+            learn={project.learn || ''}
           />
         ))}
     </div>
