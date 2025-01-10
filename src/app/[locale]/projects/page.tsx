@@ -8,7 +8,7 @@ export default function Page() {
   const t = useTranslations('ProjectsPage');
   return (
     <Container className="flex flex-col gap-4 my-10">
-      <h1 className="text-5xl font-bold">{t('title')}</h1>
+      <h1 className="text-4xl md:text-5xl font-bold">{t('title')}</h1>
       <ProjectGrid LIMIT_PROJECTS={LIMIT_PROJECTS} />
     </Container>
   );

@@ -74,7 +74,7 @@ export default function ContactForm() {
             {t('name')}
           </label>
           <input
-            className="border-4 w-1/2 bg-okbg rounded-md p-4 border-okfg focus:border-oka"
+            className="border-4 w-full md:w-1/2 bg-okbg rounded-md p-4 border-okfg focus:border-oka"
             name="name"
             type="text"
             id="name"
@@ -90,7 +90,7 @@ export default function ContactForm() {
             {t('email')}
           </label>
           <input
-            className="border-4 w-2/3 bg-okbg rounded-md p-4 border-okfg focus:border-oka"
+            className="border-4 w-full md:w-2/3 bg-okbg rounded-md p-4 border-okfg focus:border-oka"
             name="email"
             type="email"
             id="email"

@@ -46,8 +46,10 @@ export default function About() {
         {/* Content Section */}
         <div className="w-full  md:w-1/2 flex flex-col justify-between text-oktext">
           <div>
-            <h2 className="text-5xl font-bold mb-4">{t('about')}</h2>
-            <p className="text-2xl mb-2">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              {t('about')}
+            </h2>
+            <p className="text-xl md:text-2xl mb-2">
               {age}
               {t('info')}
             </p>
@@ -56,9 +58,9 @@ export default function About() {
             textColor="text-oktext"
             textSize="text-3xl md:text-4xl mb-8"
           />
-          <button className="w-full border-4 border-oktext rounded-md p-4 flex gap-2 items-center justify-center text-3xl font-bold hover:bg-oktext hover:text-okfg transition-transform transform hover:scale-105">
+          <button className="w-full border-4 border-oktext rounded-md p-4 flex gap-2 items-center justify-center text-2xl md:text-3xl font-bold hover:bg-oktext hover:text-okfg transition-transform transform hover:scale-105">
             {t('resume')}
-            <FontAwesomeIcon icon={faFileArrowDown} className="text-3xl" />
+            <FontAwesomeIcon icon={faFileArrowDown} className="" />
           </button>
         </div>
       </Container>

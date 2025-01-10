@@ -26,7 +26,7 @@ export default function BlogCard({
         </div>
 
         {/* Blog Date */}
-        <div className="flex justify-end md:justify-start">
+        <div className="flex justify-end md:justify-start mt-2 md:mt-0">
           <p className="text-sm italic">{date}</p>
         </div>
       </div>

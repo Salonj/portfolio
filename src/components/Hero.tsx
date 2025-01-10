@@ -15,7 +15,7 @@ export default function Hero() {
           className="rounded-full border-8 border-okfg"
         />
         <div className="mt-10">
-          <p className="text-center text-3xl md:text-4xl font-bold">
+          <p className="text-center text-2xl md:text-4xl font-bold">
             {t('introStart')}
             <b className="text-oka"> Onni Salomaa </b> {t('introEnd')}
           </p>

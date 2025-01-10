@@ -11,7 +11,9 @@ export default function TechStackGrid() {
   return (
     <div className="mt-10 md:mt-20">
       <Container className="flex flex-col justify-between gap-6 my-20">
-        <h2 className="text-5xl font-bold md:text-center">{t('title')}</h2>
+        <h2 className="text-4xl md:text-5xl font-bold md:text-center">
+          {t('title')}
+        </h2>
         <div className="grid grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] gap-6">
           {Object.entries(techStack).map(([key, { name, icon, color }]) => (
             <div
