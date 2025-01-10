@@ -44,7 +44,7 @@ export default async function BlogPost({ params }: BlogPostProps) {
       </div>
 
       <div>
-        <h1 className="text-4xl md:text-5xl font-bold mb-1">
+        <h1 className="text-4xl sm:text-5xl font-bold mb-1">
           {metadata.title}
         </h1>
         <p className="text-lg">{metadata.date}</p>

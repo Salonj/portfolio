@@ -9,7 +9,7 @@ type SocialsProps = {
 
 export default function Socials({
   textColor = 'text-foreground',
-  textSize = 'text-2xl md:text-3xl',
+  textSize = 'text-2xl sm:text-3xl',
 }: SocialsProps) {
   return (
     <div className="flex gap-4 md:gap-6">

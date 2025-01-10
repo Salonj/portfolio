@@ -9,9 +9,9 @@
     },
     "about": {
       "introStart": "Hej, jag är ",
-      "introEnd": " en programvaruteknikstuderande. Välkommen till min personliga webbplats!",
+      "introEnd": " Här hittar du information om mig, mina projekt och mer.",
       "about": "Om mig",
-      "info": "-årig programvaruteknikstuderande från Tammerfors, Finland. Jag studerar för närvarande vid Tammerfors universitet och arbetar med mina personliga projekt.",
+      "info": "-årig programvaruteknikstuderande från Tammerfors. Jag studerar för närvarande vid Tammerfors universitet, och på min fritid kodar jag egna projekt och idrottar.",
       "resume": "Resumé"
     },
     "experience": {

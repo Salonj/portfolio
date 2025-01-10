@@ -9,9 +9,9 @@
     },
     "about": {
       "introStart": "Hey, I'm ",
-      "introEnd": " a software engineering student. Welcome to my personal website!",
+      "introEnd": " Here you can find information about me, my projects, and more.",
       "about": "About me",
-      "info": "-year-old software engineering student from Tampere, Finland. I'm currently studying at Tampere University and working on my personal projects.",
+      "info": "-years-old software engineering student from Tampere. I'm currently studying at Tampere University, and in my free time, I code my own projects and do sports.",
       "resume": "Resumé"
     },
     "experience": {

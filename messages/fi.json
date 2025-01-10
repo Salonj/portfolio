@@ -8,10 +8,10 @@
       "theme": "Valitse teema"
     },
     "about": {
-      "introStart": "Moro, olen ",
-      "introEnd": " ohjelmistotekniikan opiskelija. Tervetuloa kotisivuilleni!",
+      "introStart": "Hei, olen ",
+      "introEnd": "Täältä löydät tietoa minusta, ja projekteistani sekä vähän muuta.",
       "about": "Tietoa minusta",
-      "info": "-vuotias ohjelmistotekniikan opiskelija Tampereelta. Opiskelen tällä hetkellä Tampereen korkeakoulussa ja teen omia projekteja.",
+      "info": "-vuotias ohjelmistotekniikan opiskelija Tampereelta. Opiskelen tällä hetkellä Tampereen Yliopistossa, ja vapaa-ajallani koodaan omia projektejani sekä urheilen.",
       "resume": "Resumé"
     },
     "experience": {

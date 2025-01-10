@@ -47,7 +47,7 @@ const Card: React.FC<CardProps> = ({
       {/* Timeline Content */}
       <div className="flex flex-col bg-okbg p-2 md:p-4 rounded-md shadow-md ml-16 w-[calc(100%-4rem)] z-0">
         {/* Date Range */}
-        <div className="flex items-center text-xs md:text-sm mb-2 md:mb-4">
+        <div className="flex items-center text-xs sm:text-sm mb-2 md:mb-4">
           <span>{formattedStart}</span>
           <span className="mx-1 md:mx-2">–</span>
           <span>{formattedEnd}</span>
@@ -55,12 +55,12 @@ const Card: React.FC<CardProps> = ({
 
         {/* Main Content */}
         <div className="space-y-1 md:space-y-2">
-          <h2 className="font-bold text-xl md:text-2xl">{name}</h2>
-          <h3 className="text-base md:text-lg text-oka font-medium">{title}</h3>
+          <h2 className="font-bold text-xl sm:text-2xl">{name}</h2>
+          <h3 className="text-base sm:text-lg text-oka font-medium">{title}</h3>
         </div>
 
         {/* Description List */}
-        <ul className="list-disc list-inside text-xs md:text-base space-y-2 mt-2 md:mt-4">
+        <ul className="list-disc list-inside text-xs sm:text-base space-y-2 mt-2 md:mt-4">
           {description.map((desc, id) => (
             <li key={id}>{desc}</li>
           ))}

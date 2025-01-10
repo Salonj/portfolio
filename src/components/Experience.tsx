@@ -20,7 +20,7 @@ export default function Experience() {
   return (
     <div className="mt-10 md:mt-20 bg-okbg3">
       <Container className="flex flex-col justify-between gap-2 my-20">
-        <div className="text-xl md:text-2xl font-bold flex bg-okbg2 p-2 rounded-md">
+        <div className="text-xl sm:text-2xl font-bold flex bg-okbg2 p-2 rounded-md">
           <button
             className={`w-1/2 p-2 rounded-md ${
               isCareerTab ? 'bg-okfg text-oktext' : 'bg-okbg2 text-oktext2'
