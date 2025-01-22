@@ -1,3 +1,4 @@
+'use client';
 import { useTranslations } from 'next-intl';
 import Socials from '@/components/Socials';
 import Image from 'next/image';
