@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Link from 'next/link';
 
 type SocialsProps = {
   textColor?: string;
@@ -13,7 +14,7 @@ export default function Socials({
 }: SocialsProps) {
   return (
     <div className="flex gap-4 md:gap-6">
-      <a
+      <Link
         href="https://github.com/Salonj"
         className="hover:cursor-pointer"
         aria-label="GitHub"
@@ -22,8 +23,8 @@ export default function Socials({
           icon={faGithub}
           className={`${textSize} hover:text-[#6e5494] ${textColor}`}
         />
-      </a>
-      <a
+      </Link>
+      <Link
         href="www.linkedin.com/in/onnisalomaa"
         className="hover:cursor-pointer"
         aria-label="LinkedIn"
@@ -32,13 +33,13 @@ export default function Socials({
           icon={faLinkedin}
           className={`${textSize} hover:text-[#0077b5] ${textColor}`}
         />
-      </a>
-      <a href="/contact" className="hover:cursor-pointer" aria-label="Email">
+      </Link>
+      <Link href="/contact" className="hover:cursor-pointer" aria-label="Email">
         <FontAwesomeIcon
           icon={faEnvelope}
           className={`${textSize} hover:text-[#d14836] ${textColor}`}
         />
-      </a>
+      </Link>
     </div>
   );
 }
