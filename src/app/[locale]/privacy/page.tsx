@@ -2,7 +2,7 @@ import Container from '@/components/ui/Container';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 
-const lastUpdatedDate = '2024-12-19';
+const lastUpdatedDate = '2025-22-01';
 
 export default function Page() {
   const t = useTranslations('PrivacyPage');
