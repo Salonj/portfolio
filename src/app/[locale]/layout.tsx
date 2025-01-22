@@ -8,8 +8,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'onnikoodaa!',
-  description: 'A website by me',
+  title: 'Onni Salomaa',
+  description: 'Onni Salomaa - Web Portfolio',
 };
 
 export default async function LocaleLayout({
