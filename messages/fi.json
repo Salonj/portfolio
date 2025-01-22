@@ -59,11 +59,11 @@
     "lastUpdated": "Viimeksi päivitetty",
     "section1": {
       "title": "Hei, tervetuloa!",
-      "content": "Kiitos, että piipahdit! Tämä tietosuojakäytäntö on täällä kertoakseen, miten asiat toimivat täällä. Olen Onni, ja vastaan yksin tästä verkkosivustosta."
+      "content": "Kiitos, että piipahdit! Tämä tietosuojakäytäntö on täällä kertoakseen, miten asiat toimivat täällä."
     },
     "section2": {
       "title": "Mitä tietoja kerään",
-      "content": "Tämä on vain henkilökohtainen verkkosivusto, joten en kerää paljon tietoja. Ei tilien luontia, ei seurantakokkeja eikä mitään salamyhkäistä tiedonkeruuta. Tässä mitä saatan kerätä:",
+      "content": "Tämä on vain henkilökohtainen verkkosivusto, joten en kerää paljon tietoja. Ei tilien luontia, ei seurantakeksejä eikä mitään kieroa tiedonkeruuta. Tässä mitä saatan kerätä:",
       "contactInfo": "Yhteystiedot",
       "desc": "Jos otat yhteyttä sähköpostitse tai yhteydenottolomakkeen kautta, antamasi tiedot ovat täysin sinun päätettävissäsi. Käytän niitä vastatakseni ja keskustellakseni kanssasi."
     },
@@ -76,7 +76,7 @@
     },
     "section4": {
       "title": "Tietojesi jakaminen",
-      "content": "En myy, vaihda tai vuokraa henkilökohtaisia tietojasi. Jos jaoit jotain arkaluonteista vahingossa, ota yhteyttä, niin autan sinua poistamaan sen."
+      "content": "En myy, vaihda tai vuokraa henkilökohtaisia tietojasi."
     },
     "section5": {
       "title": "Tietoturva",
@@ -84,7 +84,7 @@
     },
     "section6": {
       "title": "Käytännön päivitykset",
-      "content": "Tämä käytäntö on voimassa joulukuusta 2024 alkaen. Jos teen muutoksia, päivitän tämän sivun. Älä huoli, en tee salamyhkäisiä tai suuria muutoksia."
+      "content": "Tämä käytäntö on voimassa joulukuusta 2024 alkaen. Jos teen muutoksia, päivitän tämän sivun."
     },
     "section7": {
       "title": "Kysymyksiä?",
