@@ -4,14 +4,13 @@
       "home": "Hem",
       "projects": "Projekt",
       "blog": "Blogg",
-      "contact": "Kontakt",
-      "theme": "Välj tema"
+      "contact": "Kontakt"
     },
     "about": {
       "introStart": "Hej, jag är ",
-      "introEnd": " Här hittar du information om mig, mina projekt och mer.",
+      "introEnd": " Här hittar du information om mig och mina projekt.",
       "about": "Om mig",
-      "info": "-årig programvaruteknikstuderande från Tammerfors. Jag studerar för närvarande vid Tammerfors universitet, och på min fritid kodar jag egna projekt och idrottar.",
+      "info": "-årig programvaruteknik studerande från Tammerfors. Jag studerar för närvarande vid Tammerfors universitet, och på min fritid kodar jag egna projekt och idrottar.",
       "resume": "Resumé"
     },
     "experience": {
@@ -47,7 +46,9 @@
     "message": "Meddelande",
     "submit": "Skicka",
     "submitting": "Skickar...",
-    "errorMessage": "Fyll i alla fält."
+    "errorMessage": "Fyll i alla fält.",
+    "thank": "Tack!",
+    "thank2": "Ditt meddelande har skickats framgångsrikt!"
   },
   "NotFoundPage": {
     "message": "Sidan du letar efter finns inte.",
@@ -94,53 +95,51 @@
   },
   "work": {
     "keskoF": {
-      "title": "Lastarbetare",
-      "startDate": "July 2024",
-      "endDate": "August 2024",
+      "title": "Kallagerarbetare",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Orderplockning med Pick-by-voice-system och leverans av containrar till fraktområdet.",
+        "Proaktivt stöd till kollegor."
       ]
     },
     "kuntokauppa": {
       "title": "Lastarbetare",
-      "startDate": "July 2024",
-      "endDate": "August 2024",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Hantering av kundbehov och organisering av lagret.",
+        "Hantering av butiks- och onlinebeställningar samt smidig drift av lagret."
       ]
     },
     "kesko": {
       "title": "Lastarbetare",
-      "startDate": "July 2024",
-      "endDate": "August 2024",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Orderplockning med Pick-by-voice-system och leverans av containrar till fraktområdet.",
+        "Proaktivt stöd till kollegor."
       ]
     }
   },
   "education": {
     "tuni": {
       "school": "Tammerfors universitet",
-      "title": "Ingenjör (YH), Programvaruteknik",
-      "startDate": "August 2021",
-      "endDate": "fortfarande",
+      "title": "Utbildning i datateknik och elektroteknik",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Huvudämnesstudier i programvaruteknik",
+        "Biämnesstudier i industriell ekonomi"
       ]
     },
     "vaskivuori": {
       "school": "Vaskivuori gymnasium",
-      "title": "Gymnasium",
-      "startDate": "August 2017",
-      "endDate": "June 2020",
-      "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      ]
+      "title": "Studentexamen",
+      "description": ["Allmän linje", "Naturvetenskaper"]
+    }
+  },
+  "projectInfo": {
+    "read": "Läs mer",
+    "about": "Om projektet",
+    "learn": "Vad jag lärde mig",
+    "techStack": "Teknisk stack",
+    "sanapolku": {
+      "excerpt": "Ett ordspel designat för afasipatienter.",
+      "about": "Ett ordspel designat för afasipatienter för att förbättra ordförråd och kognitiva färdigheter. Utvecklat som en del av kursen COMP.SWE.100, fokuserar detta projekt på att skapa en användarvänlig upplevelse för en specialiserad målgrupp.",
+      "learn": "Utveckling av större applikationer i team, integrering av IndexedDB för effektiv datahantering och effektivt samarbete med flera utvecklare på GitHub."
     }
   }
 }

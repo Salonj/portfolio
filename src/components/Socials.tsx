@@ -14,7 +14,7 @@ export default function Socials({
   return (
     <div className="flex gap-4 md:gap-6">
       <a
-        href="https://github.com"
+        href="https://github.com/Salonj"
         className="hover:cursor-pointer"
         aria-label="GitHub"
       >
@@ -24,7 +24,7 @@ export default function Socials({
         />
       </a>
       <a
-        href="https://linkedin.com"
+        href="www.linkedin.com/in/onnisalomaa"
         className="hover:cursor-pointer"
         aria-label="LinkedIn"
       >
@@ -33,11 +33,7 @@ export default function Socials({
           className={`${textSize} hover:text-[#0077b5] ${textColor}`}
         />
       </a>
-      <a
-        href="mailto:hello@example.com"
-        className="hover:cursor-pointer"
-        aria-label="Email"
-      >
+      <a href="/contact" className="hover:cursor-pointer" aria-label="Email">
         <FontAwesomeIcon
           icon={faEnvelope}
           className={`${textSize} hover:text-[#d14836] ${textColor}`}

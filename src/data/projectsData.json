@@ -1,125 +1,49 @@
 {
   "projectsData": [
     {
-      "name": "portfolio",
-      "description": "My personal portfolio",
-      "image": "/mrBean.png",
+      "name": "Sanapolku",
+      "description": "sanapolku.excerpt",
+      "image": "/projects/sanapolku.png",
       "techStack": [
         {
-          "name": "react",
-          "color": "#61DAFB"
+          "name": "javaScript",
+          "color": "#F7DF1E"
         },
         {
-          "name": "typescript",
+          "name": "tailwindcss",
           "color": "#3178C6"
         },
         {
-          "name": "scss",
+          "name": "css3",
           "color": "#CD6799"
+        },
+        {
+          "name": "nodejs",
+          "color": "#E44D26"
+        },
+        {
+          "name": "react",
+          "color": "#4A90E2"
+        },
+        {
+          "name": "git",
+          "color": "#4A90E2"
         }
       ],
       "links": [
         {
           "name": "GitHub",
-          "href": "https://github.com",
-          "icon": "github"
-        }
-      ],
-      "about": "A word game designed for aphasia patients to improve vocabulary and cognitive skills. Developed as part of the COMP.SWE.100 course, this project focuses on creating a user-friendly experience for a specialized audience.",
-      "learn": "Developing larger applications with a team, integrating IndexedDB for efficient data management, and collaborating effectively with multiple developers on GitHub."
-    },
-    {
-      "name": "portfolio",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec pur",
-      "image": "/mrBean.png",
-      "techStack": [
-        {
-          "name": "react",
-          "color": "#61DAFB"
-        },
-        {
-          "name": "typescript",
-          "color": "#3178C6"
-        },
-        {
-          "name": "scss",
-          "color": "#CD6799"
-        }
-      ],
-      "links": [
-        {
-          "name": "GitHub",
-          "href": "https://github.com",
+          "href": "https://github.com/koodikilpparit/sanapolku",
           "icon": "github"
         },
         {
-          "name": "Live",
-          "href": "https://youtube.com",
-          "icon": "Globe"
-        }
-      ]
-    },
-    {
-      "name": "portfolio",
-      "description": "My personal portfolio",
-      "image": "/mrBean.png",
-      "techStack": [
-        {
-          "name": "react",
-          "color": "#61DAFB"
-        },
-        {
-          "name": "typescript",
-          "color": "#3178C6"
-        },
-        {
-          "name": "scss",
-          "color": "#CD6799"
+          "name": "Website",
+          "href": "https://koodikilpparit.github.io/sanapolku/",
+          "icon": "website"
         }
       ],
-      "links": [
-        {
-          "name": "GitHub",
-          "href": "https://github.com",
-          "icon": "github"
-        },
-        {
-          "name": "Live",
-          "href": "https://youtube.com",
-          "icon": "Globe"
-        }
-      ]
-    },
-    {
-      "name": "portfolio",
-      "description": "My personal portfolio",
-      "image": "/mrBean.png",
-      "techStack": [
-        {
-          "name": "react",
-          "color": "#61DAFB"
-        },
-        {
-          "name": "typescript",
-          "color": "#3178C6"
-        },
-        {
-          "name": "scss",
-          "color": "#CD6799"
-        }
-      ],
-      "links": [
-        {
-          "name": "GitHub",
-          "href": "https://github.com",
-          "icon": "github"
-        },
-        {
-          "name": "Live",
-          "href": "https://youtube.com",
-          "icon": "Globe"
-        }
-      ]
+      "about": "sanapolku.about",
+      "learn": "sanapolku.learn"
     }
   ]
 }

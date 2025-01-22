@@ -5,8 +5,8 @@
       "href": "https://www.kesko.fi/",
       "titleKey": "keskoF.title",
       "logo": "/kesko.png",
-      "startKey": "2023-08-01",
-      "endKey": "2023-12-31",
+      "startKey": "2024-05-27",
+      "endKey": "2023-08-31",
       "descriptionKey": ["keskoF.description.0", "keskoF.description.1"]
     },
     {
@@ -14,8 +14,8 @@
       "href": "https://www.kuntokauppa.fi/",
       "titleKey": "kuntokauppa.title",
       "logo": "/kuntokauppa.png",
-      "startKey": "2023-08-01",
-      "endKey": "2023-08-01",
+      "startKey": "2023-06-05",
+      "endKey": "2023-09-03",
       "descriptionKey": [
         "kuntokauppa.description.0",
         "kuntokauppa.description.1"
@@ -26,8 +26,8 @@
       "href": "https://www.kesko.fi/",
       "titleKey": "kesko.title",
       "logo": "/kesko.png",
-      "startKey": "2023-08-01",
-      "endKey": "2023-08-01",
+      "startKey": "2022-04-19",
+      "endKey": "2022-07-28",
       "descriptionKey": ["kesko.description.0", "kesko.description.1"]
     }
   ]

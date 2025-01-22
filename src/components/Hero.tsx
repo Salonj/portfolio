@@ -8,11 +8,11 @@ export default function Hero() {
     <div className="mt-10 md:mt-20">
       <Container className="flex flex-col items-center gap-2 my-20">
         <Image
-          src="/mrBean.png"
+          src="/hero.png"
           alt="Onni Salomaa"
           width={400}
           height={400}
-          className="rounded-full border-8 border-okfg"
+          className="rounded-full  border-8 border-okfg"
         />
         <div className="mt-10">
           <p className="text-center text-3xl sm:text-4xl font-bold">

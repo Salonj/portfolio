@@ -4,12 +4,11 @@
       "home": "Etusivu",
       "projects": "Projektit",
       "blog": "Blogi",
-      "contact": "Ota yhteyttä",
-      "theme": "Valitse teema"
+      "contact": "Ota yhteyttä"
     },
     "about": {
       "introStart": "Hei, olen ",
-      "introEnd": "Täältä löydät tietoa minusta, ja projekteistani sekä vähän muuta.",
+      "introEnd": "Täältä löydät tietoa minusta, ja projekteistani",
       "about": "Tietoa minusta",
       "info": "-vuotias ohjelmistotekniikan opiskelija Tampereelta. Opiskelen tällä hetkellä Tampereen Yliopistossa, ja vapaa-ajallani koodaan omia projektejani sekä urheilen.",
       "resume": "Resumé"
@@ -47,7 +46,9 @@
     "message": "Viesti",
     "submit": "Lähetä",
     "submitting": "Lähetetään...",
-    "errorMessage": "Täytä kaikki kentät."
+    "errorMessage": "Täytä kaikki kentät.",
+    "thank": "Kiitos!",
+    "thank2": "Viestisi on lähetetty onnistuneesti!"
   },
   "NotFoundPage": {
     "message": "Etsimääsi sivua ei ole olemassa.",
@@ -94,53 +95,51 @@
   },
   "work": {
     "keskoF": {
-      "title": "Varastotyöntekijä",
-      "startDate": "July 2024",
-      "endDate": "August 2024",
+      "title": "Pakkasvaraston työntekijä",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Tilausten keräily Pick-by-voice-järjestelmällä ja konttien toimittaminen lähetysalueelle.",
+        "Proaktiivinen tuki kollegoille."
       ]
     },
     "kuntokauppa": {
       "title": "Varastotyöntekijä",
-      "startDate": "July 2024",
-      "endDate": "August 2024",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Asiakastarpeiden käsittely ja varaston organisointi.",
+        "Myymälä- ja verkkotilausten hallinta sekä varaston sujuva toiminta."
       ]
     },
     "kesko": {
       "title": "Varastotyöntekijä",
-      "startDate": "July 2024",
-      "endDate": "August 2024",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Tilausten keräily Pick-by-voice-järjestelmällä ja konttien toimittaminen lähetysalueelle.",
+        "Proaktiivinen tuki kollegoille."
       ]
     }
   },
   "education": {
     "tuni": {
-      "school": "Tampereen korkeakoulu",
-      "title": "Insinööri (AMK), Ohjelmistotekniikka",
-      "startDate": "August 2021",
-      "endDate": "edelleen",
+      "school": "Tampereen Yliopisto",
+      "title": "Tietotekniikka, Tieto- ja sähkötekniikan koulutus",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Ohjelmistotekniikan pääaineopinnot",
+        "Tuotantotalouden sivuaineopinnot"
       ]
     },
     "vaskivuori": {
       "school": "Vaskivuoren lukio",
-      "title": "Lukio",
-      "startDate": "August 2017",
-      "endDate": "June 2020",
-      "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      ]
+      "title": "Ylioppilastutkinto",
+      "description": ["Yleislinja", "Luonnontieteet"]
+    }
+  },
+  "projectInfo": {
+    "read": "Lue lisää",
+    "about": "Tietoa projektista",
+    "learn": "Mitä opin",
+    "techStack": "Teknologiapino",
+    "sanapolku": {
+      "excerpt": "Sanapeli afasiapotilaille.",
+      "about": "Sanapeli, joka on suunniteltu afasiapotilaille sanavaraston ja kognitiivisten taitojen parantamiseksi. Kehitetty osana COMP.SWE.100-kurssia, projekti keskittyy käyttäjäystävällisen kokemuksen luomiseen erityiselle kohderyhmälle.",
+      "learn": "Laajempien sovellusten kehittäminen tiimissä, IndexedDB:n integrointi tehokkaaseen tiedonhallintaan sekä tehokas yhteistyö useiden kehittäjien kanssa GitHubissa."
     }
   }
 }

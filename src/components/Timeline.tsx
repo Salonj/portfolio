@@ -24,7 +24,11 @@ const Card: React.FC<CardProps> = ({
 }) => {
   const locale = useLocale();
   const formattedStart = formatDate(start, locale, 'short');
-  const formattedEnd = formatDate(end, locale, 'short');
+
+  let formattedEnd = '';
+  if (end !== 'Present') {
+    formattedEnd = formatDate(end, locale, 'short');
+  }
 
   return (
     <div className="relative flex flex-col items-start mx-6 md:mx-10 py-8">

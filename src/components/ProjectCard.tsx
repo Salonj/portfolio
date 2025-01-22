@@ -1,11 +1,12 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState, useTransition } from 'react';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLink, faXmark } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import Link from 'next/link';
 import LogoFetcher from './LogoFetcher';
+import { useTranslations } from 'next-intl';
 
 interface ProjectCardProps {
   name: string;
@@ -26,6 +27,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   about,
   learn,
 }) => {
+  const t = useTranslations('projectInfo');
   const [isModalOpen, setIsModalOpen] = useState(false);
   const toggleModal = () => setIsModalOpen(!isModalOpen);
 
@@ -43,7 +45,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             height={200}
           />
           <h3 className="text-3xl font-bold">{name}</h3>
-          <p className="text-lg">{description}</p>
+          <p className="text-lg">{t(description)}</p>
         </div>
 
         {/* Read More Button */}
@@ -52,7 +54,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           className="w-full bg-okfg text-oktext rounded-md py-2 hover:bg-oka transition-transform transform hover:scale-105"
           aria-label="Read More"
         >
-          Read More
+          {t('read')}
         </button>
       </div>
 
@@ -86,8 +88,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 />
                 {/* Description */}
                 <div>
-                  <h3 className="text-3xl font-semibold">About the Project</h3>
-                  <p className="text-base mt-2">{about}</p>
+                  <h3 className="text-3xl font-semibold">{t('about')}</h3>
+                  <p className="text-base mt-2">{t(about)}</p>
                 </div>
               </div>
 
@@ -95,13 +97,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               <div className="flex flex-col gap-4">
                 {/* What I Learned */}
                 <div>
-                  <h3 className="text-3xl font-semibold">What Did I Learn</h3>
-                  <p className="text-base mt-2">{learn}</p>
+                  <h3 className="text-3xl font-semibold">{t('learn')}</h3>
+                  <p className="text-base mt-2">{t(learn)}</p>
                 </div>
 
                 {/* Tech Stack */}
                 <div>
-                  <h3 className="text-3xl font-semibold">Tech Stack</h3>
+                  <h3 className="text-3xl font-semibold">{t('techStack')}</h3>
                   <LogoFetcher techStack={techStack} />
                   <div className="flex gap-2 mt-6">
                     {links.map((link, index) => (

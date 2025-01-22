@@ -6,7 +6,7 @@
       "titleKey": "tuni.title",
       "logo": "/tuni.png",
       "startKey": "2022-08-01",
-      "endKey": "2022-12-31",
+      "endKey": "Present",
       "descriptionKey": ["tuni.description.0", "tuni.description.1"]
     },
     {
@@ -14,8 +14,8 @@
       "href": "https://www.vaskivuori.fi/",
       "titleKey": "vaskivuori.title",
       "logo": "/vaskivuori.png",
-      "startKey": "2018-08-01",
-      "endKey": "2022-08-01",
+      "startKey": "2019-08-01",
+      "endKey": "2022-06-01",
       "descriptionKey": ["vaskivuori.description.0", "vaskivuori.description.1"]
     }
   ]

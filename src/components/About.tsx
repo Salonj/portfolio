@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Container from './ui/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
+import Link from 'next/link';
 
 const ONNI_BIRTH_DATE = '2003-10-04';
 
@@ -35,7 +36,7 @@ export default function About() {
         {/* Image Section */}
         <div className="w-full md:w-1/2 flex items-center md:justify-center">
           <Image
-            src="/mrBean.png"
+            src="/about.png"
             alt="Onni Salomaa"
             width={400}
             height={400}
@@ -58,10 +59,12 @@ export default function About() {
             textColor="text-oktext"
             textSize="text-3xl sm:text-4xl mb-8"
           />
-          <button className="w-full border-4 border-oktext rounded-md p-4 flex gap-2 items-center justify-center text-2xl sm:text-3xl font-bold hover:bg-oktext hover:text-okfg transition-transform transform hover:scale-105">
-            {t('resume')}
-            <FontAwesomeIcon icon={faFileArrowDown} className="" />
-          </button>
+          <Link href="/resume.pdf">
+            <button className="w-full border-4 border-oktext rounded-md p-4 flex gap-2 items-center justify-center text-2xl sm:text-3xl font-bold hover:bg-oktext hover:text-okfg transition-transform transform hover:scale-105">
+              {t('resume')}
+              <FontAwesomeIcon icon={faFileArrowDown} className="" />
+            </button>
+          </Link>
         </div>
       </Container>
     </div>

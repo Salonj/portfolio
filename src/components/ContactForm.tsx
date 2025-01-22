@@ -157,10 +157,8 @@ export default function ContactForm() {
               </button>
             </div>
             <div className="flex flex-col items-center">
-              <h3 className="text-2xl font-bold  mb-2">Thank You!</h3>
-              <p className="text-lg mb-2">
-                Your message has been sent successfully!
-              </p>
+              <h3 className="text-2xl font-bold  mb-2">{t('thank')}</h3>
+              <p className="text-lg mb-2">{t('thank2')}</p>
               <Image
                 className="w-64 h-64 object-contain rounded-md"
                 src="https://i.giphy.com/JIX9t2j0ZTN9S.webp"

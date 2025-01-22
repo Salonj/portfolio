@@ -4,12 +4,11 @@
       "home": "Home",
       "projects": "Projects",
       "blog": "Blog",
-      "contact": "Contact",
-      "theme": "Choose theme"
+      "contact": "Contact"
     },
     "about": {
       "introStart": "Hey, I'm ",
-      "introEnd": " Here you can find information about me, my projects, and more.",
+      "introEnd": " Here you can find information about me and my projects.",
       "about": "About me",
       "info": "-years-old software engineering student from Tampere. I'm currently studying at Tampere University, and in my free time, I code my own projects and do sports.",
       "resume": "Resumé"
@@ -47,7 +46,9 @@
     "message": "Message",
     "submit": "Submit",
     "submitting": "Submitting...",
-    "errorMessage": "Please fill in all fields."
+    "errorMessage": "Please fill in all fields.",
+    "thank": "Thank you!",
+    "thank2": "Your message has been sent successfully!"
   },
   "NotFoundPage": {
     "message": "The page you are looking for does not exist.",
@@ -94,53 +95,51 @@
   },
   "work": {
     "keskoF": {
-      "title": "Warehouse worker",
-      "startDate": "July 2024",
-      "endDate": "August 2024",
+      "title": "Cold Storage warehouse worker",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Pick-by-voice collecting orders and delivering containers to shipping zone.",
+        "Proactively supporting colleagues."
       ]
     },
     "kuntokauppa": {
       "title": "Warehouse worker",
-      "startDate": "July 2024",
-      "endDate": "August 2024",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Handled customer needs and organized warehouse.",
+        "Managed in-store and online orders, and kept everything running smoothly in warehouse."
       ]
     },
     "kesko": {
       "title": "Warehouse worker",
-      "startDate": "July 2024",
-      "endDate": "August 2024",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Pick-by-voice collecting orders and delivering containers to shipping zone.",
+        "Proactively supporting colleagues."
       ]
     }
   },
   "education": {
     "tuni": {
       "school": "Tampere University",
-      "title": "Bachelor of Engineering, Software Engineering",
-      "startDate": "August 2021",
-      "endDate": "present",
+      "title": "Degree Education in Computing and Electrical Engineering",
       "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "Major studies in Software Engineering",
+        "Minor studies in Industrial Management"
       ]
     },
     "vaskivuori": {
       "school": "Vaskivuori High School",
-      "title": "High School",
-      "startDate": "August 2017",
-      "endDate": "June 2020",
-      "description": [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      ]
+      "title": "Matriculation Examination",
+      "description": ["General line", "Natural Sciences"]
+    }
+  },
+  "projectInfo": {
+    "read": "Read more",
+    "about": "About the Project",
+    "learn": "What I Learned",
+    "techStack": "Tech stack",
+    "sanapolku": {
+      "excerpt": "A word game designed for aphasia patients.",
+      "about": "A word game designed for aphasia patients to improve vocabulary and cognitive skills. Developed as part of the COMP.SWE.100 course, this project focuses on creating a user-friendly experience for a specialized audience.",
+      "learn": "Developing larger applications with a team, integrating IndexedDB for efficient data management, and collaborating effectively with multiple developers on GitHub."
     }
   }
 }
