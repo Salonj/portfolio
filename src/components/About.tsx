@@ -60,7 +60,7 @@ export default function About() {
             textColor="text-oktext"
             textSize="text-3xl sm:text-4xl mb-8"
           />
-          <Link href="/resume.pdf">
+          <Link href="/resume.pdf" target="_blank">
             <button className="w-full border-4 border-oktext rounded-md p-4 flex gap-2 items-center justify-center text-2xl sm:text-3xl font-bold hover:bg-oktext hover:text-okfg transition-transform transform hover:scale-105">
               {t('resume')}
               <FontAwesomeIcon icon={faFileArrowDown} className="" />
