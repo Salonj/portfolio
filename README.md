@@ -4,13 +4,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/Salonj/onnikoodaa.fi">
-    <img src="" alt="Logo" width="80" height="80">
+    <img src="src/app/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">🚀Portfolio website</h1>
 
   <p align="center">
-    This is the codebase for my personal portfolio website, <a href="https://onnisalomaa.dev">OnniSalomaa.dev</a>, where I showcase my projects, skills, and experience. Built with modern web technologies, the site is fully responsive and visually appealing.
+    This is the codebase for my personal portfolio website, <a href="https://onnisalomaa.dev">onnisalomaa.dev</a>, where I showcase my projects, skills, and experience. Built with modern web technologies, the site is responsive and visually appealing.
     <br />
     <br />
     <a href="https://github.com/Salonj/onnisalomaa.dev"><strong>Explore the Code »</strong></a>
@@ -27,7 +27,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#folder-structure">Folder Structure</a></li>
+        <li><a href="#features">Features</a></li>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -36,10 +36,8 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#available-scripts">Available Scripts</a></li>
       </ul>
     </li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -58,15 +56,26 @@ The website is:
 
 [![Product Name Screen Shot][product-screenshot]](https://onnikoodaa.fi)
 
+### 🌟Features
+
+- Responsive Design: Works seamlessly across devices of all sizes.
+- Multi-Language Support: Built-in internationalization with i18next.
+- Fast Performance: Optimized for speed using Nextjs as the build tool.
+- Tailored UI: A clean and visually appealing interface designed with Figma.
+
 <!-- BUILT WITH -->
 
 ### 🛠️Built With
 
-- [![React][react-logo]][react-link]
-- [![Git][git-logo]][git-link]
-- [![Vite][vite-logo]][vite-link]
-- [![Tailwindcss][tailwindcss-logo]][tailwindcss-link]
-- [![Html][html-logo]][html-link]
+- ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2306B6D4.svg?style=flat-square&logo=tailwind-css&logoColor=white)
+- ![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=flat-square&logo=next.js&logoColor=white)
+- ![MDX](https://img.shields.io/badge/MDX-%23fcb32c.svg?style=flat-square&logo=mdx&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat-square&logo=javascript&logoColor=black)
+- ![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=flat-square&logo=react&logoColor=black)
+- ![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=flat-square&logo=git&logoColor=white)
+- ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)
+- ![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +91,7 @@ To get a local copy up and running follow these simple example steps.
 
 Before you start, you need to have npm installed.
 
-[![Npm][npm-logo]][npm-link]
+![npm](https://img.shields.io/badge/npm-%23CB3837.svg?style=flat-square&logo=npm&logoColor=white)
 
 <!-- INSTALLATION -->
 
@@ -92,7 +101,7 @@ To get a local copy of the code, clone it using git:
 
 1. Clone the repo:
    ```sh
-   git clone https://github.com/Salonj/onnikoodaa.git
+   git clone https://github.com/Salonj/onnikoodaa.fi
    ```
 2. Move to repo:
    ```sh
@@ -112,26 +121,7 @@ To get a local copy of the code, clone it using git:
    ```sh
    npm run dev
    ```
-6. Open http://localhost:5173/
-
-### 📜Available Scripts
-
-In this project, you can run the following scripts:
-
-| Script          | Description                                             |
-| --------------- | ------------------------------------------------------- |
-| npm run dev     | Runs the app in the development mode.                   |
-| npm run build   | Builds the app for production to the `dist` folder.     |
-| npm run lint    | Lints the code based on specified linting rules.        |
-| npm run preview | Launches the test runner in the interactive watch mode. |
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+6. Open http://localhost:3000
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,42 +129,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## 📬Contact
 
-Onni Salomaa - [![LinkedIn][linkedin-shield]][linkedin-url]
+Onni Salomaa - [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/onnisalomaa)  
+📧 Email: [hello@onnisalomaa.dev](mailto:hello@onnisalomaa.dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- IMAGES -->
 
-[linkedin-shield]: https://img.shields.io/badge/Linkedin-Linkedin?style=flat-square&logo=Linkedin&logoColor=%23FFFFFF&labelColor=%230A66C2&color=%230A66C2
-[linkedin-url]: https://linkedin.com/in/onnisalomaa
-[product-screenshot]: src/assets/app.png
-
-<!-- React -->
-
-[react-logo]: https://img.shields.io/badge/React-React?style=flat-square&logo=react&logoColor=%2361DAFB&labelColor=black&color=%2361DAFB
-[react-link]: https://react.dev/
-
-<!-- Vite -->
-
-[vite-logo]: https://img.shields.io/badge/Vite-vite?style=flat-square&logo=vite&logoColor=%23646CFF&labelColor=black&color=%23646CFF
-[vite-link]: https://vitejs.dev/
-
-<!-- Git -->
-
-[git-logo]: https://img.shields.io/badge/Git-Git?style=flat-square&logo=git&logoColor=%23F05032&labelColor=black&color=%23F05032
-[git-link]: https://git-scm.com/
-
-<!-- HTML -->
-
-[html-logo]: https://img.shields.io/badge/Html5-Html5?style=flat-square&logo=Html5&logoColor=%23E34F26&labelColor=black&color=%23E34F26
-[html-link]: https://html.com/
-
-<!-- Tailwindcss -->
-
-[tailwindcss-logo]: https://img.shields.io/badge/Tailwindcss-tailwindcss?style=flat-square&logo=tailwind%20css&logoColor=%2306B6D4&labelColor=black&color=%2306B6D4
-[tailwindcss-link]: https://tailwindcss.com/
-
-<!-- NPM -->
-
-[npm-logo]: https://img.shields.io/badge/Npm-npm?style=flat-square&logo=npm&logoColor=%23FFFFFF&labelColor=%23CB3837&color=%23CB3837
-[npm-link]: https://www.npmjs.com/
+[product-screenshot]: public/projects/portfolio.png
