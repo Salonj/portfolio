@@ -44,6 +44,51 @@
       ],
       "about": "sanapolku.about",
       "learn": "sanapolku.learn"
+    },
+    {
+      "name": "Portfolio",
+      "description": "portfolio.excerpt",
+      "image": "/projects/portfolio.png",
+      "techStack": [
+        {
+          "name": "javaScript",
+          "color": "#F7DF1E"
+        },
+        {
+          "name": "tailwindcss",
+          "color": "#3178C6"
+        },
+        {
+          "name": "nextjs",
+          "color": "#E44D26"
+        },
+        {
+          "name": "react",
+          "color": "#4A90E2"
+        },
+        {
+          "name": "git",
+          "color": "#4A90E2"
+        },
+        {
+          "name": "typescript",
+          "color": "#4A90E2"
+        }
+      ],
+      "links": [
+        {
+          "name": "GitHub",
+          "href": "https://github.com/Salonj/onnikoodaa.fi",
+          "icon": "github"
+        },
+        {
+          "name": "Website",
+          "href": "https://onnisalomaa.dev",
+          "icon": "website"
+        }
+      ],
+      "about": "portfolio.about",
+      "learn": "portfolio.learn"
     }
   ]
 }

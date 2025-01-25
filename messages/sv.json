@@ -140,6 +140,11 @@
       "excerpt": "Ett ordspel designat för afasipatienter.",
       "about": "Ett ordspel designat för afasipatienter för att förbättra ordförråd och kognitiva färdigheter. Utvecklat som en del av kursen COMP.SWE.100, fokuserar detta projekt på att skapa en användarvänlig upplevelse för en specialiserad målgrupp.",
       "learn": "Utveckling av större applikationer i team, integrering av IndexedDB för effektiv datahantering och effektivt samarbete med flera utvecklare på GitHub."
+    },
+    "portfolio": {
+      "excerpt": "Min personliga portfoliosajt.",
+      "about": "Det här är en sajt där jag visar upp mina projekt och blogginlägg. Den är byggd med TypeScript och Tailwind CSS för att vara responsiv och visuellt tilltalande. Sajten har också stöd för flera språk med hjälp av i18next.",
+      "learn": "Jag lärde mig att bygga responsiva webbplatser med TypeScript, omvandla Figma-design till fungerande komponenter med Tailwind CSS och skapa användarvänliga gränssnitt."
     }
   }
 }

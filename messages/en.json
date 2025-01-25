@@ -140,6 +140,11 @@
       "excerpt": "A word game designed for aphasia patients.",
       "about": "A word game designed for aphasia patients to improve vocabulary and cognitive skills. Developed as part of the COMP.SWE.100 course, this project focuses on creating a user-friendly experience for a specialized audience.",
       "learn": "Developing larger applications with a team, integrating IndexedDB for efficient data management, and collaborating effectively with multiple developers on GitHub."
+    },
+    "portfolio": {
+      "excerpt": "My personal portfolio website.",
+      "about": "This is a website where I showcase my projects and blog posts. It’s built with TypeScript and Tailwind CSS to be responsive and visually appealing. The site also supports multiple languages, thanks to i18next.",
+      "learn": "I gained experience in creating responsive websites with TypeScript, turning Figma designs into functional components with Tailwind CSS, and building an engaging user interface."
     }
   }
 }

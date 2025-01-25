@@ -140,6 +140,11 @@
       "excerpt": "Sanapeli afasiapotilaille.",
       "about": "Sanapeli, joka on suunniteltu afasiapotilaille sanavaraston ja kognitiivisten taitojen parantamiseksi. Kehitetty osana COMP.SWE.100-kurssia, projekti keskittyy käyttäjäystävällisen kokemuksen luomiseen erityiselle kohderyhmälle.",
       "learn": "Laajempien sovellusten kehittäminen tiimissä, IndexedDB:n integrointi tehokkaaseen tiedonhallintaan sekä tehokas yhteistyö useiden kehittäjien kanssa GitHubissa."
+    },
+    "portfolio": {
+      "excerpt": "Henkilökohtainen portfoliosivustoni.",
+      "about": "Tämä on sivusto, jossa esittelen projektejani ja blogitekstejäni. Sivusto on rakennettu TypeScriptillä, Next.js ja Tailwind CSS:llä, ja se on sekä responsiivinen että visuaalisesti miellyttävä. Sivustolla on myös monikielisyystuki i18nextin avulla.",
+      "learn": "Opin rakentamaan responsiivisia verkkosivustoja TypeScriptillä, muuttamaan Figma-suunnitelmia toimiviksi komponenteiksi Tailwind CSS:llä ja luomaan käyttäjäystävällisiä käyttöliittymiä."
     }
   }
 }
