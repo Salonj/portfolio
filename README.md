@@ -131,12 +131,11 @@ To get a local copy of the code, clone it using git:
 
 ## 📬Contact
 
-Onni Salomaa - [![LinkedIn][linkedin-shield]][linkedin-url]
+Onni Salomaa - [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/onnisalomaa)
+Em
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- IMAGES -->
 
-[linkedin-shield]: https://img.shields.io/badge/Linkedin-Linkedin?style=flat-square&logo=Linkedin&logoColor=%23FFFFFF&labelColor=%230A66C2&color=%230A66C2
-[linkedin-url]: https://linkedin.com/in/onnisalomaa
 [product-screenshot]: public/projects/portfolio.png
