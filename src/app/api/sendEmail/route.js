@@ -33,44 +33,44 @@ export async function POST(request) {
     });
 
     const mailOption = {
-      from: 'Sender Name <onnikoodaa@gmail.com>',
-      to: 'onnikoodaa@gmail.com',
+      from: `Portfolio Contact <${process.env.EMAIL_USER}>`,
+      to: 'hello@onnisalomaa.dev',
       subject: `New Portfolio Contact Form message from ${name}`,
       html: `
-   <div
+      <div
   style="
     font-family: 'Arial', sans-serif;
-    color: #111827; /* Foreground */
+    color: #e5e7eb;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 12px;
-    background-color: #f2f2f2; /* Light background */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background-color: #1e293b;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   "
 >
   <!-- Header -->
   <div
     style="
-      background: #3b9cd4; /* Accent color */
-      color: #ffffff; /* Light text */
+      background: #2563eb;
+      color: #ffffff;
       text-align: center;
       padding: 20px;
       border-radius: 12px 12px 0 0;
     "
   >
-    <h1 style="font-size: 28px; margin: 0">✨New Portfolio Message✨</h1>
+    <h1 style="font-size: 28px; margin: 0">✨ New Portfolio Message ✨</h1>
     <p style="font-size: 16px; margin: 5px 0 0">
-      Someone contacted you through your portfolio!
+      ${name} contacted you through your portfolio!
     </p>
   </div>
 
   <!-- Body -->
   <div style="padding: 20px">
-    <p style="font-size: 18px; margin-bottom: 20px; line-height: 1.6">
+    <p style="font-size: 18px; margin-bottom: 20px; line-height: 1.6; color: #e2e8f0">
       Hey Onni,
     </p>
-    <p style="font-size: 16px; margin-bottom: 20px; line-height: 1.6">
+    <p style="font-size: 16px; margin-bottom: 20px; line-height: 1.6; color: #e2e8f0">
       You’ve just received a new message! Here are the details:
     </p>
 
@@ -80,8 +80,8 @@ export async function POST(request) {
         margin-bottom: 20px;
         padding: 15px;
         border-radius: 8px;
-        background-color: #ffffff; /* Secondary background */
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background-color: #334155;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
       "
     >
       <strong
@@ -89,11 +89,11 @@ export async function POST(request) {
           display: block;
           font-size: 16px;
           margin-bottom: 5px;
-          color: #111827;
+          color: #e2e8f0;
         "
         >Name:</strong
       >
-      <p style="margin: 0; font-size: 16px; color: #555">${name}</p>
+      <p style="margin: 0; font-size: 16px; color: #cbd5e1">${name}</p>
     </div>
 
     <div
@@ -101,8 +101,8 @@ export async function POST(request) {
         margin-bottom: 20px;
         padding: 15px;
         border-radius: 8px;
-        background-color: #ffffff; /* Secondary background */
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background-color: #334155;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
       "
     >
       <strong
@@ -110,11 +110,11 @@ export async function POST(request) {
           display: block;
           font-size: 16px;
           margin-bottom: 5px;
-          color: #111827;
+          color: #e2e8f0;
         "
         >Email:</strong
       >
-      <p style="margin: 0; font-size: 16px; color: #555">${email}</p>
+      <p style="margin: 0; font-size: 16px; color: #cbd5e1">${email}</p>
     </div>
 
     <div
@@ -122,8 +122,8 @@ export async function POST(request) {
         margin-bottom: 20px;
         padding: 15px;
         border-radius: 8px;
-        background-color: #ffffff; /* Secondary background */
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background-color: #334155;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
       "
     >
       <strong
@@ -131,11 +131,11 @@ export async function POST(request) {
           display: block;
           font-size: 16px;
           margin-bottom: 5px;
-          color: #111827;
+          color: #e2e8f0;
         "
         >Message:</strong
       >
-      <p style="margin: 0; font-size: 16px; color: #555">${message}</p>
+      <p style="margin: 0; font-size: 16px; color: #cbd5e1">${message}</p>
     </div>
 
     <p
@@ -143,7 +143,7 @@ export async function POST(request) {
         font-size: 16px;
         text-align: center;
         margin-top: 20px;
-        color: #111827;
+        color: #e2e8f0;
       "
     >
       🚀 Don’t forget to reply to their message!
@@ -155,7 +155,7 @@ export async function POST(request) {
     style="
       padding: 15px;
       text-align: center;
-      background: #3b9cd4; /* Accent color */
+      background: #2563eb; /* Accent color */
       color: #ffffff; /* Light text */
       border-radius: 0 0 12px 12px;
     "
@@ -164,6 +164,7 @@ export async function POST(request) {
     <p style="margin: 0; font-size: 14px">onnisalomaa.dev</p>
   </footer>
 </div>
+   
   `,
     };
 
