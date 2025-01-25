@@ -46,7 +46,7 @@
 
 ## ✨About The Project
 
-OnniSalomaa.dev is my personal portfolio website that highlights my work and expertise. It’s designed to deliver an engaging user experience while showcasing my technical projects and blog posts.
+onnisalomaa.dev is my personal portfolio website that highlights my work and expertise. It’s designed to deliver an engaging user experience while showcasing my technical projects and blog posts.
 
 The website is:
 
