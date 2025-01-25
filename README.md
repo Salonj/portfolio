@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/Salonj/onnikoodaa.fi">
+  <a href="https://github.com/Salonj/portfolio">
     <img src="src/app/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
@@ -13,7 +13,7 @@
     This is the codebase for my personal portfolio website, <a href="https://onnisalomaa.dev">onnisalomaa.dev</a>, where I showcase my projects, skills, and experience. Built with modern web technologies, the site is responsive and visually appealing.
     <br />
     <br />
-    <a href="https://github.com/Salonj/onnisalomaa.dev"><strong>Explore the Code »</strong></a>
+    <a href="https://github.com/Salonj/portfolio"><strong>Explore the Code »</strong></a>
     <br />
     <br />
     <a href="https://onnisalomaa.dev"><strong>Visit the Website »</strong></a>
@@ -56,7 +56,7 @@ The website is:
 - Multi-Lingual: Features language support powered by i18next.
 - Built with Modern Tools: Developed using TypeScript, React, and Tailwind CSS.
 
-[![Product Name Screen Shot][product-screenshot]](https://onnikoodaa.fi)
+[![Product Name Screen Shot][product-screenshot]](https://onnisalomaa.dev)
 
 ## 🌟Features
 - Responsive Design: Works seamlessly across devices of all sizes.
