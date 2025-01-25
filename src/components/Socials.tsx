@@ -16,6 +16,7 @@ export default function Socials({
     <div className="flex gap-4 md:gap-6">
       <Link
         href="https://github.com/Salonj"
+        target="_blank"
         className="hover:cursor-pointer"
         aria-label="GitHub"
       >
@@ -25,7 +26,8 @@ export default function Socials({
         />
       </Link>
       <Link
-        href="www.linkedin.com/in/onnisalomaa"
+        href="https://linkedin.com/in/onnisalomaa"
+        target="_blank"
         className="hover:cursor-pointer"
         aria-label="LinkedIn"
       >

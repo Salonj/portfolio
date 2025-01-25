@@ -10,13 +10,13 @@
   <h1 align="center">🚀Portfolio website</h1>
 
   <p align="center">
-    This repository contains the codebase for my personal portfolio site, where I showcase my projects, skills, and experience.
+    This is the codebase for my personal portfolio website, <a href="https://onnisalomaa.dev">OnniSalomaa.dev</a>, where I showcase my projects, skills, and experience. Built with modern web technologies, the site is fully responsive and visually appealing.
     <br />
     <br />
-    <a href="https://github.com/Salonj/onnikoodaa"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Salonj/onnisalomaa.dev"><strong>Explore the Code »</strong></a>
     <br />
     <br />
-    <a href="https://onnikoodaa.fi">View site</a>
+    <a href="https://onnisalomaa.dev"><strong>Visit the Website »</strong></a>
   </p>
 </div>
 
@@ -48,63 +48,15 @@
 
 ## ✨About The Project
 
-This portfolio website showcases my programming skills and projects. It's built with modern web technologies like React, Vite, and Tailwind CSS, providing a responsive and visually appealing interface.
+OnniSalomaa.dev is my personal portfolio website that highlights my work and expertise. It’s designed to deliver an engaging user experience while showcasing my technical projects and blog posts.
+
+The website is:
+
+- Fast and Responsive: Optimized for all devices.
+- Multi-Lingual: Features language support powered by i18next.
+- Built with Modern Tools: Developed using TypeScript, React, and Tailwind CSS.
 
 [![Product Name Screen Shot][product-screenshot]](https://onnikoodaa.fi)
-
-<!-- FOLDER STRUCTURE -->
-
-### 📂Folder Structure
-
-```
-onnikoodaa
-├── 📂public
-│   ├── 🖼️cplusplus.svg
-|   ├── 🖼️css.svg
-|   ├── 🖼️figma.svg
-|   ├── 🖼️git.svg
-|   ├── 🖼️html5.svg
-|   ├── 🖼️java.svg
-|   ├── 🖼️js.svg
-|   ├── 🖼️oklogo.svg
-|   ├── 🖼️python.svg
-|   ├── 🖼️react.svg
-|   ├── 🖼️vite.svg
-│   └── 🖼️wordpress.svg
-├── 📂src
-|    ├──  📂assets
-|    |   ├── 🖼️app.png
-|    |   ├── 🖼️kone.png
-|    |   ├── 🖼️metsä.png
-|    |   ├── 🖼️minä.png
-|    |   ├── 🖼️nuotio.png
-|    |   ├── 🖼️postimies.png
-|    |   └── 🖼️varasto.png
-|    ├── 📂components
-|    |   ├── 📄About.jsx
-|    |   ├── 📄Contact.jsx
-|    |   ├── 📄Footer.jsx
-|    |   ├── 📄Main.jsx
-|    |   ├── 📄ProjectInfo.jsx
-|    |   ├── 📄ProjectItem.jsx
-|    |   ├── 📄Projects.jsx
-|    |   ├── 📄Sidenav.jsx
-|    |   ├── 📄Work.jsx
-|    |   └── 📄WorkItem.jsx
-|    ├── 📄App.jsx
-|    ├── 📄index.css
-|    └── 📄main.jsx
-├── 📄eslintrc.cjs
-├── 📄.gitignore
-├── 📄LICENSE
-├── 📄README.md
-├── 📄index.html
-├── 📄package-lock.json
-├── 📄package.json
-├── 📄postcss.config.js
-├── 📄tailwind.config.js
-└── 📄vite.config.js
-```
 
 <!-- BUILT WITH -->
 
