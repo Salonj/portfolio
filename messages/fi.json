@@ -138,7 +138,7 @@
     "techStack": "Teknologiapino",
     "sanapolku": {
       "excerpt": "Sanapeli afasiapotilaille.",
-      "about": "Sanapeli, joka on suunniteltu afasiapotilaille sanavaraston ja kognitiivisten taitojen parantamiseksi. Kehitetty osana COMP.SWE.100-kurssia, projekti keskittyy käyttäjäystävällisen kokemuksen luomiseen erityiselle kohderyhmälle.",
+      "about": "Sanapeli, joka on suunniteltu afasiapotilaille sanavaraston ja kognitiivisten taitojen parantamiseksi. Kehitetty osana COMP.SE.610-kurssia, projekti keskittyy käyttäjäystävällisen kokemuksen luomiseen erityiselle kohderyhmälle.",
       "learn": "Laajempien sovellusten kehittäminen tiimissä, IndexedDB:n integrointi tehokkaaseen tiedonhallintaan sekä tehokas yhteistyö useiden kehittäjien kanssa GitHubissa."
     },
     "portfolio": {

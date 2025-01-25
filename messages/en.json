@@ -138,7 +138,7 @@
     "techStack": "Tech stack",
     "sanapolku": {
       "excerpt": "A word game designed for aphasia patients.",
-      "about": "A word game designed for aphasia patients to improve vocabulary and cognitive skills. Developed as part of the COMP.SWE.100 course, this project focuses on creating a user-friendly experience for a specialized audience.",
+      "about": "A word game designed for aphasia patients to improve vocabulary and cognitive skills. Developed as part of the COMP.SE.610 course, this project focuses on creating a user-friendly experience for a specialized audience.",
       "learn": "Developing larger applications with a team, integrating IndexedDB for efficient data management, and collaborating effectively with multiple developers on GitHub."
     },
     "portfolio": {

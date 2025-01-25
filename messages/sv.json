@@ -138,7 +138,7 @@
     "techStack": "Teknisk stack",
     "sanapolku": {
       "excerpt": "Ett ordspel designat för afasipatienter.",
-      "about": "Ett ordspel designat för afasipatienter för att förbättra ordförråd och kognitiva färdigheter. Utvecklat som en del av kursen COMP.SWE.100, fokuserar detta projekt på att skapa en användarvänlig upplevelse för en specialiserad målgrupp.",
+      "about": "Ett ordspel designat för afasipatienter för att förbättra ordförråd och kognitiva färdigheter. Utvecklat som en del av kursen COMP.SE.610, fokuserar detta projekt på att skapa en användarvänlig upplevelse för en specialiserad målgrupp.",
       "learn": "Utveckling av större applikationer i team, integrering av IndexedDB för effektiv datahantering och effektivt samarbete med flera utvecklare på GitHub."
     },
     "portfolio": {
