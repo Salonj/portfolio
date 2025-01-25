@@ -34,6 +34,7 @@ export default function LanguageSelector() {
           isOpen ? 'text-oka' : 'hover:text-oka'
         }`}
         onClick={() => setIsOpen((prev) => !prev)}
+        aria-label="Change language"
       >
         <FontAwesomeIcon icon={faGlobe} className="text-3xl" />
       </button>
@@ -48,6 +49,7 @@ export default function LanguageSelector() {
                     locale.code === currentLocale ? 'font-bold' : ''
                   }`}
                   onClick={() => changeLocale(locale.code)}
+                  aria-label={`Change language to ${locale.name}`}
                 >
                   {locale.name}
                 </button>

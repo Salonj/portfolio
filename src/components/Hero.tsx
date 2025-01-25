@@ -13,6 +13,7 @@ export default function Hero() {
           width={400}
           height={400}
           className="rounded-full  border-8 border-okfg"
+          priority={true}
         />
         <div className="mt-10">
           <p className="text-center text-3xl sm:text-4xl font-bold">

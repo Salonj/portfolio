@@ -46,6 +46,7 @@ export default function ThemeDropdown() {
       <button
         className="flex items-center hover:text-oka"
         onClick={handleThemeChange}
+        aria-label="Change theme"
       >
         <FontAwesomeIcon icon={faCircleHalfStroke} className="text-3xl" />
       </button>
