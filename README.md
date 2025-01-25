@@ -68,15 +68,15 @@ The website is:
 <!-- BUILT WITH -->
 ### 🛠️Built With
 
-- ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white)
-- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2306B6D4.svg?style=flat-square&logo=tailwind-css&logoColor=white)
-- ![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=flat-square&logo=next.js&logoColor=white)
-- ![MDX](https://img.shields.io/badge/MDX-%23fcb32c.svg?style=flat-square&logo=mdx&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat-square&logo=javascript&logoColor=black)
-- ![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=flat-square&logo=react&logoColor=black)
-- ![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=flat-square&logo=git&logoColor=white)
-- ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)
-- ![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
+- ![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-%2306B6D4.svg?style=flat&logo=tailwind-css&logoColor=white)
+- ![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=flat&logo=next.js&logoColor=white)
+- ![MDX](https://img.shields.io/badge/MDX-%23fcb32c.svg?style=flat&logo=mdx&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black)
+- ![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=flat&logo=react&logoColor=black)
+- ![Git](https://img.shields.io/badge/Git-%23F05032.svg?style=flat&logo=git&logoColor=white)
+- ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
+- ![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -93,7 +93,7 @@ To get a local copy up and running follow these simple example steps.
 
 Before you start, you need to have npm installed.
 
-![npm](https://img.shields.io/badge/npm-%23CB3837.svg?style=flat-square&logo=npm&logoColor=white)
+![npm](https://img.shields.io/badge/npm-%23CB3837.svg?style=flat&logo=npm&logoColor=white)
 
 <!-- INSTALLATION -->
 
@@ -131,8 +131,9 @@ To get a local copy of the code, clone it using git:
 
 ## 📬Contact
 
-Onni Salomaa - [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/onnisalomaa)
-Em
+Onni Salomaa - [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/onnisalomaa)
+
+📧 Email: [hello@onnisalomaa.dev](mailto:hello@onnisalomaa.dev)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
