@@ -54,7 +54,7 @@ The website is:
 - Multi-Lingual: Features language support powered by i18next.
 - Built with Modern Tools: Developed using TypeScript, React, and Tailwind CSS.
 
-[![Product Name Screen Shot][product-screenshot]](https://onnikoodaa.fi)
+[![Product Name Screen Shot][product-screenshot]](https://onnisalomaa.dev)
 
 ### 🌟Features
 
@@ -101,11 +101,11 @@ To get a local copy of the code, clone it using git:
 
 1. Clone the repo:
    ```sh
-   git clone https://github.com/Salonj/onnikoodaa.fi
+   git clone https://github.com/Salonj/portfolio
    ```
 2. Move to repo:
    ```sh
-   cd onnikoodaa
+   cd portfolio
    ```
 3. Make it your own:
    ```sh
