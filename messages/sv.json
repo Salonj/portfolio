@@ -145,6 +145,16 @@
       "excerpt": "Min personliga portfoliosajt.",
       "about": "Det här är en sajt där jag visar upp mina projekt och blogginlägg. Den är byggd med TypeScript och Tailwind CSS för att vara responsiv och visuellt tilltalande. Sajten har också stöd för flera språk med hjälp av i18next.",
       "learn": "Jag lärde mig att bygga responsiva webbplatser med TypeScript, omvandla Figma-design till fungerande komponenter med Tailwind CSS och skapa användarvänliga gränssnitt."
+    },
+    "tulkkikeskus": {
+      "excerpt": "Webbplats för Tulkkikeskus.",
+      "about": "En WordPress-webbplats byggd för Tampereen Tulkkikeskus, som ger information om företaget, dess tjänster och tolkar. Webbplatsen är utformad för att följa företagets nya varumärke och är både responsiv och användarvänlig.",
+      "learn": "Att använda WordPress för att bygga webbplatser, utveckla anpassade teman och insticksprogram samt optimera webbplatsen för prestanda och användarupplevelse."
+    },
+    "kielenkaarella": {
+      "excerpt": "Kielenkaarella.fi-webbplats.",
+      "about": "Kielenkaarella.fi är utvecklad för ett företag som erbjuder kommunikationsträningstjänster och produkter. Webbplatsen är byggd på WordPress- och WooCommerce-plattformarna och innehåller en nätbutik för att sälja företagets produkter. Webbplatsen är utformad för att matcha företagets varumärke och är både responsiv och användarvänlig.",
+      "learn": "Att använda WordPress och WooCommerce för att bygga webbplatser och nätbutiker, utveckla anpassade teman och insticksprogram samt optimera webbplatsen för prestanda och användarupplevelse."
     }
   }
 }

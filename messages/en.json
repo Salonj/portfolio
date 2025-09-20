@@ -145,6 +145,16 @@
       "excerpt": "My personal portfolio website.",
       "about": "This is a website where I showcase my projects and blog posts. It’s built with TypeScript and Tailwind CSS to be responsive and visually appealing. The site also supports multiple languages, thanks to i18next.",
       "learn": "I gained experience in creating responsive websites with TypeScript, turning Figma designs into functional components with Tailwind CSS, and building an engaging user interface."
+    },
+    "tulkkikeskus": {
+      "excerpt": "Website for Tulkkikeskus.",
+      "about": "A WordPress website built for Tampereen Tulkkikeskus, providing information about the company, its services, and interpreters. The site is designed to align with the company's new branding and is both responsive and user-friendly.",
+      "learn": "Using WordPress to build websites, developing custom themes and plugins, and optimizing the site for performance and user experience."
+    },
+    "kielenkaarella": {
+      "excerpt": "Kielenkaarella.fi website.",
+      "about": "Kielenkaarella.fi is developed for a company that offers communication training services and products. The website is built on WordPress and WooCommerce platforms, featuring an online store to sell the company's products. The site is designed to match the company's branding and is both responsive and user-friendly.",
+      "learn": "Using WordPress and WooCommerce to build websites and online stores, developing custom themes and plugins, and optimizing the site for performance and user experience."
     }
   }
 }

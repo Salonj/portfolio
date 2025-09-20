@@ -89,6 +89,74 @@
       ],
       "about": "portfolio.about",
       "learn": "portfolio.learn"
+    },
+    {
+      "name": "Kielenkaarella.fi",
+      "description": "kielenkaarella.excerpt",
+      "image": "/projects/kielenkaarella.png",
+      "techStack": [
+        {
+          "name": "javaScript",
+          "color": "#F7DF1E"
+        },
+        {
+          "name": "tailwindcss",
+          "color": "#3178C6"
+        },
+        {
+          "name": "wordpress",
+          "color": "#E44D26"
+        },
+        {
+          "name": "woocommerce",
+          "color": "#4A90E2"
+        },
+        {
+          "name": "git",
+          "color": "#4A90E2"
+        }
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://kielenkaarella.fi",
+          "icon": "website"
+        }
+      ],
+      "about": "kielenkaarella.about",
+      "learn": "kielenkaarella.learn"
+    },
+    {
+      "name": "Tulkkikeskus.fi",
+      "description": "tulkkikeskus.excerpt",
+      "image": "/projects/tulkkikeskus.png",
+      "techStack": [
+        {
+          "name": "javaScript",
+          "color": "#F7DF1E"
+        },
+        {
+          "name": "tailwindcss",
+          "color": "#3178C6"
+        },
+        {
+          "name": "wordpress",
+          "color": "#E44D26"
+        },
+        {
+          "name": "git",
+          "color": "#4A90E2"
+        }
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://tulkkikeskus.fi",
+          "icon": "website"
+        }
+      ],
+      "about": "tulkkikeskus.about",
+      "learn": "tulkkikeskus.learn"
     }
   ]
 }

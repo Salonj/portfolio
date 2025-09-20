@@ -145,6 +145,16 @@
       "excerpt": "Henkilökohtainen portfoliosivustoni.",
       "about": "Tämä on sivusto, jossa esittelen projektejani ja blogitekstejäni. Sivusto on rakennettu TypeScriptillä, Next.js ja Tailwind CSS:llä, ja se on sekä responsiivinen että visuaalisesti miellyttävä. Sivustolla on myös monikielisyystuki i18nextin avulla.",
       "learn": "Opin rakentamaan responsiivisia verkkosivustoja TypeScriptillä, muuttamaan Figma-suunnitelmia toimiviksi komponenteiksi Tailwind CSS:llä ja luomaan käyttäjäystävällisiä käyttöliittymiä."
+    },
+    "tulkkikeskus": {
+      "excerpt": "Tulkkikeskuksen verkkosivusto.",
+      "about": "Tampereen tulkkikeskukselle rakennettu WordPress -verkkosivusto, joka tarjoaa tietoa yrityksestä, palveluista sekä yrityksen tulkeista. Sivusto on suunniteltu yrityksen uuden brändi-ilmeen mukaiseksi, ja on responsiivinen sekä käyttäjäystävällinen.",
+      "learn": "WordPressin käyttö verkkosivustojen rakentamiseen, räätälöityjen teemojen ja lisäosien kehittäminen sekä sivuston optimointi suorituskyvyn ja käyttäjäkokemuksen parantamiseksi."
+    },
+    "kielenkaarella": {
+      "excerpt": "Kielenkaarella.fi verkkosivusto.",
+      "about": "Kielenkaarella.fi on kehitetty yritykselle, joka tarjoaa kommunikoinnin opetuspalveluita sekä tuotteita. Verkkosivusto on rakennettu WordPress- ja WooCommerce-alustoille, ja se sisältää verkkokaupan, jossa myydään yrityksen tuotteita. Sivusto on suunniteltu yrityksen brändi-ilmeen mukaiseksi, ja on responsiivinen sekä käyttäjäystävällinen.",
+      "learn": "WordPressin ja WooCommercen käyttö verkkosivustojen ja verkkokauppojen rakentamiseen, räätälöityjen teemojen ja lisäosien kehittäminen sekä sivuston optimointi suorituskyvyn ja käyttäjäkokemuksen parantamiseksi."
     }
   }
 }
